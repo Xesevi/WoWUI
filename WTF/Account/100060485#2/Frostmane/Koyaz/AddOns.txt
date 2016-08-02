@@ -1,0 +1,11 @@
+DBM-Core: disabled
+ElvUI: enabled
+OmniCC: disabled
+epgp_lootmaster: enabled
+epgp_lootmaster_ml: enabled
+BL_Cooldown: enabled
+OmniCC_Config: disabled
+DeathNote: enabled
+CLCRet: enabled
+CLCRet_Options: enabled
+Skada: enabled

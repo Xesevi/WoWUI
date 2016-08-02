@@ -1,0 +1,76 @@
+VER 3 0100000000000023 "Action Button" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/target Mouseover
+/click ExtraActionButton1
+/Targetlasttarget
+END
+VER 3 0100000000000027 "AW" "INV_MISC_QUESTIONMARK"
+/cast Avenging Wrath
+/use 14
+/use 13
+END
+VER 3 0100000000000025 "Beacon of Faith" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Faith
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Beacon of Faith
+END
+VER 3 010000000000001B "Beacon of Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Beacon of Light
+END
+VER 3 0100000000000029 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Protection
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Blessing of Protection
+END
+VER 3 010000000000001F "Cancel Divine Sh" "INV_MISC_QUESTIONMARK"
+/cancelaura Divine Shield
+END
+VER 3 010000000000001A "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse
+/stopcasting
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Cleanse
+END
+VER 3 0100000000000020 "Dinomancer" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/cancelaura Divine Shield
+END
+VER 3 0100000000000016 "Flash of Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash of Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Flash of Light
+END
+VER 3 0100000000000024 "Freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Freedom
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Blessing of Freedom
+END
+VER 3 0100000000000013 "Holy Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Light
+END
+VER 3 0100000000000026 "Holy Prism" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Prism
+/cast [harm,exists,nodead][@targettarget,harm,exists,nodead] Holy Prism
+END
+VER 3 0100000000000017 "Holy Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Shock
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Shock
+END
+VER 3 0100000000000021 "Horridon" "INV_MISC_QUESTIONMARK"
+#showtooltip Judgment
+/target Humming Crystal
+/cast Judgment
+/targetlasttarget
+END
+VER 3 0100000000000019 "Lay on Hands" "INV_MISC_QUESTIONMARK"
+#showtooltip Lay on Hands
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lay on Hands
+END
+VER 3 0100000000000018 "Martyr" "INV_MISC_QUESTIONMARK"
+#showtooltip Light of the Martyr
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Light of the Martyr
+END
+VER 3 0100000000000022 "Purity" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Purity
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Purity
+END
+VER 3 0100000000000028 "Sac" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Sacrifice
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Blessing of Sacrifice
+END

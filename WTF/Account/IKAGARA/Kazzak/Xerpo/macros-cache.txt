@@ -1,0 +1,80 @@
+VER 3 010000000000000C "/script ResetCha" "INV_MISC_QUESTIONMARK"
+/script ResetChallengeMode()
+END
+VER 3 010000000000000E "Ascendance" "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast Berserking
+/cast Ascendance
+END
+VER 3 0100000000000009 "asdsa" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Chain Lightning
+/cast [mod:ctrl] Lightning Bolt
+END
+VER 3 010000000000000B "Capacitor Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip Capacitor Totem
+/cast Capacitor Totem
+/cast Totemic Projection
+END
+VER 3 0100000000000006 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Chain Heal
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Chain Heal
+END
+VER 3 0100000000000005 "Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip Earth Shield
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Earth Shield
+END
+VER 3 010000000000000F "Elemental Blast" "SHAMAN_TALENT_ELEMENTALBLAST"
+#showtooltip Elemental Blast
+/cast Elemental Blast
+END
+VER 3 010000000000000D "Elemental Master" "Spell_Nature_WispHeal"
+#showtooltip Elemental Mastery
+/cast Elemental Mastery
+END
+VER 3 0100000000000011 "Get ECHO" "ABILITY_SHAMAN_ECHOOFTHEELEMENTS"
+#showtooltip Echo of the Elements
+/click PlayerTalentFrameTalentsTalentRow4Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(12)
+/click StaticPopup1Button1
+/cast Lightning Shield
+END
+VER 3 0100000000000010 "GET EM" "SPELL_NATURE_WISPHEAL"
+#showtooltip Elemental Mastery
+/click PlayerTalentFrameTalentsTalentRow4Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(10)
+/click StaticPopup1Button1
+/cast Lightning Shield
+END
+VER 3 0100000000000002 "Greater heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Greater Healing Wave
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Greater Healing Wave
+END
+VER 3 0100000000000003 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Surge
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Surge
+END
+VER 3 0100000000000004 "Healing Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Wave
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Wave
+END
+VER 3 0100000000000007 "Purify Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip Purify Spirit
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Purify Spirit
+END
+VER 3 0100000000000001 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip Riptide
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Riptide
+END
+VER 3 010000000000000A "sada" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Hex
+END
+VER 3 0100000000000012 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000008 "Wind Shear" "INV_MISC_QUESTIONMARK"
+#showtooltip Wind Shear
+/stopcasting
+/cast Wind Shear
+END

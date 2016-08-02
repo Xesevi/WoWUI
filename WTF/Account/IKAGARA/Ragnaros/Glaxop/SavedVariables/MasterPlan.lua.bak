@@ -1,0 +1,6 @@
+
+MasterPlanPC = {
+	["version"] = "0.33",
+	["complete"] = {
+	},
+}

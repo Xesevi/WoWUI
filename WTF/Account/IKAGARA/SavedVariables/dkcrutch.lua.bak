@@ -1,0 +1,45 @@
+
+DKCrutchDB = {
+	["runes"] = {
+		["y"] = 0,
+		["x"] = -180,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+	["debuff"] = {
+		["y"] = 180,
+		["x"] = 0,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+	["advisor"] = {
+		["y"] = 0,
+		["x"] = 180,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+	["proc"] = {
+		["y"] = 90,
+		["x"] = 0,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+	["runic"] = {
+		["y"] = 90,
+		["x"] = 90,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+	["weapon"] = {
+		["y"] = 122,
+		["x"] = 0,
+		["relativePoint"] = "CENTER",
+		["scale"] = 1,
+		["alpha"] = 1,
+	},
+}

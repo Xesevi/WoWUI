@@ -1,0 +1,76 @@
+VER 3 010000000000001E "#showtooltip Div" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebirth
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Rebirth
+END
+VER 3 0100000000000023 "Action Button" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/target Mouseover
+/click ExtraActionButton1
+/Targetlasttarget
+END
+VER 3 010000000000001D "Amber" "INV_MISC_QUESTIONMARK"
+#showtooltip Restorative Amber
+/cancelaura  Restorative Amber
+/stopmacro [mod:shift]
+/use Restorative Amber
+END
+VER 3 010000000000001B "Beacon of Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Beacon of Light
+END
+VER 3 010000000000001F "Cancel Divine Sh" "INV_MISC_QUESTIONMARK"
+/cancelaura Divine Shield
+END
+VER 3 010000000000001A "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse
+/stopcasting
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Cleanse
+END
+VER 3 0100000000000020 "Dinomancer" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/target Zandalari Dinomancer
+END
+VER 3 0100000000000015 "Divine Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Divine Light
+END
+VER 3 0100000000000014 "Eternal Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip Eternal Flame
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Eternal Flame
+END
+VER 3 0100000000000016 "Flash of Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash of Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Flash of Light
+END
+VER 3 0100000000000013 "Holy Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Light
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Light
+END
+VER 3 010000000000001C "Holy Prism" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Prism
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Prism
+END
+VER 3 0100000000000018 "Holy Radience" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Radiance
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Radiance
+END
+VER 3 0100000000000017 "Holy Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Shock
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Shock
+END
+VER 3 0100000000000021 "Horridon" "INV_MISC_QUESTIONMARK"
+#showtooltip Judgment
+/target Direhorn Spirit
+/cast Judgment
+/targetlasttarget
+END
+VER 3 0100000000000019 "Lay on Hands" "INV_MISC_QUESTIONMARK"
+#showtooltip Lay on Hands
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lay on Hands
+END
+VER 3 0100000000000022 "Purity" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Purity
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Purity
+END
+VER 3 0100000000000024 "Righteous" "INV_MISC_QUESTIONMARK"
+/cancelaura Righteous Fury
+END

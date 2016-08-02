@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Freeze
+END

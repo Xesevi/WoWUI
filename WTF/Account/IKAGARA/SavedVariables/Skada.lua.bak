@@ -1,0 +1,103 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Affinichi - Illidan"] = "Default",
+		["Daisil - Illidan"] = "Default",
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+		["Affiniti - Illidan"] = "Default",
+		["Affinitea - Illidan"] = "Default",
+		["Affinitee - Illidan"] = "Default",
+		["Daisilon - Aerie Peak"] = "Default",
+		["Affinitii - Stormrage"] = "Default",
+		["Infinitii - Illidan"] = "Default",
+		["Affinity - Illidan"] = "Default",
+		["Affinitiee - Blackrock"] = "Default",
+		["Affinitii - Korgath"] = "Default",
+		["Af - Illidan"] = "Default",
+		["Xesevi - Ravencrest"] = "Default",
+		["Affinitiqt - Cho'gall"] = "Default",
+		["Affinitree - Stormrage"] = "Default",
+		["Notaffinity - Illidan"] = "Default",
+		["Affinitee - Deathwing"] = "Default",
+		["Imasnake - Zul'jin"] = "Default",
+		["Affinitii - Illidan"] = "Default",
+		["Affinitii - Aerie Peak"] = "Default",
+		["Affiniroll - Aerie Peak"] = "Default",
+		["Infiniti - Illidan"] = "Default",
+		["Wðrgenfreman - Aerie Peak"] = "Default",
+		["Yardewd - Zul'jin"] = "Default",
+		["Råhl - Aerie Peak"] = "Default",
+		["Ahot - Cho'gall"] = "Default",
+		["Drswftmndphd - Illidan"] = "Default",
+		["Kaulan - Stormreaver"] = "Default",
+		["Yeahduude - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Argent Dawn"] = {
+			["windows"] = {
+				{
+					["barwidth"] = 397.9998453080643,
+					["background"] = {
+						["height"] = 128.000000273549,
+					},
+					["barslocked"] = true,
+					["spark"] = false,
+				}, -- [1]
+			},
+		},
+		["Default"] = {
+			["windows"] = {
+				{
+					["barslocked"] = false,
+					["name"] = "DPS",
+					["barwidth"] = 397.9998453080643,
+					["background"] = {
+						["height"] = 128.000000273549,
+					},
+					["spark"] = false,
+					["mode"] = "Damage",
+				}, -- [1]
+			},
+			["report"] = {
+				["number"] = 5,
+				["channel"] = "raid",
+				["target"] = "affinitee",
+				["set"] = "total",
+			},
+			["icon"] = {
+				["minimapPos"] = 160.4361246854299,
+				["hide"] = true,
+			},
+			["hidedisables"] = false,
+		},
+		["Xesevi - Argent Dawn"] = {
+			["windows"] = {
+				{
+					["barslocked"] = true,
+					["background"] = {
+						["height"] = 128.000000273549,
+					},
+					["spark"] = false,
+					["barwidth"] = 397.9998453080643,
+					["name"] = "ASD",
+					["mode"] = "Damage",
+				}, -- [1]
+			},
+			["icon"] = {
+				["minimapPos"] = 148.473139079735,
+			},
+		},
+		["PALADIN"] = {
+			["windows"] = {
+				{
+					["barwidth"] = 397.9998453080643,
+					["background"] = {
+						["height"] = 128.000000273549,
+					},
+					["barslocked"] = true,
+					["spark"] = false,
+				}, -- [1]
+			},
+		},
+	},
+}

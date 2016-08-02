@@ -1,0 +1,75 @@
+VER 3 010000000000000C "Binding Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Levitate
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Levitate
+END
+VER 3 0100000000000011 "Cascade" "INV_MISC_QUESTIONMARK"
+#showtooltip Cascade
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Cascade
+END
+VER 3 0100000000000017 "Circle" "INV_MISC_QUESTIONMARK"
+#showtooltip Circle of Healing
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Circle of Healing
+END
+VER 3 0100000000000016 "Dispel Magic" "INV_MISC_QUESTIONMARK"
+#showtooltip Penance
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Penance
+END
+VER 3 0100000000000007 "Flash Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash Heal
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Flash Heal
+END
+VER 3 0100000000000008 "Greater Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Guardian Spirit
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Guardian Spirit
+END
+VER 3 0100000000000012 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Heal
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Heal
+END
+VER 3 0100000000000010 "Holy Word" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Word: Chastise
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Word: Chastise
+END
+VER 3 0100000000000015 "Levitate" "INV_MISC_QUESTIONMARK"
+#showtooltip Restorative Amber
+/use [nomod] Restorative Amber
+/cancelaura [mod:alt] Restorative Amber
+END
+VER 3 010000000000001B "Mindbender" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/use 10
+/cast Mindbender
+END
+VER 3 0100000000000009 "Pain Suppression" "INV_MISC_QUESTIONMARK"
+#showtooltip Pain Suppression
+/stopcasting
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Pain Suppression
+END
+VER 3 010000000000001A "Power Infusion" "INV_MISC_QUESTIONMARK"
+#showtooltip Clarity of Will
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Clarity of Will
+END
+VER 3 010000000000001C "Power Word Self" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Word: Death
+/cast [@mouseover,exists,harm,nodead] Shadow Word: Death; Shadow Word: Death
+END
+VER 3 010000000000000A "Prayer of Healin" "INV_MISC_QUESTIONMARK"
+#showtooltip Prayer of Healing
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Prayer of Healing
+END
+VER 3 010000000000000D "Prayer of Mendin" "INV_MISC_QUESTIONMARK"
+#showtooltip Prayer of Mending
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Prayer of Mending
+END
+VER 3 010000000000000B "Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip Renew
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Renew
+END
+VER 3 010000000000000E "Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip Power Word: Shield
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Power Word: Shield
+END
+VER 3 0100000000000018 "ToF->Power Infus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=Lophmonk] Leap of Faith
+END

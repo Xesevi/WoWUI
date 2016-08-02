@@ -1,0 +1,17 @@
+ElvUI_Skullflower: enabled
+BalancePowerTracker: disabled
+BalancePowerTracker_Options: disabled
+OmniCC: disabled
+OmniCC_Config: disabled
+_NPCScan: disabled
+_NPCScan.Overlay: disabled
+Omen: enabled
+Auctionator: enabled
+ElvUI_Enhanced: enabled
+ElvUI_SLE: disabled
+SkadaHealAbsorbs: disabled
+ElvUI_DTBars: disabled
+TidyPlates: disabled
+Grid: disabled
+HandyNotes: enabled
+HandyNotes_DraenorTreasures: enabled

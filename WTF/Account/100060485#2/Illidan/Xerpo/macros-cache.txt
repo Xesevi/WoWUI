@@ -1,0 +1,34 @@
+VER 3 0100000000000003 "as" "INV_MISC_QUESTIONMARK"
+/script PetDismiss()
+/target Pit Lord
+/cast Enslave Demon
+END
+VER 3 0100000000000004 "asdsad" "INV_MISC_QUESTIONMARK"
+/cast [@player] Fel Flame Breath
+END
+VER 3 0100000000000006 "Charge" "Ability_Warrior_Charge"
+/petattack
+/cast Charge
+END
+VER 3 0100000000000002 "Enslave demon" "INV_MISC_QUESTIONMARK"
+/target Doom Lord
+/cast Banish
+END
+VER 3 0100000000000007 "Fel Fire" "INV_MISC_QUESTIONMARK"
+/petattack
+/cast Fel Flame Breath
+END
+VER 3 0100000000000001 "Havoc" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Havoc
+END
+VER 3 0100000000000005 "Heal" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/cast Demonic Siphon
+END
+VER 3 0100000000000008 "Party" "INV_MISC_QUESTIONMARK"
+/invite Keksik
+/invite Vordran
+END
+VER 3 0100000000000009 "Party Kick" "INV_MISC_QUESTIONMARK"
+/kick Keksik
+/kick Vordran
+END

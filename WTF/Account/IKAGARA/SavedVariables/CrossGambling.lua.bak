@@ -1,0 +1,30 @@
+
+CrossGambling = {
+	["bans"] = {
+	},
+	["stats"] = {
+		["Fjolliz"] = 38290,
+		["Lophina"] = -22917,
+		["Xern"] = 93950,
+		["Sonurus"] = -16623,
+		["Kelyus"] = 197692,
+		["Razecog"] = 1411,
+		["Zworglol"] = -70593,
+		["Lanah"] = 8514,
+		["Denys"] = -33589,
+		["Glaxop"] = -83974,
+		["Lazelini"] = -112161,
+	},
+	["whispers"] = false,
+	["active"] = 1,
+	["chat"] = true,
+	["joinstats"] = {
+	},
+	["hightie"] = {
+	},
+	["lastroll"] = "50000",
+	["lowtie"] = {
+	},
+	["strings"] = {
+	},
+}

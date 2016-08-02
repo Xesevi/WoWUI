@@ -1,0 +1,9 @@
+VER 3 0100000000000002 "AoE GRIP" "INV_MISC_QUESTIONMARK"
+#showtooltip Gorefiend's Grasp
+/cast [target=Glaxdk] Gorefiend's Grasp
+END
+VER 3 0100000000000001 "Mind Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Freeze
+/stopcasting
+/cast [mod:shift,@target,exists][@focus,exists][@target] Mind Freeze
+END

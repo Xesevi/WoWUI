@@ -1,0 +1,13 @@
+
+OneRing_Config = {
+	["ProfileStorage"] = {
+		["default"] = {
+			["RotationTokens"] = {
+			},
+		},
+	},
+	["PersistentStorage"] = {
+	},
+	["CharProfiles"] = {
+	},
+}

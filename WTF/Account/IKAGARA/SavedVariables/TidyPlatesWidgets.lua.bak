@@ -1,0 +1,15 @@
+
+TidyPlatesWidgetData = {
+	["UnitClass"] = {
+		["Beromage"] = "MAGE",
+		["Regnbue"] = "MONK",
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Beromage"] = "Rótten",
+		["Regnbue"] = "Requiescat in Pace",
+	},
+}

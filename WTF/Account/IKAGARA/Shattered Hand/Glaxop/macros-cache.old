@@ -1,0 +1,53 @@
+VER 3 0100000000000004 "Cancelaura" "INV_MISC_QUESTIONMARK"
+/cancelaura Deterrence
+/cancelaura Hand of Protection
+END
+VER 3 0100000000000009 "Deterrence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast Deterrence
+END
+VER 3 010000000000000C "Feign Death" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast feign death
+END
+VER 3 0100000000000007 "Kill Command" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petattack
+/cast Kill Command
+END
+VER 3 0100000000000005 "Master's Call" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Master's Call
+END
+VER 3 0100000000000006 "MC" "INV_MISC_QUESTIONMARK"
+#showtooltip Counter Shot
+/stopcasting
+/cast [mod:shift,@target,exists][@focus,exists][@target] Counter Shot
+END
+VER 3 0100000000000002 "Misdirection" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Misdirection
+END
+VER 3 010000000000000D "Mouseover Killsh" "INV_MISC_QUESTIONMARK"
+#showtooltip Kill Shot
+/cast [target=mouseover, harm][harm] Kill Shot
+END
+VER 3 0100000000000003 "Pet Attack" "INV_MISC_QUESTIONMARK"
+/petattack
+END
+VER 3 0100000000000001 "Racial CDSSS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+/use Blood Fury(Racial)
+END
+VER 3 010000000000000B "Rapid fire + Tri" "INV_MISC_QUESTIONMARK"
+/cast Rapid fire
+/use Beating Heart of the Mountain
+END
+VER 3 010000000000000A "Target Druna" "INV_MISC_QUESTIONMARK"
+/tar Champion Druna
+END

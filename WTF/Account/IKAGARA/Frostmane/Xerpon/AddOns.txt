@@ -1,0 +1,16 @@
+QuickTalents: disabled
+_NPCScan.Overlay: disabled
+_NPCScan: disabled
+Grid: disabled
+GridStatusRaidDebuff: disabled
+Omen: disabled
+ElvUI_DTBars: enabled
+AddOnSkins_ElvUI: disabled
+OPie: enabled
+DBM-Core: disabled
+CLCRet: enabled
+CLCRet_Options: enabled
+Skada: enabled
+ElvUI_Config: enabled
+ElvUI_AddOnSkins: enabled
+ElvUI_ExtraActionBars: enabled

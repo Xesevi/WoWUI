@@ -1,0 +1,58 @@
+
+BLCDrosterReload = {
+	["Player-1300-070AA9E7"] = {
+		["talents"] = {
+			[19223] = {
+				["name_localized"] = "Asphyxiate",
+				["talent_id"] = 19223,
+				["spell_id"] = 108194,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_deathknight_asphixiate",
+				["tier"] = 3,
+			},
+			[19217] = {
+				["name_localized"] = "Unholy Blight",
+				["talent_id"] = 19217,
+				["spell_id"] = 115989,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+				["tier"] = 1,
+			},
+			[19231] = {
+				["name_localized"] = "Remorseless Winter",
+				["talent_id"] = 19231,
+				["spell_id"] = 108200,
+				["column"] = 2,
+				["icon"] = "Interface\\Icons\\ability_deathknight_remorselesswinters2",
+				["tier"] = 6,
+			},
+			[19224] = {
+				["name_localized"] = "Blood Tap",
+				["talent_id"] = 19224,
+				["spell_id"] = 45529,
+				["column"] = 1,
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_BloodTap",
+				["tier"] = 4,
+			},
+			[19227] = {
+				["name_localized"] = "Death Siphon",
+				["talent_id"] = 19227,
+				["spell_id"] = 108196,
+				["column"] = 2,
+				["icon"] = "Interface\\Icons\\ability_deathknight_deathsiphon",
+				["tier"] = 5,
+			},
+			[19220] = {
+				["name_localized"] = "Purgatory",
+				["talent_id"] = 19220,
+				["spell_id"] = 114556,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\INV_Misc_ShadowEgg",
+				["tier"] = 2,
+			},
+		},
+		["class"] = "DEATHKNIGHT",
+		["name"] = "Koyaz",
+		["spec"] = 251,
+	},
+}

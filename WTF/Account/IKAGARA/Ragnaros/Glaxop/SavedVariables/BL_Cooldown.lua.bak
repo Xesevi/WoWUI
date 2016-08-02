@@ -1,0 +1,58 @@
+
+BLCDrosterReload = {
+	["0x0380000005694736"] = {
+		["talents"] = {
+			[115174] = {
+				["idx"] = 3,
+				["name_localized"] = "Momentum",
+				["tier"] = 1,
+				["spell_id"] = 115174,
+				["icon"] = "Interface\\Icons\\ability_monk_standingkick",
+				["column"] = 3,
+			},
+			[115098] = {
+				["idx"] = 4,
+				["name_localized"] = "Chi Wave",
+				["tier"] = 2,
+				["spell_id"] = 115098,
+				["icon"] = "Interface\\Icons\\ability_monk_chiwave",
+				["column"] = 1,
+			},
+			[119381] = {
+				["idx"] = 12,
+				["name_localized"] = "Leg Sweep",
+				["tier"] = 4,
+				["spell_id"] = 119381,
+				["icon"] = "Interface\\Icons\\ability_monk_legsweep",
+				["column"] = 3,
+			},
+			[115399] = {
+				["idx"] = 9,
+				["name_localized"] = "Chi Brew",
+				["tier"] = 3,
+				["spell_id"] = 115399,
+				["icon"] = "Interface\\Icons\\ability_monk_chibrew",
+				["column"] = 3,
+			},
+			[116847] = {
+				["idx"] = 16,
+				["name_localized"] = "Rushing Jade Wind",
+				["tier"] = 6,
+				["spell_id"] = 116847,
+				["icon"] = "Interface\\Icons\\ability_monk_rushingjadewind",
+				["column"] = 1,
+			},
+			[122783] = {
+				["idx"] = 15,
+				["name_localized"] = "Diffuse Magic",
+				["tier"] = 5,
+				["spell_id"] = 122783,
+				["icon"] = "Interface\\Icons\\spell_monk_diffusemagic",
+				["column"] = 3,
+			},
+		},
+		["class"] = "MONK",
+		["name"] = "Glaxop",
+		["spec"] = 268,
+	},
+}

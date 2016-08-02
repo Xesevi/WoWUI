@@ -1,0 +1,21 @@
+Interface: 6.0.0
+Title: BalancePowerTracker
+Version: 2.0.1
+Author: Kurohoshi (EU-Minahonda)
+
+--INFO
+BPT's main purpose is providing a highly configurable eclipse bar with energy prediction to Balance druids. 
+It's focused on using the CPU strictly necessary and no more, therefore, it's divided into several modules.
+Energy track and prediction supported by LibBalancePowerTracker.
+Masque, MikSBT & LibSharedMedia are supported.
+Created & maintained by Kurohoshi (EU - Minahonda).
+	
+--CHANGELOG
+v 2.0.1 Updated LibBalancePowerTracker to v2.0.1:
+			Improved death recognition
+			Fixed Euphoria detection
+			Improved Euphoria prediction
+		Removed unused public var warnedVEclipse in EclipseBar
+		Added timer to peak buff, can be shown either as CD (works with OmniCC), text or both
+		
+v 2.0.0 Overhaul for 6.0.0

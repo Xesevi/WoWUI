@@ -1,0 +1,3 @@
+VER 3 0100000000000001 "Pet MD" "INV_MISC_QUESTIONMARK"
+/cast [target=Wolf] Misdirection
+END

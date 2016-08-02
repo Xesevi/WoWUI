@@ -1,0 +1,295 @@
+
+BigWigs3DB = {
+	["namespaces"] = {
+		["BigWigs_Bosses_Cho'gall"] = {
+		},
+		["BigWigs_Bosses_Occu'thar"] = {
+		},
+		["BigWigs_Bosses_Hagara the Stormbinder"] = {
+		},
+		["BigWigs_Bosses_Alizabal"] = {
+		},
+		["BigWigs_Bosses_Beth'tilac"] = {
+		},
+		["BigWigs_Bosses_Argaloth"] = {
+		},
+		["BigWigs_Bosses_Morchok"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Bosses_Yor'sahj the Unsleeping"] = {
+		},
+		["BigWigs_Bosses_Magmaw"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blazing"] = 515,
+				},
+			},
+		},
+		["BigWigs_Bosses_Omnotron Defense System"] = {
+		},
+		["BigWigs_Bosses_Ascendant Council"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Frost Beacon"] = 655,
+				},
+			},
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["DRUID"] = {
+					["fontSize"] = 20.00000079528718,
+					["BWEmphasizeMessageAnchor_y"] = 459.0628287221884,
+					["BWMessageAnchor_y"] = 443.8855023278296,
+					["BWMessageAnchor_x"] = 728.6855737941573,
+					["monochrome"] = false,
+					["BWEmphasizeMessageAnchor_x"] = 728.6854434943083,
+					["font"] = "ElvUI Font",
+				},
+				["Default"] = {
+					["fontSize"] = 20.00000079528718,
+					["BWEmphasizeMessageAnchor_y"] = 465.0667085654549,
+					["BWMessageAnchor_y"] = 440.8888495721501,
+					["monochrome"] = false,
+					["BWMessageAnchor_x"] = 610.8445307717618,
+					["BWEmphasizeMessageAnchor_x"] = 610.8445805698311,
+					["font"] = "ElvUI Font",
+				},
+				["HEALME2"] = {
+					["fontSize"] = 20.00000079528718,
+					["BWEmphasizeMessageAnchor_y"] = 465.0667085654549,
+					["BWMessageAnchor_y"] = 440.8888495721501,
+					["font"] = "ElvUI Font",
+					["monochrome"] = false,
+					["BWEmphasizeMessageAnchor_x"] = 610.8445805698311,
+					["BWMessageAnchor_x"] = 610.8445307717618,
+				},
+			},
+		},
+		["BigWigs_Bosses_Maloriak"] = {
+		},
+		["BigWigs_Plugins_Tip of the Raid"] = {
+			["profiles"] = {
+				["DRUID"] = {
+					["show"] = false,
+				},
+				["Default"] = {
+					["show"] = false,
+				},
+				["HEALME2"] = {
+					["show"] = false,
+				},
+			},
+		},
+		["BigWigs_Bosses_Chimaeron"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Massacre"] = 515,
+				},
+			},
+		},
+		["BigWigs_Bosses_Alysrazor"] = {
+		},
+		["BigWigs_Bosses_Majordomo Staghelm"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Leaping Flames"] = 679,
+				},
+			},
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Sinestra"] = {
+		},
+		["BigWigs_Bosses_Madness of Deathwing"] = {
+			["profiles"] = {
+				["Default"] = {
+					["impale"] = 515,
+				},
+				["HEALME"] = {
+					["Elementium Bolt"] = 643,
+				},
+			},
+		},
+		["BigWigs_Bosses_Nefarian"] = {
+		},
+		["BigWigs_Bosses_The Stone Guard"] = {
+		},
+		["BigWigs_Bosses_Al'Akir"] = {
+		},
+		["BigWigs_Bosses_Shannox"] = {
+		},
+		["BigWigs_Bosses_Elegon"] = {
+		},
+		["BigWigs_Bosses_Valiona and Theralion"] = {
+		},
+		["BigWigs_Plugins_Colors"] = {
+		},
+		["BigWigs_Bosses_Warmaster Blackhorn"] = {
+		},
+		["BigWigs_Bosses_Halfus Wyrmbreaker"] = {
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["DRUID"] = {
+					["BigWigsEmphasizeAnchor_y"] = 318.263135732633,
+					["BigWigsAnchor_width"] = 199.9999400883657,
+					["BigWigsAnchor_y"] = 133.0281105212283,
+					["BigWigsEmphasizeAnchor_x"] = 752.9142226223496,
+					["emphasizeGrowup"] = false,
+					["BigWigsAnchor_x"] = 1371.429102547428,
+					["font"] = "ElvUI Font",
+					["BigWigsEmphasizeAnchor_width"] = 142.8573642499458,
+					["barStyle"] = "ElvUI",
+					["texture"] = "ElvUI Norm",
+				},
+				["Default"] = {
+					["BigWigsEmphasizeAnchor_y"] = 303.2888646270365,
+					["growup"] = false,
+					["BigWigsAnchor_y"] = 768.0000166514121,
+					["BigWigsEmphasizeAnchor_x"] = 353.4220999524111,
+					["barStyle"] = "ElvUI",
+					["emphasizeGrowup"] = false,
+					["BigWigsAnchor_x"] = 21.33341350736538,
+					["font"] = "ElvUI Font",
+					["BigWigsAnchor_width"] = 281.0000287910278,
+					["BigWigsEmphasizeAnchor_width"] = 276.9999989741914,
+					["emphasizeScale"] = 1,
+					["texture"] = "ElvUI Norm",
+				},
+				["HEALME2"] = {
+					["BigWigsEmphasizeAnchor_y"] = 303.2888646270365,
+					["growup"] = false,
+					["BigWigsAnchor_y"] = 768.0000166514121,
+					["BigWigsEmphasizeAnchor_x"] = 353.4220999524111,
+					["BigWigsEmphasizeAnchor_width"] = 276.9999989741914,
+					["emphasizeGrowup"] = false,
+					["BigWigsAnchor_x"] = 21.33341350736538,
+					["BigWigsAnchor_width"] = 281.0000287910278,
+					["barStyle"] = "ElvUI",
+					["font"] = "ElvUI Font",
+					["emphasizeScale"] = 1,
+					["texture"] = "ElvUI Norm",
+				},
+			},
+		},
+		["BigWigs_Bosses_Warlord Zon'ozz"] = {
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Bosses_Ultraxion"] = {
+		},
+		["BigWigs_Bosses_Ragnaros"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Molten Seed"] = 515,
+					["Living Meteor"] = 515,
+				},
+				["Hunter"] = {
+					["Molten Seed"] = 515,
+					["Living Meteor"] = 515,
+				},
+			},
+		},
+		["BigWigs_Bosses_Conclave of Wind"] = {
+		},
+		["BigWigs_Bosses_Atramedes"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["DRUID"] = {
+					["posx"] = 380.3427396705273,
+					["fontSize"] = 20.00000079528718,
+					["height"] = 119.2857478108561,
+					["font"] = "ElvUI Font",
+					["posy"] = 135.7724316461595,
+					["width"] = 139.9999886008837,
+				},
+				["Default"] = {
+					["posx"] = 244.6221205041632,
+					["fontSize"] = 20.00000079528718,
+					["lock"] = true,
+					["posy"] = 265.5998002156482,
+					["sound"] = false,
+					["font"] = "ElvUI Font",
+				},
+				["HEALME2"] = {
+					["posx"] = 244.6221205041632,
+					["fontSize"] = 20.00000079528718,
+					["lock"] = true,
+					["font"] = "ElvUI Font",
+					["sound"] = false,
+					["posy"] = 265.5998002156482,
+				},
+			},
+		},
+		["BigWigs_Bosses_Baleroc"] = {
+		},
+		["BigWigs_Bosses_Lord Rhyolith"] = {
+		},
+		["BigWigs_Bosses_Spine of Deathwing"] = {
+			["profiles"] = {
+				["Default"] = {
+					["roll"] = 643,
+					["Nuclear Blast"] = 643,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Daisil - Illidan"] = "Default",
+		["Affinityy - Anasterian (US)"] = "Default",
+		["Affiniti - Illidan"] = "Default",
+		["Affinitii - Anasterian (US)"] = "Default",
+		["Infinity - Mal'Ganis"] = "Default",
+		["Affi - Eonar"] = "Default",
+		["Daisil - Stormreaver"] = "Default",
+		["Affiniti - Mal'Ganis"] = "Default",
+		["Oinkoinkmoo - Mal'Ganis"] = "Default",
+		["Affinity - Illidan"] = "Default",
+		["Affinitii - Area 52"] = "Default",
+		["Affinitiqt - Cho'gall"] = "Default",
+		["Affinitee - Illidan"] = "Default",
+		["Affiniti - Naralex (EU)"] = "Default",
+		["Affinitibl - Anasterian (US)"] = "Default",
+		["Affinitii - Illidan"] = "HEALME",
+		["Affinitii - Mal'Ganis"] = "Default",
+		["Ahot - Cho'gall"] = "Default",
+		["Affiniti - Thaurissan"] = "Default",
+		["Affinitiibl - Anasterian (US)"] = "Default",
+		["Daisil - Mal'Ganis"] = "Default",
+		["Kaulan - Stormreaver"] = "HEALME2",
+		["Affinityi - Anasterian (US)"] = "Default",
+		["Affiniti - Cho'gall"] = "Default",
+		["Af - Illidan"] = "Default",
+		["Infiniti - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["DRUID"] = {
+		},
+		["Default"] = {
+			["showBlizzardWarnings"] = true,
+			["seenmovies"] = {
+				[73] = true,
+				[74] = true,
+				[75] = true,
+				[76] = true,
+			},
+			["showBossmodChat"] = true,
+		},
+		["HEALME2"] = {
+			["showBlizzardWarnings"] = true,
+			["seenmovies"] = {
+				[73] = true,
+				[74] = true,
+				[75] = true,
+				[76] = true,
+			},
+			["showBossmodChat"] = true,
+		},
+	},
+}
+BigWigs3IconDB = {
+	["minimapPos"] = 158.126507574158,
+	["hide"] = true,
+}

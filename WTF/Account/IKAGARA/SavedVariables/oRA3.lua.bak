@@ -1,0 +1,61 @@
+
+oRA3DB = {
+	["namespaces"] = {
+		["BattleRes"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showDisplay"] = false,
+				},
+			},
+		},
+		["Invite"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ReadyCheck"] = {
+			["profiles"] = {
+				["Default"] = {
+					["gui"] = false,
+				},
+			},
+		},
+		["Difficulty"] = {
+		},
+		["Loot"] = {
+		},
+		["Promote"] = {
+		},
+		["Cooldowns"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showDisplay"] = false,
+				},
+			},
+		},
+		["Tanks"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Xesevi - Shattered Hand"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastSelectedList"] = 1,
+			["positions"] = {
+				["oRA3ReadyCheck"] = {
+					["Height"] = 225.000106811523,
+					["Width"] = 320,
+					["PosY"] = 422.044498066771,
+					["PosX"] = 1072.35627596645,
+				},
+				["oRA3CooldownFrame"] = {
+					["Height"] = 147.999984741211,
+					["Width"] = 199.999908447266,
+					["PosY"] = 428.088899254799,
+					["PosX"] = 957.867297499725,
+				},
+			},
+			["lastSelectedPanel"] = "Tanks",
+		},
+	},
+}

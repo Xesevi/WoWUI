@@ -1,0 +1,17 @@
+
+clcprotDB = {
+	["profileKeys"] = {
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+	},
+	["profiles"] = {
+		["Xesevi - Argent Dawn"] = {
+			["y"] = 110.0001021705358,
+			["defaultPrioAlt"] = true,
+			["rotation"] = {
+				["wogHp"] = 3,
+				["prioAlt"] = "sor3 ss cs wogdp wog sorha sordp horwb how cons asgc hw sor5 cs as j",
+			},
+			["x"] = 907.0001082570001,
+		},
+	},
+}

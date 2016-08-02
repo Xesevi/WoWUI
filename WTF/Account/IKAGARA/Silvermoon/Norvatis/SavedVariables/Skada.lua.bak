@@ -1,0 +1,578 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 144,
+		["interrupts"] = 0,
+		["power"] = {
+			[2] = 420,
+		},
+		["damage"] = 168740,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "HUNTER",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 142,
+				["interrupts"] = 0,
+				["power"] = {
+					[2] = {
+						["amount"] = 420,
+						["spells"] = {
+							[91954] = 420,
+						},
+					},
+				},
+				["maxhp"] = 18232,
+				["overhealing"] = 0,
+				["damage"] = 168740,
+				["damagespells"] = {
+					["Explosive Shot"] = {
+						["min"] = 356,
+						["DODGE"] = 2,
+						["critical"] = 13,
+						["hit"] = 74,
+						["totalhits"] = 89,
+						["id"] = 53301,
+						["max"] = 713,
+						["damage"] = 37791,
+					},
+					["Cobra Shot"] = {
+						["min"] = 467,
+						["critical"] = 3,
+						["hit"] = 27,
+						["totalhits"] = 30,
+						["id"] = 77767,
+						["max"] = 1061,
+						["damage"] = 16423,
+					},
+					["Auto Shot"] = {
+						["min"] = 426,
+						["critical"] = 7,
+						["hit"] = 41,
+						["totalhits"] = 48,
+						["id"] = 75,
+						["max"] = 938,
+						["damage"] = 24864,
+					},
+					["Serpent Sting"] = {
+						["min"] = 466,
+						["critical"] = 13,
+						["hit"] = 52,
+						["totalhits"] = 65,
+						["id"] = 118253,
+						["max"] = 933,
+						["damage"] = 36366,
+					},
+					["Black Arrow"] = {
+						["min"] = 470,
+						["critical"] = 10,
+						["hit"] = 46,
+						["totalhits"] = 56,
+						["id"] = 3674,
+						["max"] = 951,
+						["damage"] = 31343,
+					},
+					["Arcane Shot"] = {
+						["min"] = 811,
+						["max"] = 1768,
+						["critical"] = 7,
+						["hit"] = 12,
+						["totalhits"] = 20,
+						["id"] = 3044,
+						["MISS"] = 1,
+						["damage"] = 21953,
+					},
+				},
+				["healingspells"] = {
+				},
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "Player-3391-067992E2",
+				["shielding"] = 0,
+				["damagetakenspells"] = {
+				},
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["name"] = "Norvatis",
+				["alertCount"] = 0,
+				["alertDamage"] = 0,
+				["auras"] = {
+					["Explosive Shot"] = {
+						["name"] = "Explosive Shot",
+						["active"] = 0,
+						["id"] = 53301,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 56,
+					},
+					["Lock and Load"] = {
+						["name"] = "Lock and Load",
+						["active"] = 0,
+						["id"] = 168980,
+						["auratype"] = "BUFF",
+						["uptime"] = 23,
+					},
+					["Black Arrow"] = {
+						["name"] = "Black Arrow",
+						["active"] = 1,
+						["id"] = 3674,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 114,
+					},
+					["Serpent Sting"] = {
+						["name"] = "Serpent Sting",
+						["active"] = 0,
+						["id"] = 118253,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 138,
+					},
+				},
+				["alert"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Brizanna"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Eminence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 132,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kagemix"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 79495,
+						["hits"] = 9,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 79495,
+						["hits"] = 9,
+					},
+				},
+			},
+			["Kazeki"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Surging Mist"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 6014,
+						["hits"] = 6,
+					},
+					["Eminence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 12027,
+						["hits"] = 63,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Surging Mist"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 6014,
+						["hits"] = 6,
+					},
+					["Eminence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 12317,
+						["hits"] = 65,
+					},
+				},
+			},
+			["Crivatul"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Eminence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 158,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Training Dummy"] = {
+				["players"] = {
+					["Norvatis"] = {
+						["taken"] = 168740,
+						["done"] = 0,
+						["class"] = "HUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 168740,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 168740,
+		["multistrikes"] = 0,
+		["healing"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["alertDamage"] = 0,
+		["starttime"] = 1421170756,
+		["name"] = "Total",
+		["alertCount"] = 0,
+		["damagetaken"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1421170756,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 144,
+			["interrupts"] = 0,
+			["endtime"] = 1421170900,
+			["mobname"] = "Training Dummy",
+			["power"] = {
+				[2] = 420,
+			},
+			["damage"] = 168740,
+			["players"] = {
+				{
+					["last"] = 1421170898,
+					["healingabsorbed"] = 0,
+					["class"] = "HUNTER",
+					["damaged"] = {
+						["Training Dummy"] = 168740,
+					},
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 142,
+					["interrupts"] = 0,
+					["power"] = {
+						[2] = {
+							["amount"] = 420,
+							["spells"] = {
+								[91954] = 420,
+							},
+						},
+					},
+					["maxhp"] = 18232,
+					["damage"] = 168740,
+					["damagespells"] = {
+						["Explosive Shot"] = {
+							["min"] = 356,
+							["DODGE"] = 2,
+							["critical"] = 13,
+							["hit"] = 74,
+							["totalhits"] = 89,
+							["id"] = 53301,
+							["max"] = 713,
+							["damage"] = 37791,
+						},
+						["Cobra Shot"] = {
+							["min"] = 467,
+							["critical"] = 3,
+							["hit"] = 27,
+							["totalhits"] = 30,
+							["id"] = 77767,
+							["max"] = 1061,
+							["damage"] = 16423,
+						},
+						["Auto Shot"] = {
+							["min"] = 426,
+							["critical"] = 7,
+							["hit"] = 41,
+							["totalhits"] = 48,
+							["id"] = 75,
+							["max"] = 938,
+							["damage"] = 24864,
+						},
+						["Serpent Sting"] = {
+							["min"] = 466,
+							["critical"] = 13,
+							["hit"] = 52,
+							["totalhits"] = 65,
+							["id"] = 118253,
+							["max"] = 933,
+							["damage"] = 36366,
+						},
+						["Black Arrow"] = {
+							["min"] = 470,
+							["critical"] = 10,
+							["hit"] = 46,
+							["totalhits"] = 56,
+							["id"] = 3674,
+							["max"] = 951,
+							["damage"] = 31343,
+						},
+						["Arcane Shot"] = {
+							["min"] = 811,
+							["max"] = 1768,
+							["critical"] = 7,
+							["hit"] = 12,
+							["totalhits"] = 20,
+							["id"] = 3044,
+							["MISS"] = 1,
+							["damage"] = 21953,
+						},
+					},
+					["overhealing"] = 0,
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-3391-067992E2",
+					["first"] = 1421170756,
+					["healingspells"] = {
+					},
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Norvatis",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["auras"] = {
+						["Explosive Shot"] = {
+							["name"] = "Explosive Shot",
+							["active"] = 0,
+							["id"] = 53301,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 56,
+						},
+						["Lock and Load"] = {
+							["name"] = "Lock and Load",
+							["active"] = 0,
+							["id"] = 168980,
+							["auratype"] = "BUFF",
+							["uptime"] = 23,
+						},
+						["Black Arrow"] = {
+							["name"] = "Black Arrow",
+							["active"] = 1,
+							["id"] = 3674,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 114,
+						},
+						["Serpent Sting"] = {
+							["name"] = "Serpent Sting",
+							["active"] = 0,
+							["id"] = 118253,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 138,
+						},
+					},
+					["alert"] = {
+					},
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Brizanna"] = {
+					["players"] = {
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+						["Eminence"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 132,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Kagemix"] = {
+					["players"] = {
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+						["Unholy Strength"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 79495,
+							["hits"] = 9,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+						["Unholy Strength"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 79495,
+							["hits"] = 9,
+						},
+					},
+				},
+				["Kazeki"] = {
+					["players"] = {
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+						["Surging Mist"] = {
+							["min"] = 0,
+							["crits"] = 1,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 6014,
+							["hits"] = 6,
+						},
+						["Eminence"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 12027,
+							["hits"] = 63,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+						["Surging Mist"] = {
+							["min"] = 0,
+							["crits"] = 1,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 6014,
+							["hits"] = 6,
+						},
+						["Eminence"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 12317,
+							["hits"] = 65,
+						},
+					},
+				},
+				["Crivatul"] = {
+					["players"] = {
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+						["Eminence"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 0,
+							["healing"] = 0,
+							["overhealing"] = 158,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Training Dummy"] = {
+					["players"] = {
+						["Norvatis"] = {
+							["taken"] = 168740,
+							["done"] = 0,
+							["class"] = "HUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 168740,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 168740,
+			["multistrikes"] = 0,
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1421170756,
+			["name"] = "Training Dummy",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1421170756,
+			["mobdone"] = 0,
+		}, -- [1]
+	},
+}

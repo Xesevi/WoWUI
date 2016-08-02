@@ -1,0 +1,53 @@
+
+DKCrutchDB = {
+	["runic"] = {
+		["y"] = -149.000235320491,
+		["x"] = 210.0009876485123,
+		["relativePoint"] = "CENTER",
+		["scale"] = 0.25,
+		["alpha"] = 0.800000011920929,
+	},
+	["advisorDisabled"] = false,
+	["advisor"] = {
+		["y"] = 102.6824793465408,
+		["x"] = -19.62372821105615,
+		["relativePoint"] = "BOTTOM",
+		["scale"] = 1.049999952316284,
+		["alpha"] = 1,
+	},
+	["procDisabled"] = true,
+	["weaponDisabled"] = true,
+	["debuffDisabled"] = true,
+	["runicDisabled"] = true,
+	["debuff"] = {
+		["y"] = 1.882366972628897,
+		["x"] = 0,
+		["relativePoint"] = "BOTTOMRIGHT",
+		["scale"] = 0.25,
+		["alpha"] = 1,
+	},
+	["runes"] = {
+		["y"] = -246.3157541426767,
+		["x"] = -420.1053023977729,
+		["relativePoint"] = "RIGHT",
+		["scale"] = 0.25,
+		["alpha"] = 1,
+	},
+	["runeDisabled"] = true,
+	["locked"] = true,
+	["proc"] = {
+		["y"] = 90,
+		["x"] = 0,
+		["relativePoint"] = "CENTER",
+		["scale"] = 0.25,
+		["alpha"] = 1,
+	},
+	["enabled"] = true,
+	["weapon"] = {
+		["y"] = -40.33333636516762,
+		["x"] = -140.3333202257791,
+		["relativePoint"] = "RIGHT",
+		["scale"] = 0.25,
+		["alpha"] = 1,
+	},
+}

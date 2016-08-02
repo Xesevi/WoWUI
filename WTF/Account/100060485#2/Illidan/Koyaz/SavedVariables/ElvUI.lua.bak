@@ -1,0 +1,27 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+		"/reload", -- [2]
+	},
+	["ChatLog"] = {
+		["1367752394.504"] = {
+			" |cffa335ee|Hitem:94976:4426:4646:0:0:0:0:1780329344:90:0:465|h[Tidal Force Treads]|h|r", -- [1]
+			"Bodari-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Bodari", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1002, -- [11]
+			"0x020000000586EA7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_PARTY_LEADER",
+		},
+	},
+}

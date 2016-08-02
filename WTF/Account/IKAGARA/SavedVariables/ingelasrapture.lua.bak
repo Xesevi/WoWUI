@@ -1,0 +1,126 @@
+
+RaptureDB = {
+	["profileKeys"] = {
+		["Affinichi - Illidan"] = "Affinichi - Illidan",
+		["Affinityi - Stormreaver"] = "Affinityi - Stormreaver",
+		["Affinitiie - Deathwing"] = "Affinitiie - Deathwing",
+		["Daisilon - Aerie Peak"] = "Daisilon - Aerie Peak",
+		["Affinitii - Stormrage"] = "Affinitii - Stormrage",
+		["Affinity - Illidan"] = "Affinity - Illidan",
+		["Af - Illidan"] = "Af - Illidan",
+		["Imasnake - Zul'jin"] = "Imasnake - Zul'jin",
+		["Affiniroll - Aerie Peak"] = "Affiniroll - Aerie Peak",
+		["Yardewd - Zul'jin"] = "Yardewd - Zul'jin",
+		["Kaulan - Stormreaver"] = "Kaulan - Stormreaver",
+		["Drswftmndphd - Illidan"] = "Drswftmndphd - Illidan",
+		["Rebeccablaac - Mal'Ganis"] = "Rebeccablaac - Mal'Ganis",
+		["Daisil - Illidan"] = "Daisil - Illidan",
+		["Affiniti - Illidan"] = "Affiniti - Illidan",
+		["Affinitea - Illidan"] = "Affinitea - Illidan",
+		["Affinitee - Illidan"] = "Affinitee - Illidan",
+		["Infinitii - Illidan"] = "Infinitii - Illidan",
+		["Affinitiee - Blackrock"] = "Affinitiee - Blackrock",
+		["Affinitii - Korgath"] = "Affinitii - Korgath",
+		["Affinitiqt - Cho'gall"] = "Affinitiqt - Cho'gall",
+		["Affinitree - Stormrage"] = "Affinitree - Stormrage",
+		["Notaffinity - Illidan"] = "Notaffinity - Illidan",
+		["Affinitee - Deathwing"] = "Affinitee - Deathwing",
+		["Yeahduude - Illidan"] = "Yeahduude - Illidan",
+		["Affinitii - Illidan"] = "Affinitii - Illidan",
+		["Affinitii - Aerie Peak"] = "Affinitii - Aerie Peak",
+		["Wðrgenfreman - Aerie Peak"] = "Wðrgenfreman - Aerie Peak",
+		["Umadnerd - Illidan"] = "Umadnerd - Illidan",
+		["Affinitiibl - Anasterian (US)"] = "Affinitiibl - Anasterian (US)",
+		["Ahot - Cho'gall"] = "Ahot - Cho'gall",
+		["Råhl - Aerie Peak"] = "Råhl - Aerie Peak",
+		["Infiniti - Illidan"] = "Infiniti - Illidan",
+		["Infinity - Mal'Ganis"] = "Infinity - Mal'Ganis",
+	},
+	["profiles"] = {
+		["Affinichi - Illidan"] = {
+		},
+		["Affinityi - Stormreaver"] = {
+		},
+		["Affinitiie - Deathwing"] = {
+		},
+		["Daisilon - Aerie Peak"] = {
+		},
+		["Affinitii - Stormrage"] = {
+		},
+		["Affinity - Illidan"] = {
+		},
+		["Af - Illidan"] = {
+		},
+		["Imasnake - Zul'jin"] = {
+		},
+		["Affiniroll - Aerie Peak"] = {
+		},
+		["Yardewd - Zul'jin"] = {
+		},
+		["Kaulan - Stormreaver"] = {
+		},
+		["Drswftmndphd - Illidan"] = {
+		},
+		["Rebeccablaac - Mal'Ganis"] = {
+		},
+		["Daisil - Illidan"] = {
+		},
+		["Affiniti - Illidan"] = {
+		},
+		["Affinitea - Illidan"] = {
+		},
+		["Affinitee - Illidan"] = {
+			["font"] = "ElvUI Font",
+			["framefont"] = "ElvUI Font",
+			["ypos"] = -80,
+			["icon"] = false,
+			["texture"] = "VuhDo - Polished Wood",
+		},
+		["Infinitii - Illidan"] = {
+		},
+		["Affinitiee - Blackrock"] = {
+		},
+		["Affinitii - Korgath"] = {
+		},
+		["Affinitiqt - Cho'gall"] = {
+		},
+		["Affinitree - Stormrage"] = {
+		},
+		["Notaffinity - Illidan"] = {
+		},
+		["Affinitee - Deathwing"] = {
+		},
+		["Yeahduude - Illidan"] = {
+		},
+		["Affinitii - Illidan"] = {
+			["outline"] = "NONE",
+			["font"] = "ElvUI Font",
+			["framefont"] = "ElvUI Font",
+			["frameypos"] = -149,
+			["ypos"] = -149,
+			["icon"] = false,
+			["texture"] = "VuhDo - Polished Wood",
+		},
+		["Affinitii - Aerie Peak"] = {
+		},
+		["Wðrgenfreman - Aerie Peak"] = {
+		},
+		["Umadnerd - Illidan"] = {
+		},
+		["Affinitiibl - Anasterian (US)"] = {
+			["font"] = "ElvUI Font",
+			["xpos"] = -573,
+			["ypos"] = -153,
+			["framefont"] = "ElvUI Font",
+			["texture"] = "ElvUI Gloss",
+		},
+		["Ahot - Cho'gall"] = {
+		},
+		["Råhl - Aerie Peak"] = {
+		},
+		["Infiniti - Illidan"] = {
+		},
+		["Infinity - Mal'Ganis"] = {
+		},
+	},
+}

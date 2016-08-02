@@ -1,0 +1,193 @@
+
+ReforgeLiteDB = {
+	["windowHeight"] = 564,
+	["updateTooltip"] = true,
+	["windowY"] = 855.0000007522597,
+	["methodWindowY"] = 821.4998910933211,
+	["reforgeCheat"] = 5,
+	["windowX"] = 956.9999907677227,
+	["profiles"] = {
+		["Xesevi - Argent Dawn"] = {
+			["caps"] = {
+				{
+					["stat"] = 4,
+					["points"] = {
+						{
+							["value"] = 2210,
+							["preset"] = 2,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 7,
+					["points"] = {
+						{
+							["value"] = 2550,
+							["preset"] = 5,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["prio"] = {
+				{
+					["value"] = 2210,
+					["preset"] = 2,
+					["stat"] = 4,
+					["capped"] = true,
+				}, -- [1]
+				{
+					["value"] = 2550,
+					["preset"] = 5,
+					["stat"] = 7,
+					["capped"] = true,
+				}, -- [2]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["stat"] = 6,
+					["capped"] = false,
+				}, -- [3]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["stat"] = 8,
+					["capped"] = false,
+				}, -- [4]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["stat"] = 5,
+					["capped"] = false,
+				}, -- [5]
+			},
+			["targetLevel"] = 3,
+			["method"] = {
+				["items"] = {
+					{
+						["dst"] = 6,
+						["src"] = 4,
+						["amount"] = 294,
+						["reforge"] = 26,
+					}, -- [1]
+					{
+						["dst"] = 8,
+						["src"] = 4,
+						["amount"] = 182,
+						["reforge"] = 28,
+					}, -- [2]
+					{
+						["dst"] = 6,
+						["src"] = 7,
+						["amount"] = 185,
+						["reforge"] = 48,
+					}, -- [3]
+					{
+						["dst"] = 6,
+						["src"] = 5,
+						["amount"] = 206,
+						["reforge"] = 33,
+					}, -- [4]
+					{
+						["dst"] = 6,
+						["src"] = 4,
+						["amount"] = 264,
+						["reforge"] = 26,
+					}, -- [5]
+					{
+						["dst"] = 8,
+						["src"] = 7,
+						["amount"] = 173,
+						["reforge"] = 49,
+					}, -- [6]
+					{
+						["dst"] = 8,
+						["src"] = 4,
+						["amount"] = 221,
+						["reforge"] = 28,
+					}, -- [7]
+					{
+					}, -- [8]
+					{
+						["dst"] = 6,
+						["src"] = 7,
+						["amount"] = 306,
+						["reforge"] = 48,
+					}, -- [9]
+					{
+						["dst"] = 8,
+						["src"] = 4,
+						["amount"] = 244,
+						["reforge"] = 28,
+					}, -- [10]
+					{
+						["dst"] = 6,
+						["src"] = 4,
+						["amount"] = 175,
+						["reforge"] = 26,
+					}, -- [11]
+					{
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["dst"] = 6,
+						["src"] = 5,
+						["amount"] = 408,
+						["reforge"] = 33,
+					}, -- [15]
+					{
+					}, -- [16]
+				},
+				["stats"] = {
+					125, -- [1]
+					0, -- [2]
+					0, -- [3]
+					2456, -- [4]
+					3155, -- [5]
+					7380, -- [6]
+					2594, -- [7]
+					3082, -- [8]
+				},
+			},
+			["customMethodPresets"] = {
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+				false, -- [1]
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				200, -- [4]
+				120, -- [5]
+				160, -- [6]
+				180, -- [7]
+				140, -- [8]
+			},
+		},
+	},
+	["windowWidth"] = 800,
+	["itemSize"] = 24,
+	["openOnReforge"] = true,
+	["methodWindowX"] = 1142.000389396942,
+	["customPresets"] = {
+	},
+	["inactiveWindowTitle"] = {
+		0.5, -- [1]
+		0.5, -- [2]
+		0.5, -- [3]
+	},
+	["activeWindowTitle"] = {
+		0.8, -- [1]
+		0, -- [2]
+		0, -- [3]
+	},
+}

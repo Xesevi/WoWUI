@@ -1,0 +1,58 @@
+
+BLCDrosterReload = {
+	["0x03800000055F330B"] = {
+		["talents"] = {
+			[53376] = {
+				["idx"] = 14,
+				["name_localized"] = "Sanctified Wrath",
+				["tier"] = 5,
+				["spell_id"] = 53376,
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
+				["column"] = 2,
+			},
+			[114154] = {
+				["idx"] = 11,
+				["name_localized"] = "Unbreakable Spirit",
+				["tier"] = 4,
+				["spell_id"] = 114154,
+				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
+				["column"] = 2,
+			},
+			[85499] = {
+				["idx"] = 1,
+				["name_localized"] = "Speed of Light",
+				["tier"] = 1,
+				["spell_id"] = 85499,
+				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
+				["column"] = 1,
+			},
+			[105593] = {
+				["idx"] = 4,
+				["name_localized"] = "Fist of Justice",
+				["tier"] = 2,
+				["spell_id"] = 105593,
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+				["column"] = 1,
+			},
+			[114157] = {
+				["idx"] = 18,
+				["name_localized"] = "Execution Sentence",
+				["tier"] = 6,
+				["spell_id"] = 114157,
+				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
+				["column"] = 3,
+			},
+			[85804] = {
+				["idx"] = 7,
+				["name_localized"] = "Selfless Healer",
+				["tier"] = 3,
+				["spell_id"] = 85804,
+				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
+				["column"] = 1,
+			},
+		},
+		["class"] = "PALADIN",
+		["name"] = "Xesevi",
+		["spec"] = 70,
+	},
+}

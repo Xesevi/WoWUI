@@ -1,0 +1,13 @@
+VER 3 0100000000000001 "Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Freeze
+END
+VER 3 0100000000000002 "Frozen Orb & Syn" "INV_MISC_QUESTIONMARK"
+#showtooltip Frozen Orb
+/use 10
+/cast Frozen Orb
+END
+VER 3 0100000000000003 "Ice Ward" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice ward
+/cast [target=Celarmonk Ice Ward
+END

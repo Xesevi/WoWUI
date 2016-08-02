@@ -1,0 +1,10 @@
+
+MasterPlanPC = {
+	["seen"] = {
+		[-66] = 0,
+		["__time"] = 1425166140,
+	},
+	["version"] = "0.31",
+	["complete"] = {
+	},
+}

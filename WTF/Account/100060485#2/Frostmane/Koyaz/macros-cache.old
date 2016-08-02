@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "Focus Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Freeze
+/stopcasting
+/cast [mod:shift,@target,exists][@focus,exists][@target] Mind Freeze
+END

@@ -1,0 +1,9 @@
+VER 3 0100000000000001 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Swiftness
+/cast Nature's Swiftness
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Touch
+END
+VER 3 0100000000000002 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip Innervate
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Innervate
+END

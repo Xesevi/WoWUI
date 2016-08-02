@@ -1,0 +1,8 @@
+
+HeadlineGlobalSettings = {
+	["target"] = true,
+	["height"] = 5,
+	["level"] = true,
+	["fsize"] = 9,
+	["width"] = 110,
+}

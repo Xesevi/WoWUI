@@ -1,0 +1,61 @@
+VER 3 010000000000000A "CA &Incarnation" "INV_MISC_QUESTIONMARK"
+#showtooltip Celestial Alignment
+/cast Celestial Alignment
+/cast Incarnation: Chosen of Elune(Talent, Shapeshift)
+END
+VER 3 010000000000000B "Cancel Form" "INV_MISC_QUESTIONMARK"
+/cancelaura Bear Form
+/cancelaura Moonkin Form
+/cancelaura Travel Form
+/cancelaura Cat Form
+END
+VER 3 010000000000000F "Cenarion Ward" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000010 "CW" "INV_MISC_QUESTIONMARK"
+#showtooltip Cenarion Ward
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Cenarion Ward
+END
+VER 3 010000000000000E "Dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Cure
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Nature's Cure
+END
+VER 3 0100000000000004 "Healing Touch" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Touch
+END
+VER 3 0100000000000001 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Swiftness
+/cast Nature's Swiftness
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Touch
+END
+VER 3 010000000000000C "IB" "INV_MISC_QUESTIONMARK"
+#showtooltip Ironbark
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Ironbark
+END
+VER 3 0100000000000002 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip Innervate
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Innervate
+END
+VER 3 0100000000000005 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip Lifebloom
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lifebloom
+END
+VER 3 010000000000000D "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebirth
+/cast [@mouseover,help,exists][@target,help,nodead][] Rebirth
+END
+VER 3 0100000000000009 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Regrowth
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Regrowth
+END
+VER 3 0100000000000003 "Rejuvenation" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenation
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Rejuvenation
+END
+VER 3 0100000000000007 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip Swiftmend
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Swiftmend
+END
+VER 3 0100000000000008 "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip Wild Growth
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Wild Growth
+END

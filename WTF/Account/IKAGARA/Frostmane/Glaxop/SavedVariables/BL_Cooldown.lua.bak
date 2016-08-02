@@ -1,0 +1,58 @@
+
+BLCDrosterReload = {
+	["Player-1300-071F1BC4"] = {
+		["talents"] = {
+			[19264] = {
+				["name_localized"] = "Astral Shift",
+				["talent_id"] = 19264,
+				["spell_id"] = 108271,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
+				["tier"] = 1,
+			},
+			[19273] = {
+				["name_localized"] = "Echo of the Elements",
+				["talent_id"] = 19273,
+				["spell_id"] = 108283,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_shaman_echooftheelements",
+				["tier"] = 4,
+			},
+			[19267] = {
+				["name_localized"] = "Elemental Blast",
+				["talent_id"] = 19267,
+				["spell_id"] = 117014,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\shaman_talent_elementalblast",
+				["tier"] = 6,
+			},
+			[19261] = {
+				["name_localized"] = "Windwalk Totem",
+				["talent_id"] = 19261,
+				["spell_id"] = 108273,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_shaman_windwalktotem",
+				["tier"] = 2,
+			},
+			[19269] = {
+				["name_localized"] = "Ancestral Guidance",
+				["talent_id"] = 19269,
+				["spell_id"] = 108281,
+				["column"] = 2,
+				["icon"] = "Interface\\Icons\\ability_shaman_ancestralguidance",
+				["tier"] = 5,
+			},
+			[19276] = {
+				["name_localized"] = "Totemic Projection",
+				["talent_id"] = 19276,
+				["spell_id"] = 108287,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_shaman_totemrelocation",
+				["tier"] = 3,
+			},
+		},
+		["class"] = "SHAMAN",
+		["name"] = "Glaxop",
+		["spec"] = 262,
+	},
+}

@@ -1,0 +1,9 @@
+Tukui_ElvUI_Skins: disabled
+ElvUI_AddOnSkins: disabled
+WeakAuras: enabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
+WeakAurasTutorials: enabled
+Headline: disabled
+ExtraCD: disabled
+Auctionator: enabled

@@ -1,0 +1,17 @@
+VER 3 0100000000000003 "CR" "INV_MISC_QUESTIONMARK"
+#showtooltip Raise Ally
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Raise Ally
+END
+VER 3 0100000000000001 "Death pact" "INV_MISC_QUESTIONMARK"
+/use Death pact
+END
+VER 3 0100000000000002 "Death Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Rune Strike
+/cast Rune Strike
+/cast Blood Tap
+END
+VER 3 0100000000000004 "Monstrosity Deat" "INV_MISC_QUESTIONMARK"
+/target Amber Monstrosity
+/cast Death Grip
+/targetlasttarget
+END

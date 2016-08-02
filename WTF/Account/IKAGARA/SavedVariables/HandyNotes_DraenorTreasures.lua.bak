@@ -1,0 +1,10 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Xesevi - Frostmane"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

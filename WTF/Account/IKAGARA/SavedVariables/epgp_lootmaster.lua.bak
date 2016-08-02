@@ -1,0 +1,10 @@
+
+EPGPLootMaster = {
+	["profileKeys"] = {
+		["Xerpon - Shattered Hand"] = "Xerpon - Shattered Hand",
+	},
+	["profiles"] = {
+		["Xerpon - Shattered Hand"] = {
+		},
+	},
+}

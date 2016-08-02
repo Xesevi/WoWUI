@@ -1,0 +1,52 @@
+## Interface: 70000
+## Title: oRA3
+## Notes: Raid and Party Assist
+## Version: 1001
+## Author: Funkydude, Nebula169
+## X-Curse-Packaged-Version: r1002-release
+## X-Curse-Project-Name: oRA3
+## X-Curse-Project-ID: ora3
+## X-Curse-Repository-ID: wow/ora3/mainline
+
+## X-Credits: Cladhaire, Ammo, Rabbit
+
+## SavedVariables: oRA3DB
+
+## OptionalDeps: Ace3, LibCandyBar-3.0, LibSharedMedia-3.0, LibDDI-1.0, LibGroupInSpecT-1.1, LibDualSpec-1.0, LibChatAnims, LibLatency, LibDurability, LibButtonGlow-1.0, Masque, ChatThrottleLib
+## X-Embeds: Ace3, LibCandyBar-3.0, LibSharedMedia-3.0, LibDDI-1.0, LibGroupInSpecT-1.1, LibDualSpec-1.0, LibChatAnims, LibLatency, LibDurability, LibButtonGlow-1.0, ChatThrottleLib
+
+libs.xml
+
+locales\enUS.lua
+locales\itIT.lua
+locales\ptBR.lua
+locales\ruRU.lua
+locales\koKR.lua
+locales\zhCN.lua
+locales\zhTW.lua
+locales\frFR.lua
+locales\deDE.lua
+locales\esES.lua
+
+oRA3.lua
+modulePrototype.lua
+
+# module order in options
+modules\BattleRes.lua
+modules\Consumables.lua
+modules\Cooldowns\module.xml
+modules\GuildRepairs.lua
+modules\Rings.lua
+modules\Loot.lua
+modules\ReadyCheck.lua
+# modules with no settings
+modules\Difficulty.lua
+modules\Durability.lua
+modules\Gear.lua
+modules\Invite.lua
+modules\Latency.lua
+modules\Promote.lua
+modules\RoleIcons.lua
+modules\Tanks.lua
+modules\Zone.lua
+

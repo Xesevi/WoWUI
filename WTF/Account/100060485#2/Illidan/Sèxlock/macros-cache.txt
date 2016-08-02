@@ -1,0 +1,6 @@
+VER 3 0100000000000002 "Enslave demon" "INV_MISC_QUESTIONMARK"
+/cast [target=Pit Lord] Enslave Demon
+END
+VER 3 0100000000000001 "Havoc" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Havoc
+END

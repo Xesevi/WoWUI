@@ -1,0 +1,17 @@
+CLCRet: disabled
+CLCRet_Options: disabled
+epgp_lootmaster_ml: disabled
+epgp_lootmaster: disabled
+Pawn: enabled
+VuhDo: disabled
+VuhDoOptions: disabled
+ExtraCD: disabled
+oRA3: enabled
+GarrisonMissionManager: enabled
+MasterPlan: enabled
+MasterPlanA: enabled
+Skada: enabled
+Details: disabled
+ElvUI_Skullflower: enabled
+AddOnSkins: enabled
+ArkInventory: disabled

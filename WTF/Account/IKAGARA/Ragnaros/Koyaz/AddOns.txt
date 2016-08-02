@@ -1,0 +1,9 @@
+CLC_DK: disabled
+dkcrutch: disabled
+ElvUI_OneExtraActionBar: enabled
+MikScrollingBattleText: enabled
+xCT+: disabled
+Recount: disabled
+Bagnon: disabled
+gridstatussmarthealing: disabled
+CLCRet: disabled

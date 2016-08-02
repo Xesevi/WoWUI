@@ -1,0 +1,28 @@
+## Interface: 70000
+## X-Curse-Packaged-Version: 3.1
+## X-Curse-Project-Name: Guild Recruitment Helper
+## X-Curse-Project-ID: guild-recruitment
+## X-Curse-Repository-ID: wow/guild-recruitment/mainline
+
+## Title: Guild Recruitment Helper
+## Notes: Helps announce your guild recruitment information to Trade and LFG channels.
+## Notes-ruRU: Переодически отсылает сообщение о наборе в гильдию в торговый канал и канал поиска спутников.
+
+## Version: 3.1
+
+## Author: janike
+
+## SavedVariables: GuildRecrDB
+## OptionalDeps: Ace3, LibDataBroker-1.1, LibCompress
+
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Locales\enUS.lua
+Locales\ruRU.lua
+Locales\frFR.lua
+Locales\deDE.lua
+
+GuildRecr.lua

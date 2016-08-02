@@ -1,0 +1,12 @@
+## Interface: 40300
+## Title: |cffC495DDDSM|r
+## Notes: Adds my personal favorite media into SharedMedia libs.
+## Version: 2.3
+## Author: Dajova
+## X-Credits: Miscellaneous
+## X-Category: Miscellaneous
+## OptionalDeps: LibSharedMedia-2.0, LibSharedMedia-3.0, SharedMediaLib, Tukui, TelUI_AddonSkins
+Libs\LibStub.lua
+embeds.xml
+Core.lua
+DSM.lua

@@ -1,0 +1,24 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+	},
+	["profiles"] = {
+		["Xesevi - Argent Dawn"] = {
+			["PositionW"] = 206.9999673792868,
+			["PositionH"] = 80.00001860132913,
+			["VGrip2"] = 119.0249483583478,
+			["PositionY"] = 344.0003233348682,
+			["Background"] = {
+				["EdgeSize"] = 1,
+				["BarInset"] = 2,
+				["Texture"] = "ElvUI Blank",
+			},
+			["PositionX"] = 1506.500585428963,
+			["VGrip1"] = 87.97496183008316,
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+	},
+}

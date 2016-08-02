@@ -1,0 +1,32 @@
+VER 3 0100000000000003 "as" "INV_MISC_QUESTIONMARK"
+#showtooltip Demonic Circle: Teleport
+/cast [nomod] Demonic Circle: Summon
+/cast [mod:alt] Demonic Circle: Teleport
+END
+VER 3 0100000000000004 "asdsad" "INV_MISC_QUESTIONMARK"
+/cast [@player] Fel Flame Breath
+END
+VER 3 0100000000000006 "Charge" "Ability_Warrior_Charge"
+/petattack
+/cast Charge
+END
+VER 3 0100000000000002 "Enslave demon" "INV_MISC_QUESTIONMARK"
+/target Doom Lord
+/cast Banish
+END
+VER 3 0100000000000007 "Fel Fire" "INV_MISC_QUESTIONMARK"
+/petattack
+/cast Fel Flame Breath
+END
+VER 3 0100000000000001 "Havoc" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Havoc
+END
+VER 3 0100000000000005 "Heal" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/cast Demonic Siphon
+END
+VER 3 0100000000000008 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000009 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Xer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,13 @@
+
+BLCDDB = {
+	["profileKeys"] = {
+		["Xesevi - Argent Dawn"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["hideempty"] = true,
+			["show"] = "raid",
+			["scale"] = 1.4,
+		},
+	},
+}

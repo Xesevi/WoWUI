@@ -1,0 +1,66 @@
+
+BLCDrosterReload = {
+	["Player-1300-071F1E5A"] = {
+		["class"] = "PALADIN",
+		["talents"] = {
+			[17591] = {
+				["name_localized"] = "Unbreakable Spirit",
+				["talent_id"] = 17591,
+				["spell_id"] = 114154,
+				["column"] = 2,
+				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
+				["tier"] = 4,
+			},
+			[17599] = {
+				["name_localized"] = "Sanctified Wrath",
+				["talent_id"] = 17599,
+				["spell_id"] = 53376,
+				["column"] = 2,
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
+				["tier"] = 5,
+			},
+			[17565] = {
+				["name_localized"] = "Speed of Light",
+				["talent_id"] = 17565,
+				["spell_id"] = 85499,
+				["column"] = 1,
+				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
+				["tier"] = 1,
+			},
+			[17573] = {
+				["name_localized"] = "Fist of Justice",
+				["talent_id"] = 17573,
+				["spell_id"] = 105593,
+				["column"] = 1,
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+				["tier"] = 2,
+			},
+			[17581] = {
+				["name_localized"] = "Selfless Healer",
+				["talent_id"] = 17581,
+				["spell_id"] = 85804,
+				["column"] = 1,
+				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
+				["tier"] = 3,
+			},
+			[21672] = {
+				["name_localized"] = "Final Verdict",
+				["talent_id"] = 21672,
+				["spell_id"] = 157048,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\ability_paladin_finalverdict",
+				["tier"] = 7,
+			},
+			[17609] = {
+				["name_localized"] = "Execution Sentence",
+				["talent_id"] = 17609,
+				["spell_id"] = 114157,
+				["column"] = 3,
+				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
+				["tier"] = 6,
+			},
+		},
+		["name"] = "Xerpon",
+		["spec"] = 70,
+	},
+}

@@ -1,0 +1,14 @@
+TidyPlates: disabled
+_NPCScan: enabled
+_NPCScan.Overlay: enabled
+BalancePowerTracker_Options: enabled
+BalancePowerTracker: enabled
+CLCRet: enabled
+CLCRet_Options: enabled
+ElvUI_AddOnSkins: disabled
+ElvUI_DTBars: disabled
+ElvUI_Enhanced: disabled
+FriendGroups: disabled
+Grid: disabled
+Headline: disabled
+LoggerHead: disabled

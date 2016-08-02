@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Lay on Hands
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lay on Hands
+END

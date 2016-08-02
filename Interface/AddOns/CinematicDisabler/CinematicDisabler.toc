@@ -1,0 +1,7 @@
+## Interface: 60000
+## Author: Skullflower
+## Version: 1
+## Title: Cinematic Disabler
+## Notes: Disable cinematics 
+
+CinematicDisabler.lua

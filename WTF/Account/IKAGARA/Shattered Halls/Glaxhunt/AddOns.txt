@@ -1,0 +1,15 @@
+_NPCScan: disabled
+_NPCScan.Overlay: disabled
+BalancePowerTracker: disabled
+BalancePowerTracker_Options: disabled
+CLCRet_Options: disabled
+CLCRet: disabled
+FriendGroups: disabled
+Grid: disabled
+Headline: disabled
+LoggerHead: disabled
+OmniCC: disabled
+ElvUI_Skullflower: disabled
+Tukui_ElvUI_Skins: disabled
+ElvUI_Enhanced: disabled
+AddOnSkins_ElvUI: disabled

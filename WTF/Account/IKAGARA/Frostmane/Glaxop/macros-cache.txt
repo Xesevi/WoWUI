@@ -1,0 +1,27 @@
+VER 3 0100000000000007 "Ankh" "INV_MISC_QUESTIONMARK"
+#showtooltip Reincarnation
+END
+VER 3 0100000000000001 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Chain Heal
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Chain Heal
+END
+VER 3 0100000000000002 "Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip Earth Shield
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Earth Shield
+END
+VER 3 0100000000000003 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Surge
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Surge
+END
+VER 3 0100000000000004 "Healing Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Wave
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Wave
+END
+VER 3 0100000000000005 "Purify Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip Purify Spirit
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Purify Spirit
+END
+VER 3 0100000000000006 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip Riptide
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Riptide
+END

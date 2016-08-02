@@ -1,0 +1,7 @@
+
+MasterPlanAG = {
+	["Illidan"] = {
+		["Glaxdk"] = {
+		},
+	},
+}

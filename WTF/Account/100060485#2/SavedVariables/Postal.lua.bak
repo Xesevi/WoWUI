@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Xesevi|Argent Dawn|Alliance|90|PALADIN", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+	},
+	["profiles"] = {
+		["Xesevi - Argent Dawn"] = {
+		},
+	},
+}

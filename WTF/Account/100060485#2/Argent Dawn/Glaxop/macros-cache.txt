@@ -1,0 +1,98 @@
+VER 3 0100000000000006 "AoE Taunt" "INV_MISC_QUESTIONMARK"
+/target Black Ox Statue
+/cast Provoke
+/targetlasttarget
+END
+VER 3 0100000000000002 "Diffuse Magic" "INV_MISC_QUESTIONMARK"
+#showtooltip Diffuse Magic
+/cancelaura Spinning Crane Kick
+/cast Diffuse Magic
+END
+VER 3 0100000000000003 "Fortifying Brew" "INV_MISC_QUESTIONMARK"
+#showtooltip Fortifying Brew
+/cancelaura Spinning Crane Kick
+/cast Fortifying Brew
+END
+VER 3 0100000000000010 "Get Celerity" "ABILITY_MONK_QUIPUNCH"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow1Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(1)
+/click StaticPopup1Button1
+END
+VER 3 0100000000000012 "Get Leg Sweep" "ABILITY_MONK_LEGSWEEP"
+#showtooltip
+/cancelaura Spinning Crane Kick
+/cast Leg Sweep
+END
+VER 3 010000000000000E "Get Momentum" "ABILITY_MONK_STANDINGKICK"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow1Talent3 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(3)
+/click StaticPopup1Button1
+END
+VER 3 0100000000000011 "Get Ring of Piec" "SPELL_MONK_RINGOFPEACE"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow4Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(10)
+/click StaticPopup1Button1
+END
+VER 3 010000000000000F "Get Tiger Lust" "ABILITY_MONK_TIGERSLUST"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow1Talent2 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(2)
+/click StaticPopup1Button1
+END
+VER 3 0100000000000001 "Get Xuen" "ABILITY_MONK_SUMMONTIGERSTATUE"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow6Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(17)
+/click StaticPopup1Button1
+END
+VER 3 0100000000000004 "Guard" "INV_MISC_QUESTIONMARK"
+#showtooltip Guard
+/cancelaura Spinning Crane Kick
+/cast Guard
+END
+VER 3 010000000000000B "Invis Field" "ability_rogue_dirtydeeds"
+/run local l,a=GetInventoryItemLink("player",6)a=l:find("m:%d+:4223")and"Nitro Boosts"or"Invisibility Field"CastSpellByName("Engineering")for i=1,GetNumTradeSkills()do if a==GetTradeSkillInfo(i)then DoTradeSkill(i,1)break end end CloseTradeSkill()
+/use 6
+END
+VER 3 0100000000000009 "Keg Smash" "INV_MISC_QUESTIONMARK"
+#showtooltip Keg Smash
+/cancelaura Spinning Crane Kick
+/cast Keg Smash
+END
+VER 3 010000000000000C "Nitro Boosts" "Ability_Rogue_Sprint"
+/run local l,a=GetInventoryItemLink("player",6)a=l:find("m:%d+:4223")and"Invisibility Field"or"Nitro Boosts"CastSpellByName("Engineering")for i=1,GetNumTradeSkills()do if a==GetTradeSkillInfo(i)then DoTradeSkill(i,1)break end end CloseTradeSkill()
+/use 6
+END
+VER 3 0100000000000005 "Purifying BRew" "INV_MISC_QUESTIONMARK"
+#showtooltip Purifying Brew
+/cancelaura Spinning Crane Kick
+/cast Purifying Brew
+END
+VER 3 0100000000000007 "Spear Hand Strik" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cancelaura Spinning Crane Kick
+/cast [mod:shift,@target,exists][@focus,exists][@target] Spear Hand Strike
+END
+VER 3 010000000000000A "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/cancelaura Spinning Crane Kick
+/cast Provoke
+END
+VER 3 010000000000000D "Tiger Lust" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=Glaxop] Tiger's Lust
+END
+VER 3 0100000000000008 "Transcendence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Transcendence
+/cast [mod:alt] Transcendence: Transfer;
+/sit [mod:ctrl]
+END

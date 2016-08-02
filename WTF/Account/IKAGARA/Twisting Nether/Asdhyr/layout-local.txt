@@ -1,0 +1,8 @@
+Version: 1
+Frame: FollowerLocationInfoFrame
+FrameLevel: 10
+Anchor: LEFT
+X: 300
+Y: 0
+W: 538
+H: 538

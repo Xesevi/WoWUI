@@ -1,0 +1,45 @@
+tag 2.2.0.9
+4436c56689f77c35c68f24c643fd63f4394c2eb6
+Benjamin Staneck <staneck@gmail.com>
+2016-07-27 17:43:51 +0200
+
+
+
+--------------------
+
+Infus:
+	- Make tooltip, blue text, clicking work for multi selection
+	Ticket-Nr: 561
+	- Options: Ensure that certain ui elements start on a new line
+	By inserting a empty description before them.
+	
+	This can happen if a group has two auras:
+	Aura 1, the spec selection is in single selection mode.
+	Aura 2, the spec selection is in multi selection mode.
+	
+	That is if the user selects aura1, the combobox is show,
+	the group of checkboxes hidden.
+	
+	If aura2 is selected, the combobox is hidden and the checkboxes
+	are shown.
+	
+	If now a group of those auras is selected, the "hiddenAll" function
+	checks for each widget if the widget is visible for all auras.
+	
+	=> Both widgets are hidden and no widget is shown in the right column.
+	Thus the next widget which should be in the left column is shown in the
+	right.
+	
+	Ticket-Nr: 562
+	- Fix changing load conditions for groups is very slow
+	Ticket-Nr: 601
+	- Totem Trigger: Add icon for inverse
+	Inverse requires a totem name, so try fetching the icon from that.
+	
+	Ticket-Nr: 635
+	- Setup the aura_environment before creating fallback state
+	Since it could be for a custom function.
+	
+	Technically not a regression, but surfaced due to a recent change.
+	
+	Ticket-Nr: 633

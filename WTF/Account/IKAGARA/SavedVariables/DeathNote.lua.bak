@@ -1,0 +1,10 @@
+
+DeathNoteDB = {
+	["profileKeys"] = {
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+	},
+	["profiles"] = {
+		["Xesevi - Argent Dawn"] = {
+		},
+	},
+}

@@ -1,0 +1,36 @@
+VER 3 0100000000000001 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Swiftness
+/cast Nature's Swiftness
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Touch
+END
+VER 3 0100000000000004 "Healing Touch" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Healing Touch
+END
+VER 3 0100000000000002 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip Innervate
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Innervate
+END
+VER 3 0100000000000005 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip Lifebloom
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lifebloom
+END
+VER 3 0100000000000006 "Nourish" "INV_MISC_QUESTIONMARK"
+#showtooltip Nourish
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Nourish
+END
+VER 3 0100000000000009 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Regrowth
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Regrowth
+END
+VER 3 0100000000000003 "Rejuvenation" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenation
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Rejuvenation
+END
+VER 3 0100000000000007 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip Swiftmend
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Swiftmend
+END
+VER 3 0100000000000008 "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip Wild Growth
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Wild Growth
+END

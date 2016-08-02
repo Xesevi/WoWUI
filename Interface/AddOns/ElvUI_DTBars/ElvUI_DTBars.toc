@@ -1,0 +1,19 @@
+## Interface: 50100
+## Title: |cff1784d1ElvUI |rDataBars
+## Author: BlackNet, updated by Caedis
+## eMail: edstreet@street-tek.com
+## URL: http://www.tukui.org/forums/topic.php?id=18633
+## URL: 
+## Version : 2
+## RequiredDeps: ElvUI
+## DefaultState: Enabled
+## SavedVariablesPerCharacter: DT_db
+## LoadOnDemand: 0
+
+embeds.xml
+
+ElvUI_DTBars.lua
+currency.lua
+rdps.lua
+rhps.lua
+options.lua

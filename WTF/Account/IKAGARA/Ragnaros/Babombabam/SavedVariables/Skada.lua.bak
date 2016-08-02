@@ -1,0 +1,1356 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["absorbTotal"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 159,
+		["interrupts"] = 0,
+		["damage"] = 3622,
+		["players"] = {
+			{
+				["power"] = {
+				},
+				["healingabsorbed"] = 0,
+				["absorbSpells"] = {
+				},
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["auras"] = {
+				},
+				["absorbTotal"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 124,
+				["interrupts"] = 0,
+				["maxhp"] = 103,
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["damage"] = 3622,
+				["damagespells"] = {
+					["Wrath"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 76,
+						["MISS"] = 4,
+						["damage"] = 3622,
+						["DEFLECT"] = 0,
+						["id"] = 5176,
+						["max"] = 110,
+						["min"] = 39,
+						["PARRY"] = 0,
+						["critical"] = 5,
+						["hit"] = 67,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+				},
+				["deaths"] = {
+				},
+				["damagetaken"] = 30,
+				["deathlog"] = {
+					{
+						["ts"] = 1395591293.94,
+						["amount"] = -4,
+						["hp"] = 99,
+						["spellid"] = 79765,
+						["srcname"] = "Pygmy Surf Crawler",
+					}, -- [1]
+					{
+						["ts"] = 1395591321.668,
+						["amount"] = -3,
+						["hp"] = 100,
+						["spellid"] = 75002,
+						["srcname"] = "Wildmane Cat",
+					}, -- [2]
+					{
+						["ts"] = 1395591330.374,
+						["amount"] = -3,
+						["hp"] = 100,
+						["spellid"] = 75002,
+						["srcname"] = "Wildmane Cat",
+					}, -- [3]
+					{
+						["ts"] = 1395591676.83,
+						["amount"] = -7,
+						["hp"] = 144,
+						["spellid"] = 88163,
+						["srcname"] = "Docile Island Boar",
+					}, -- [4]
+					{
+						["ts"] = 1395591678.824,
+						["amount"] = -6,
+						["hp"] = 141,
+						["spellid"] = 88163,
+						["srcname"] = "Docile Island Boar",
+					}, -- [5]
+					{
+						["ts"] = 1395591680.835,
+						["amount"] = -7,
+						["hp"] = 139,
+						["spellid"] = 88163,
+						["srcname"] = "Docile Island Boar",
+					}, -- [6]
+					["pos"] = 7,
+				},
+				["id"] = "0x03800000058E3DB6",
+				["shielding"] = 0,
+				["damagetakenspells"] = {
+					["Bubble Blast"] = {
+						["min"] = 4,
+						["name"] = "Bubble Blast",
+						["id"] = 79765,
+						["max"] = 4,
+						["totalhits"] = 1,
+						["damage"] = 4,
+					},
+					["Attack"] = {
+						["min"] = 6,
+						["name"] = "Attack",
+						["id"] = 6603,
+						["max"] = 7,
+						["totalhits"] = 3,
+						["damage"] = 20,
+					},
+					["Leaping Rush"] = {
+						["min"] = 3,
+						["name"] = "Leaping Rush",
+						["id"] = 75002,
+						["max"] = 3,
+						["totalhits"] = 2,
+						["damage"] = 6,
+					},
+				},
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["name"] = "Babombabam",
+				["alertCount"] = 0,
+				["alertDamage"] = 0,
+				["dispells"] = 0,
+				["alert"] = {
+				},
+				["absorbed"] = {
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Wildmane Cat"] = {
+				["players"] = {
+					["Babombabam"] = {
+						["taken"] = 383,
+						["done"] = 6,
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 383,
+				["done"] = 6,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Pygmy Surf Crawler"] = {
+				["players"] = {
+					["Babombabam"] = {
+						["taken"] = 249,
+						["done"] = 4,
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 249,
+				["done"] = 4,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Docile Island Boar"] = {
+				["players"] = {
+					["Babombabam"] = {
+						["taken"] = 1162,
+						["done"] = 20,
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1162,
+				["done"] = 20,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Tiki Target"] = {
+				["players"] = {
+					["Babombabam"] = {
+						["taken"] = 1828,
+						["done"] = 0,
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1828,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 3622,
+		["power"] = {
+		},
+		["healing"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["alertDamage"] = 0,
+		["starttime"] = 1395591281,
+		["name"] = "Total",
+		["alertCount"] = 0,
+		["damagetaken"] = 30,
+		["mobhdone"] = 0,
+		["last_action"] = 1395591281,
+		["mobdone"] = 30,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1395591683,
+			["mobname"] = "Docile Island Boar",
+			["damage"] = 143,
+			["players"] = {
+				{
+					["last"] = 1395591681,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Docile Island Boar"] = 143,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 3,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 143,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 3,
+							["MISS"] = 0,
+							["damage"] = 143,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 50,
+							["min"] = 46,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 3,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591678,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Docile Island Boar"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 143,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 143,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 143,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591677,
+			["name"] = "Docile Island Boar",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591677,
+			["mobdone"] = 0,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["endtime"] = 1395591674,
+			["mobname"] = "Docile Island Boar",
+			["damage"] = 154,
+			["players"] = {
+				{
+					["last"] = 1395591673,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Docile Island Boar"] = 154,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 6,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 154,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 3,
+							["MISS"] = 0,
+							["damage"] = 154,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 55,
+							["min"] = 47,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 3,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 20,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591667,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["min"] = 6,
+							["name"] = "Attack",
+							["id"] = 6603,
+							["max"] = 7,
+							["totalhits"] = 3,
+							["damage"] = 20,
+						},
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Docile Island Boar"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 154,
+							["done"] = 20,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 154,
+					["done"] = 20,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 154,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591667,
+			["name"] = "Docile Island Boar",
+			["alertCount"] = 0,
+			["damagetaken"] = 20,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591667,
+			["mobdone"] = 20,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 44,
+			["interrupts"] = 0,
+			["endtime"] = 1395591650,
+			["mobname"] = "Tiki Target",
+			["damage"] = 582,
+			["players"] = {
+				{
+					["last"] = 1395591644,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Tiki Target"] = 582,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 37,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 582,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 12,
+							["MISS"] = 0,
+							["damage"] = 582,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 53,
+							["min"] = 45,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 12,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591607,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Tiki Target"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 582,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 582,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 582,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591606,
+			["name"] = "Tiki Target",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591606,
+			["mobdone"] = 0,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 25,
+			["interrupts"] = 0,
+			["endtime"] = 1395591592,
+			["mobname"] = "Tiki Target",
+			["damage"] = 480,
+			["players"] = {
+				{
+					["last"] = 1395591587,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Tiki Target"] = 480,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 19,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 480,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 9,
+							["MISS"] = 0,
+							["damage"] = 480,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 94,
+							["min"] = 44,
+							["PARRY"] = 0,
+							["critical"] = 1,
+							["hit"] = 8,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591568,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Tiki Target"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 480,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 480,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 480,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591567,
+			["name"] = "Tiki Target",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591567,
+			["mobdone"] = 0,
+		}, -- [4]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 9,
+			["interrupts"] = 0,
+			["endtime"] = 1395591562,
+			["mobname"] = "Tiki Target",
+			["damage"] = 98,
+			["players"] = {
+				{
+					["last"] = 1395591556,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Tiki Target"] = 98,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 2,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 98,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 2,
+							["MISS"] = 0,
+							["damage"] = 98,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 51,
+							["min"] = 47,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 2,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591554,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Tiki Target"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 98,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 98,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 98,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591553,
+			["name"] = "Tiki Target",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591553,
+			["mobdone"] = 0,
+		}, -- [5]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 10,
+			["interrupts"] = 0,
+			["endtime"] = 1395591539,
+			["mobname"] = "Tiki Target",
+			["damage"] = 145,
+			["players"] = {
+				{
+					["last"] = 1395591533,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Tiki Target"] = 145,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 3,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 145,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 3,
+							["MISS"] = 0,
+							["damage"] = 145,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 50,
+							["min"] = 46,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 3,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591530,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Tiki Target"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 145,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 145,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 145,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591529,
+			["name"] = "Tiki Target",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591529,
+			["mobdone"] = 0,
+		}, -- [6]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 31,
+			["interrupts"] = 0,
+			["endtime"] = 1395591528,
+			["mobname"] = "Tiki Target",
+			["damage"] = 523,
+			["players"] = {
+				{
+					["last"] = 1395591522,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Tiki Target"] = 523,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 24,
+					["interrupts"] = 0,
+					["maxhp"] = 144,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 523,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 12,
+							["MISS"] = 1,
+							["damage"] = 523,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 52,
+							["min"] = 44,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 11,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591498,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Tiki Target"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 523,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 523,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 523,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591497,
+			["name"] = "Tiki Target",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591497,
+			["mobdone"] = 0,
+		}, -- [7]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["endtime"] = 1395591469,
+			["mobname"] = "Docile Island Boar",
+			["damage"] = 129,
+			["players"] = {
+				{
+					["last"] = 1395591467,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Docile Island Boar"] = 129,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 4,
+					["interrupts"] = 0,
+					["maxhp"] = 103,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 129,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 4,
+							["MISS"] = 1,
+							["damage"] = 129,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 47,
+							["min"] = 39,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 3,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591463,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Docile Island Boar"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 129,
+							["done"] = 0,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 129,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 129,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591461,
+			["name"] = "Docile Island Boar",
+			["alertCount"] = 0,
+			["damagetaken"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591461,
+			["mobdone"] = 0,
+		}, -- [8]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1395591324,
+			["mobname"] = "Wildmane Cat",
+			["damage"] = 123,
+			["players"] = {
+				{
+					["last"] = 1395591322,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Wildmane Cat"] = 123,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 3,
+					["interrupts"] = 0,
+					["maxhp"] = 103,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 123,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 3,
+							["MISS"] = 0,
+							["damage"] = 123,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 45,
+							["min"] = 39,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 3,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 3,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591319,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+						["Leaping Rush"] = {
+							["min"] = 3,
+							["name"] = "Leaping Rush",
+							["id"] = 75002,
+							["max"] = 3,
+							["totalhits"] = 1,
+							["damage"] = 3,
+						},
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Wildmane Cat"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 123,
+							["done"] = 3,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 123,
+					["done"] = 3,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 123,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591318,
+			["name"] = "Wildmane Cat",
+			["alertCount"] = 0,
+			["damagetaken"] = 3,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591318,
+			["mobdone"] = 3,
+		}, -- [9]
+		{
+			["healingabsorbed"] = 0,
+			["absorbTotal"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1395591315,
+			["mobname"] = "Wildmane Cat",
+			["damage"] = 84,
+			["players"] = {
+				{
+					["last"] = 1395591314,
+					["power"] = {
+					},
+					["healingabsorbed"] = 0,
+					["absorbSpells"] = {
+					},
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Wildmane Cat"] = 84,
+					},
+					["auras"] = {
+					},
+					["absorbTotal"] = 0,
+					["ccbreaks"] = 0,
+					["time"] = 3,
+					["interrupts"] = 0,
+					["maxhp"] = 103,
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["damage"] = 84,
+					["damagespells"] = {
+						["Wrath"] = {
+							["DODGE"] = 0,
+							["REFLECT"] = 0,
+							["crushing"] = 0,
+							["IMMUNE"] = 0,
+							["glancing"] = 0,
+							["totalhits"] = 3,
+							["MISS"] = 1,
+							["damage"] = 84,
+							["DEFLECT"] = 0,
+							["id"] = 5176,
+							["max"] = 42,
+							["min"] = 42,
+							["PARRY"] = 0,
+							["critical"] = 0,
+							["hit"] = 2,
+							["EVADE"] = 0,
+							["RESIST"] = 0,
+							["BLOCK"] = 0,
+							["ABSORB"] = 0,
+						},
+					},
+					["damagetaken"] = 3,
+					["id"] = "0x03800000058E3DB6",
+					["first"] = 1395591311,
+					["shielding"] = 0,
+					["damagetakenspells"] = {
+						["Leaping Rush"] = {
+							["min"] = 3,
+							["name"] = "Leaping Rush",
+							["id"] = 75002,
+							["max"] = 3,
+							["totalhits"] = 1,
+							["damage"] = 3,
+						},
+					},
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["name"] = "Babombabam",
+					["alertCount"] = 0,
+					["alertDamage"] = 0,
+					["dispells"] = 0,
+					["alert"] = {
+					},
+					["absorbed"] = {
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Wildmane Cat"] = {
+					["players"] = {
+						["Babombabam"] = {
+							["taken"] = 84,
+							["done"] = 3,
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 84,
+					["done"] = 3,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 84,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["alertDamage"] = 0,
+			["starttime"] = 1395591309,
+			["name"] = "Wildmane Cat",
+			["alertCount"] = 0,
+			["damagetaken"] = 3,
+			["mobhdone"] = 0,
+			["last_action"] = 1395591309,
+			["mobdone"] = 3,
+		}, -- [10]
+	},
+}

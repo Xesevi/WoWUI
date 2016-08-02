@@ -1,0 +1,120 @@
+
+ActionBarSaverDB = {
+	["restoreRank"] = false,
+	["macro"] = false,
+	["sets"] = {
+		["DEATHKNIGHT"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["SHAMAN"] = {
+		},
+		["MAGE"] = {
+		},
+		["PRIEST"] = {
+			["shadow"] = {
+				nil, -- [1]
+				"macro|2||Heal|Interface\\Icons\\INV_MISC_QUESTIONMARK|#showtooltip Heal/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Heal", -- [2]
+				"macro|3||Renew|Interface\\Icons\\INV_MISC_QUESTIONMARK|#showtooltip Renew/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Renew", -- [3]
+				"macro|4||Void Shift|Interface\\Icons\\INV_MISC_QUESTIONMARK|#showtooltip Holy Word: Chastise/n/stopcasting/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Holy Word: Chastise", -- [4]
+				"macro|5||Circle|Interface\\Icons\\INV_MISC_QUESTIONMARK|#showtooltip Circle of Healing/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Circle of Healing", -- [5]
+				"macro|6||Shield|Interface\\Icons\\Spell_Holy_PowerWordShield|#showtooltip Power Word: Shield/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Power Word: Shield", -- [6]
+				"item|76093||Potion of the Jade Serpent", -- [7]
+				nil, -- [8]
+				"spell|15473||Shadowform||", -- [9]
+				"spell|48045||Mind Sear||", -- [10]
+				"macro|11||Flash Heal|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip Flash Heal/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Flash Heal", -- [11]
+				"spell|15407||Mind Flay||", -- [12]
+				"macro|13||Goblin Gliderqqq|Interface\\Icons\\INV_Cape_Pandaria_DragonCaster_D_02|/use 15", -- [13]
+				"macro|14||Nitro Boosts|Interface\\Icons\\Ability_Rogue_Sprint|/cancelaura Body and Soul/n/cancelaura Stampeding Roar/n/cancelaura Spinning Crane Kick/n/use 6", -- [14]
+				nil, -- [15]
+				nil, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				nil, -- [23]
+				nil, -- [24]
+				"spell|589||Shadow Word: Pain||", -- [25]
+				"item|5512||Healthstone", -- [26]
+				"spell|586||Fade||", -- [27]
+				nil, -- [28]
+				"spell|108920||Void Tendrils||", -- [29]
+				nil, -- [30]
+				nil, -- [31]
+				nil, -- [32]
+				nil, -- [33]
+				"item|62671||Severed Sagefish Head", -- [34]
+				nil, -- [35]
+				nil, -- [36]
+				"item|117396||The Eye of Anzu", -- [37]
+				"spell|1706||Levitate||", -- [38]
+				"item|115009||Improved Iron Trap", -- [39]
+				"spell|21562||Power Word: Fortitude||", -- [40]
+				"spell|2006||Resurrection||", -- [41]
+				"macro|42||Amber|Interface\\ICONS\\Ability_Creature_Amber_02.blp|#showtooltip Restorative Amber/n/use [nomod] Restorative Amber/n/cancelaura [mod:alt] Restorative Amber", -- [42]
+				"spell|6346||Fear Ward||", -- [43]
+				"item|102351||Drums of Rage", -- [44]
+				"item|76085||Flask of the Warm Sun", -- [45]
+				"companion|121820|||MOUNT|", -- [46]
+				"companion|121820|||MOUNT|", -- [47]
+				"spell|2006||Resurrection||", -- [48]
+				"spell|59752||Every Man for Himself|Racial|", -- [49]
+				"macro|50||Prayer of Mendin|Interface\\Icons\\Spell_Holy_PrayerOfMendingtga|#showtooltip Prayer of Mending/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Prayer of Mending", -- [50]
+				"spell|32375||Mass Dispel||", -- [51]
+				"spell|47585||Dispersion||", -- [52]
+				"macro|53||Greater Heal|Interface\\Icons\\INV_MISC_QUESTIONMARK|#showtooltip Guardian Spirit/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Guardian Spirit", -- [53]
+				nil, -- [54]
+				"spell|120644||Halo||", -- [55]
+				"spell|32379||Shadow Word: Death||", -- [56]
+				nil, -- [57]
+				"spell|15487||Silence||", -- [58]
+				nil, -- [59]
+				"spell|132603||Shadowfiend||", -- [60]
+				"spell|73325||Leap of Faith||", -- [61]
+				"spell|121536||Angelic Feather||", -- [62]
+				"spell|19236||Desperate Prayer||", -- [63]
+				"item|110003||Ragewing's Firefang", -- [64]
+				"item|76093||Potion of the Jade Serpent", -- [65]
+				"macro|66||Leap of Faith|INTERFACE\\ICONS\\priest_spell_leapoffaith_a|#showtooltip Leap of Faith/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Leap of Faith", -- [66]
+				"spell|48045||Mind Sear||", -- [67]
+				nil, -- [68]
+				"companion|97493|||MOUNT|", -- [69]
+				"companion|41252|||MOUNT|", -- [70]
+				nil, -- [71]
+				nil, -- [72]
+				"spell|34914||Vampiric Touch||", -- [73]
+				"spell|589||Shadow Word: Pain||", -- [74]
+				"spell|73510||Mind Spike||", -- [75]
+				"spell|2944||Devouring Plague||", -- [76]
+				"spell|15407||Mind Flay||", -- [77]
+				"spell|8092||Mind Blast||", -- [78]
+				"spell|15286||Vampiric Embrace||", -- [79]
+				"item|5512||Healthstone", -- [80]
+				"macro|81||lololol|Interface\\Icons\\INV_MISC_QUESTIONMARK|/tar Archmage Khadgar/n/script SelectGossipOption(1)/n/click StaticPopup1Button1", -- [81]
+				"spell|48045||Mind Sear||", -- [82]
+				"spell|2061||Flash Heal||", -- [83]
+				"spell|6346||Fear Ward||", -- [84]
+				[109] = "item|86169||Drape of Gathering Clouds",
+				[110] = "item|86338||Invoker's Belt of Final Winter",
+			},
+		},
+		["WARLOCK"] = {
+		},
+		["ROGUE"] = {
+		},
+		["HUNTER"] = {
+		},
+		["DRUID"] = {
+		},
+		["MONK"] = {
+		},
+		["PALADIN"] = {
+		},
+	},
+	["spellSubs"] = {
+	},
+	["checkCount"] = false,
+}

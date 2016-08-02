@@ -1,0 +1,353 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["_playeridx"] = {
+			["0x0200000003F526D2"] = {
+				["power"] = {
+				},
+				["healingabsorbed"] = 0,
+				["absorbSpells"] = {
+				},
+				["class"] = "WARLOCK",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Malefic Grasp"] = {
+						["name"] = "Malefic Grasp",
+						["active"] = 0,
+						["id"] = 103103,
+						["auratype"] = "BUFF",
+						["uptime"] = 9,
+					},
+				},
+				["absorbTotal"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 15,
+				["interrupts"] = 0,
+				["maxhp"] = 14349,
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["damage"] = 1850,
+				["damagespells"] = {
+					["Malefic Grasp"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 7,
+						["MISS"] = 0,
+						["damage"] = 1570,
+						["DEFLECT"] = 0,
+						["id"] = 103103,
+						["max"] = 225,
+						["min"] = 224,
+						["PARRY"] = 0,
+						["critical"] = 0,
+						["hit"] = 7,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+					["Rain of Fire"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 1,
+						["MISS"] = 0,
+						["damage"] = 280,
+						["DEFLECT"] = 0,
+						["id"] = 42223,
+						["max"] = 280,
+						["min"] = 280,
+						["PARRY"] = 0,
+						["critical"] = 0,
+						["hit"] = 1,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+				},
+				["deaths"] = {
+				},
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "0x0200000003F526D2",
+				["shielding"] = 0,
+				["damagetakenspells"] = {
+				},
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["name"] = "Xandoraz",
+				["alertCount"] = 0,
+				["alertDamage"] = 0,
+				["dispells"] = 0,
+				["alert"] = {
+				},
+				["absorbed"] = {
+				},
+			},
+		},
+		["absorbTotal"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 1850,
+		["players"] = {
+			{
+				["power"] = {
+				},
+				["healingabsorbed"] = 0,
+				["absorbSpells"] = {
+				},
+				["class"] = "WARLOCK",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Malefic Grasp"] = {
+						["name"] = "Malefic Grasp",
+						["active"] = 0,
+						["id"] = 103103,
+						["auratype"] = "BUFF",
+						["uptime"] = 9,
+					},
+				},
+				["absorbTotal"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 15,
+				["interrupts"] = 0,
+				["maxhp"] = 14349,
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["damage"] = 1850,
+				["damagespells"] = {
+					["Malefic Grasp"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 7,
+						["MISS"] = 0,
+						["damage"] = 1570,
+						["DEFLECT"] = 0,
+						["id"] = 103103,
+						["max"] = 225,
+						["min"] = 224,
+						["PARRY"] = 0,
+						["critical"] = 0,
+						["hit"] = 7,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+					["Rain of Fire"] = {
+						["DODGE"] = 0,
+						["REFLECT"] = 0,
+						["crushing"] = 0,
+						["IMMUNE"] = 0,
+						["glancing"] = 0,
+						["totalhits"] = 1,
+						["MISS"] = 0,
+						["damage"] = 280,
+						["DEFLECT"] = 0,
+						["id"] = 42223,
+						["max"] = 280,
+						["min"] = 280,
+						["PARRY"] = 0,
+						["critical"] = 0,
+						["hit"] = 1,
+						["EVADE"] = 0,
+						["RESIST"] = 0,
+						["BLOCK"] = 0,
+						["ABSORB"] = 0,
+					},
+				},
+				["deaths"] = {
+				},
+				["damagetaken"] = 0,
+				["deathlog"] = {
+				},
+				["id"] = "0x0200000003F526D2",
+				["shielding"] = 0,
+				["damagetakenspells"] = {
+				},
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["name"] = "Xandoraz",
+				["alertCount"] = 0,
+				["alertDamage"] = 0,
+				["dispells"] = 0,
+				["alert"] = {
+				},
+				["absorbed"] = {
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Dinwiddie"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Siphon Life"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 2,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Siphon Life"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 2,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Stormwind Rat"] = {
+				["players"] = {
+					["Xandoraz"] = {
+						["taken"] = 280,
+						["done"] = 0,
+						["class"] = "WARLOCK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 280,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Axágon"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Leader of the Pack"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 46824,
+						["hits"] = 3,
+					},
+					["Healing Touch"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 152396,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Leader of the Pack"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 46824,
+						["hits"] = 3,
+					},
+					["Healing Touch"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 152396,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Training Dummy"] = {
+				["players"] = {
+					["Xandoraz"] = {
+						["taken"] = 1570,
+						["done"] = 0,
+						["class"] = "WARLOCK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1570,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Gundrék"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 21992,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 21992,
+						["hits"] = 2,
+					},
+				},
+			},
+		},
+		["mobtaken"] = 1850,
+		["power"] = {
+		},
+		["healing"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["alertDamage"] = 0,
+		["starttime"] = 1364928393,
+		["name"] = "Total",
+		["alertCount"] = 0,
+		["damagetaken"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1364928393,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

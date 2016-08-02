@@ -1,0 +1,30 @@
+
+AngryAssign_Pages = {
+	[832445064] = {
+		["Updated"] = 1430679835,
+		["Name"] = "Blackhand",
+		["Id"] = 832445064,
+		["UpdateId"] = 664245644,
+		["Contents"] = "p3: kill boss",
+	},
+}
+AngryAssign_State = {
+	["directionUp"] = false,
+	["locked"] = true,
+	["display"] = {
+		["y"] = -107.5,
+		["x"] = 1.99990224838257,
+		["point"] = "TOPLEFT",
+		["scale"] = 1,
+		["hidden"] = true,
+	},
+	["tree"] = {
+	},
+	["window"] = {
+	},
+}
+AngryAssign_Config = {
+	["hideoncombat"] = true,
+	["fontHeight"] = 14,
+	["fontName"] = "Expressway",
+}

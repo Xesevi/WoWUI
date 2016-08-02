@@ -1,0 +1,91 @@
+VER 3 0100000000000006 "AoE Taunt" "INV_MISC_QUESTIONMARK"
+/target Black Ox Statue
+/cast Provoke
+/targetlasttarget
+END
+VER 3 0100000000000011 "Chi Brew" "ABILITY_MONK_CHIBREW"
+/cast Chi Brew
+END
+VER 3 0100000000000002 "Diffuse Magic" "INV_MISC_QUESTIONMARK"
+#showtooltip Diffuse Magic
+/cancelaura Spinning Crane Kick
+/cast Diffuse Magic
+END
+VER 3 0100000000000003 "Fortifying Brew" "INV_MISC_QUESTIONMARK"
+#showtooltip Fortifying Brew
+/cancelaura Spinning Crane Kick
+/cast Fortifying Brew
+END
+VER 3 0100000000000010 "Get Celerity" "ABILITY_MONK_QUIPUNCH"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow1Talent3 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(1)
+/click StaticPopup1Button1
+END
+VER 3 010000000000000E "Get Momentum" "ABILITY_MONK_STANDINGKICK"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow1Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(3)
+/click StaticPopup1Button1
+END
+VER 3 0100000000000013 "GET RJW" "ABILITY_MONK_RUSHINGJADEWIND"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow6Talent2 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(16)
+/click StaticPopup1Button1
+/run SetMacroSpell("XuenRJW",GetSpellInfo("Invoke Xuen, the White Tiger") or "Rushing Jade Wind")
+END
+VER 3 010000000000000F "Get Tiger Lust" "ABILITY_MONK_TIGERSLUST"
+/clearworldmarker all
+END
+VER 3 0100000000000001 "Get Xuen" "ABILITY_MONK_SUMMONTIGERSTATUE"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow6Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(17)
+/click StaticPopup1Button1
+/run SetMacroSpell("XuenRJW",GetSpellInfo("Invoke Xuen, the White Tiger") or "Rushing Jade Wind")
+END
+VER 3 0100000000000004 "Guard" "INV_MISC_QUESTIONMARK"
+#showtooltip Guard
+/cancelaura Spinning Crane Kick
+/cast Guard
+END
+VER 3 010000000000000B "Invis Field" "ability_rogue_dirtydeeds"
+/run CastSpellByName("Engineering") for i=1, GetNumTradeSkills() do if GetTradeSkillInfo(i) == "Invisibility Field" then DoTradeSkill(i) UseItemByName(GetInventoryItemID("player", 6)) StaticPopup1Button1:Click() break end end CloseTradeSkill()
+END
+VER 3 0100000000000009 "Keg Smash" "INV_MISC_QUESTIONMARK"
+#showtooltip Keg Smash
+/cancelaura Spinning Crane Kick
+/cast Keg Smash
+END
+VER 3 010000000000000C "Nitro Boosts" "Ability_Rogue_Sprint"
+/run CastSpellByName("Engineering") for i=1, GetNumTradeSkills() do if GetTradeSkillInfo(i) == "Nitro Boosts"       then DoTradeSkill(i) UseItemByName(GetInventoryItemID("player", 6)) StaticPopup1Button1:Click() break end end CloseTradeSkill()
+END
+VER 3 0100000000000005 "Purifying BRew" "INV_MISC_QUESTIONMARK"
+#showtooltip Purifying Brew
+/cancelaura Spinning Crane Kick
+/cast Purifying Brew
+END
+VER 3 010000000000000D "Rape" "INV_MISC_QUESTIONMARK"
+/cast Diffuse Magic
+/cast Zen Meditation
+END
+VER 3 0100000000000007 "Spear Hand Strik" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cancelaura Spinning Crane Kick
+/cast [mod:shift,@target,exists][@focus,exists][@target] Spear Hand Strike
+END
+VER 3 010000000000000A "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/cancelaura Spinning Crane Kick
+/cast Provoke
+END
+VER 3 0100000000000008 "Transcendence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Transcendence
+/cast [mod:alt] Transcendence: Transfer;
+END

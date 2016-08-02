@@ -1,0 +1,22 @@
+------------------------------------------------------------------------
+r49 | janike | 2014-10-20 14:08:16 +0000 (Mon, 20 Oct 2014) | 1 line
+Changed paths:
+   A /tags/3.1 (from /trunk:48)
+
+Released as 3.1
+------------------------------------------------------------------------
+r48 | janike | 2014-10-20 14:07:31 +0000 (Mon, 20 Oct 2014) | 2 lines
+Changed paths:
+   M /trunk/GuildRecr.lua
+   M /trunk/GuildRecr.toc
+   A /trunk/Locales/deDE.lua
+
+Removed $glevel message tag
+Added deDE translation
+------------------------------------------------------------------------
+r46 | janike | 2014-10-20 11:37:33 +0000 (Mon, 20 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/GuildRecr.toc
+
+Update libs and toc to support WoW 6.0
+------------------------------------------------------------------------

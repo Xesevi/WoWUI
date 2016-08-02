@@ -1,0 +1,195 @@
+VER 3 0000000000000010 "/cancel" "INV_MISC_QUESTIONMARK"
+/cancelaura Divine Shield
+END
+VER 3 000000000000003B "Antilag macro" "INV_MISC_QUESTIONMARK"
+/run SetCVar("raidFramesDisplayIncomingHeals",1)
+END
+VER 3 0000000000000036 "Blackout kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Blackout Kick
+/cancelaura Spinning Crane Kick
+/cast Blackout Kick
+END
+VER 3 0000000000000007 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Protection
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Protection
+END
+VER 3 0000000000000038 "Challenge Mode S" "INV_MISC_QUESTIONMARK"
+/2 WTS |cffffff00|Hachievement:6378:0380000005694736:1:7:30:13:4294967295:4294967295:4294967295:4294967295|h[Challenge Conqueror: Gold]|h|r - Price: 80k, the run takes ~2 hours, /w me if you are interested Ready to go now!
+END
+VER 3 0000000000000040 "Chibwave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Chi Wave
+/cast Chi Burst
+END
+VER 3 000000000000003E "CM PS" "INV_MISC_QUESTIONMARK"
+/cast [target=Selarios] Pain Suppression
+END
+VER 3 0000000000000034 "CM Reset" "INV_MISC_QUESTIONMARK"
+/script ResetChallengeMode()
+END
+VER 3 0000000000000028 "Darkwater" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomod] Virmen's Bite
+/use [mod:alt] Darkwater Potion
+END
+VER 3 0000000000000029 "Focus" "INV_MISC_QUESTIONMARK"
+/focus
+END
+VER 3 0000000000000011 "Freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Freedom
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Freedom
+END
+VER 3 0000000000000041 "Get Chi Burst" "SPELL_ARCANE_ARCANETORRENT"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow2Talent1 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(6)
+/click StaticPopup1Button1
+/run SetMacroSpell("Chibwave",GetSpellInfo("Chi Wave") or "Chi Burst")
+END
+VER 3 0000000000000042 "Get Chi Wave" "ABILITY_MONK_CHIWAVE"
+#showtooltip
+/click PlayerTalentFrameTalentsTalentRow2Talent3 RightButton
+/click StaticPopup1Button1
+/run LearnTalent(4)
+/click StaticPopup1Button1
+/run SetMacroSpell("Chibwave",GetSpellInfo("Chi Wave") or "Chi Burst")
+END
+VER 3 0000000000000031 "Goblin Gliderqqq" "INV_Cape_Pandaria_DragonCaster_D_02"
+/use 15
+END
+VER 3 000000000000004D "HA" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Holy Avenger
+/use Sanctus, Sigil of the Unbroken
+END
+VER 3 0000000000000037 "Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cancelaura Spinning Crane Kick
+/cast Spear Hand Strike
+END
+VER 3 0000000000000009 "Leap of Faith" "INV_MISC_QUESTIONMARK"
+#showtooltip Leap of Faith
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Leap of Faith
+END
+VER 3 0000000000000044 "Living Mushroom" "INV_MISC_QUESTIONMARK"
+/target Living Mushroom
+/focus
+/targetlasttarget
+END
+VER 3 0000000000000048 "Maidens Bop" "INV_MISC_QUESTIONMARK"
+/assist Admiral Gar'an
+/cast Hand of Protection
+END
+VER 3 0000000000000049 "Maidens Sac" "INV_MISC_QUESTIONMARK"
+/assist Enforcer Sorka
+/cast Hand of Sacrifice
+/targetlasttarget
+END
+VER 3 000000000000003C "mega boots" "INV_MISC_QUESTIONMARK"
+/use 8
+/equip Unrepentant Heels
+/equip Quilen Hide Boots
+END
+VER 3 000000000000000C "Mind Sear" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Sear
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Mind Sear
+END
+VER 3 0000000000000014 "Nitro Boosts" "Ability_Rogue_Sprint"
+/cancelaura Body and Soul
+/cancelaura Stampeding Roar
+/cancelaura Spinning Crane Kick
+/use 6
+END
+VER 3 000000000000004B "Pos" "INV_MISC_QUESTIONMARK"
+/run print(UnitPosition("player"))
+END
+VER 3 0000000000000016 "Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip Purify
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Purify
+END
+VER 3 000000000000003A "Rape Avert" "INV_MISC_QUESTIONMARK"
+/cast Diffuse Magic
+/cast Avert Harm
+END
+VER 3 000000000000002B "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebirth
+/cast [@mouseover,help,exists][@target,help][] Rebirth
+END
+VER 3 0000000000000004 "Rebuke" "INV_MISC_QUESTIONMARK"
+#showtooltip Rebuke
+/stopcasting
+/cast [mod:shift,@target,exists][@focus,exists][@target] Rebuke
+END
+VER 3 000000000000001A "Reset" "INV_MISC_QUESTIONMARK"
+/skada reset
+END
+VER 3 0000000000000006 "Sac" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Sacrifice
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Sacrifice
+END
+VER 3 0000000000000003 "Salvation" "INV_MISC_QUESTIONMARK"
+#showtooltip Hand of Salvation
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Hand of Salvation
+END
+VER 3 000000000000002F "Skada reset" "INV_MISC_QUESTIONMARK"
+/skada reset
+END
+VER 3 0000000000000046 "Sorka Debuff" "INV_MISC_QUESTIONMARK"
+/assist Enforcer Sorka
+/cast Power Word: Shield
+/targetlasttarget
+END
+VER 3 000000000000004C "Sources Bars" "INV_MISC_QUESTIONMARK"
+/raidbar 51 Source 1
+/raidbar 109 Source 2
+/raidbar 185 Source 3
+/raidbar 242 Source 4
+END
+VER 3 0000000000000039 "Synapse Springs" "INV_MISC_QUESTIONMARK"
+/use 10
+END
+VER 3 000000000000003D "Target Macro" "INV_MISC_QUESTIONMARK"
+/target scholomance acolyte
+END
+VER 3 0000000000000032 "Taunt Boss" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Provoke
+/cast Provoke
+END
+VER 3 000000000000004E "THE MACRO" "INV_MISC_QUESTIONMARK"
+/cancelaura Clarity of Will
+/cancelaura Power Word: Shield
+/cancelaura Avenger's Reprieve
+/cancelaura Sacred Shield
+/cancelaura Hand of Protection
+/cancelaura Renewing Mist
+/cancelaura Illuminated Healing
+/sit
+/cancelaura Shield of the Righteous
+END
+VER 3 0000000000000045 "Trink + Belf Rac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Everburning Candle
+/cast Arcane Torrent
+END
+VER 3 000000000000003F "Void Shift" "INV_MISC_QUESTIONMARK"
+/cast [target=Selarios] Void Shift
+END
+VER 3 0000000000000002 "WoG" "INV_MISC_QUESTIONMARK"
+#showtooltip Word of Glory
+/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Word of Glory
+END
+VER 3 0000000000000033 "Xuen" "INV_MISC_QUESTIONMARK"
+/cast Tiger Palm
+/petattack
+END
+VER 3 0000000000000035 "XuenRJW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Invoke Xuen, the White Tiger
+/cast Rushing Jade Wind
+/cancelaura Alan the Mushan
+/cancelaura Bubbling Beverage
+END
+VER 3 0000000000000047 "Yes" "INV_MISC_QUESTIONMARK"
+/click StaticPopup1Button1
+END

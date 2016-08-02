@@ -1,0 +1,8 @@
+## Interface: 40000
+## Title: Headline
+## Author: Senomar, Arthas EU
+## Version: r13
+## Notes: Nameplates
+## SavedVariables: HeadlineGlobalSettings
+
+Headline.lua

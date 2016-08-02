@@ -1,0 +1,10 @@
+
+BigBrotherDB = {
+	["profiles"] = {
+		["Default"] = {
+			["BuffWindow_posY"] = 607.0000610351563,
+			["BuffWindow_posX"] = 1530.000732421875,
+			["BuffWindow_height"] = 190.0000152587891,
+		},
+	},
+}

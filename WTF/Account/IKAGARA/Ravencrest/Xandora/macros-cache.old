@@ -1,0 +1,8 @@
+MACRO 16777217 "Death pact" "INV_MISC_QUESTIONMARK"
+/use Death pact
+END
+MACRO 16777218 "Death Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Rune Strike
+/cast Rune Strike
+/cast Blood Tap
+END
