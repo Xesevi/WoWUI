@@ -49,9 +49,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueqeg98lt",
 					["id"] = 122708,
 				}, -- [7]
-				["name"] = "Mount Ring",
-				["save"] = true,
 				["hotkey"] = "CTRL-E",
+				["save"] = true,
+				["name"] = "Mount Ring",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,

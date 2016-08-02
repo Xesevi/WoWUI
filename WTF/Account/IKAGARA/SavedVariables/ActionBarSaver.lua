@@ -126,7 +126,7 @@ ActionBarSaverDB = {
 				[58] = "spell|47476||Strangulate||",
 				[59] = "macro|59||Mind Freeze|Interface\\Icons\\Spell_DeathKnight_MindFreeze|#showtooltip Mind Freeze/n/stopcasting/n/cast [mod:shift,@target,exists][@focus,exists][@target] Mind Freeze",
 				[60] = "spell|48707||Anti-Magic Shell||",
-				[30] = "spell|45529||Blood Tap||",
+				[104] = "spell|77575||Outbreak||",
 				[62] = "macro|62||AoE GRIP|Interface\\Icons\\ability_deathknight_aoedeathgrip|#showtooltip Gorefiend's Grasp/n/cast [target=Glaxdk] Gorefiend's Grasp",
 				[63] = "item|118882||Scabbard of Kyanos",
 				[64] = "spell|47568||Empower Rune Weapon||",
@@ -135,26 +135,26 @@ ActionBarSaverDB = {
 				[101] = "spell|49998||Death Strike||",
 				[103] = "spell|123693||Plague Leech||",
 				[74] = "item|112683||QR58 Flame Blaster",
-				[81] = "spell|83968||Mass Resurrection|Guild Perk|",
-				[40] = "spell|3714||Path of Frost||",
-				[73] = "item|115533||Vial of Refined Serum",
-				[55] = "spell|50842||Blood Boil||",
-				[54] = "spell|49222||Bone Shield||",
-				[53] = "spell|49576||Death Grip||",
-				[102] = "spell|152280||Defile||",
-				[100] = "spell|47568||Empower Rune Weapon||",
-				[98] = "spell|49028||Dancing Rune Weapon||",
-				[65] = "spell|77606||Dark Simulacrum||",
-				[49] = "spell|55233||Vampiric Blood||",
-				[50] = "spell|49028||Dancing Rune Weapon||",
-				[51] = "spell|48792||Icebound Fortitude||",
-				[52] = "spell|48743||Death Pact||",
-				[27] = "spell|42650||Army of the Dead||",
-				[75] = "item|117396||The Eye of Anzu",
-				[28] = "spell|96268||Death's Advance||",
-				[56] = "item|109223||Healing Tonic",
 				[57] = "spell|56222||Dark Command||",
-				[104] = "spell|77575||Outbreak||",
+				[40] = "spell|3714||Path of Frost||",
+				[53] = "spell|49576||Death Grip||",
+				[28] = "spell|96268||Death's Advance||",
+				[75] = "item|117396||The Eye of Anzu",
+				[27] = "spell|42650||Army of the Dead||",
+				[52] = "spell|48743||Death Pact||",
+				[51] = "spell|48792||Icebound Fortitude||",
+				[50] = "spell|49028||Dancing Rune Weapon||",
+				[49] = "spell|55233||Vampiric Blood||",
+				[65] = "spell|77606||Dark Simulacrum||",
+				[98] = "spell|49028||Dancing Rune Weapon||",
+				[100] = "spell|47568||Empower Rune Weapon||",
+				[102] = "spell|152280||Defile||",
+				[73] = "item|115533||Vial of Refined Serum",
+				[54] = "spell|49222||Bone Shield||",
+				[55] = "spell|50842||Blood Boil||",
+				[56] = "item|109223||Healing Tonic",
+				[81] = "spell|83968||Mass Resurrection|Guild Perk|",
+				[30] = "spell|45529||Blood Tap||",
 			},
 		},
 		["WARRIOR"] = {
@@ -303,10 +303,10 @@ ActionBarSaverDB = {
 				[59] = "spell|120517||Halo||",
 				[70] = "companion|41252|||MOUNT|",
 				[26] = "item|5512||Healthstone",
-				[67] = "spell|48045||Mind Sear||",
+				[79] = "item|111820||Swapblaster",
 				[52] = "spell|64843||Divine Hymn||",
 				[60] = "spell|132603||Shadowfiend||",
-				[77] = "spell|585||Smite||",
+				[110] = "item|86338||Invoker's Belt of Final Winter",
 				[83] = "spell|2061||Flash Heal||",
 				[109] = "item|86169||Drape of Gathering Clouds",
 				[75] = "item|119093||Aviana's Feather",
@@ -315,8 +315,8 @@ ActionBarSaverDB = {
 				[53] = "macro|53||Greater Heal|Interface\\Icons\\Spell_Holy_GuardianSpirit|#showtooltip Guardian Spirit/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Guardian Spirit",
 				[61] = "spell|73325||Leap of Faith||",
 				[74] = "spell|589||Shadow Word: Pain||",
-				[110] = "item|86338||Invoker's Belt of Final Winter",
-				[79] = "item|111820||Swapblaster",
+				[77] = "spell|585||Smite||",
+				[67] = "spell|48045||Mind Sear||",
 			},
 			["shadow"] = {
 				nil, -- [1]
@@ -398,8 +398,8 @@ ActionBarSaverDB = {
 				[75] = "spell|73510||Mind Spike||",
 				[77] = "spell|15407||Mind Flay||",
 				[79] = "spell|15286||Vampiric Embrace||",
-				[78] = "spell|8092||Mind Blast||",
 				[110] = "item|86338||Invoker's Belt of Final Winter",
+				[78] = "spell|8092||Mind Blast||",
 			},
 			["pom"] = {
 				"spell|33076||Prayer of Mending||", -- [1]
@@ -491,148 +491,6 @@ ActionBarSaverDB = {
 				[111] = "spell|33076||Prayer of Mending||",
 				[112] = "spell|33076||Prayer of Mending||",
 			},
-		},
-		["ROGUE"] = {
-		},
-		["WARLOCK"] = {
-		},
-		["DEMONHUNTER"] = {
-		},
-		["HUNTER"] = {
-			["bm"] = {
-				"spell|77767||Cobra Shot||", -- [1]
-				"spell|53351||Kill Shot||", -- [2]
-				"spell|3044||Arcane Shot||", -- [3]
-				"macro|4||Kill Command|Interface\\Icons\\Ability_Hunter_KillCommand|#showtooltip/n/petattack/n/cast Kill Command", -- [4]
-				"spell|82692||Focus Fire||", -- [5]
-				"spell|120360||Barrage||", -- [6]
-				"spell|5116||Concussive Shot||", -- [7]
-				"spell|172106||Aspect of the Fox||", -- [8]
-				"spell|161691||Garrison Ability||", -- [9]
-				"spell|19801||Tranquilizing Shot||", -- [10]
-				"spell|82939||Explosive Trap|Fire - Trap Launcher|", -- [11]
-				"spell|1543||Flare||", -- [12]
-				"item|109076||Goblin Glider Kit", -- [13]
-				nil, -- [14]
-				nil, -- [15]
-				nil, -- [16]
-				nil, -- [17]
-				nil, -- [18]
-				nil, -- [19]
-				nil, -- [20]
-				nil, -- [21]
-				nil, -- [22]
-				nil, -- [23]
-				nil, -- [24]
-				"spell|82941||Ice Trap|Frost - Trap Launcher|", -- [25]
-				"spell|13159||Aspect of the Pack||", -- [26]
-				"spell|2641||Dismiss Pet||", -- [27]
-				"spell|5118||Aspect of the Cheetah||", -- [28]
-				"macro|29||Master's Call|Interface\\Icons\\Ability_Hunter_MastersCall|#showtooltip/n/cast [target=mouseover] Master's Call", -- [29]
-				"spell|982||Revive Pet||", -- [30]
-				nil, -- [31]
-				nil, -- [32]
-				nil, -- [33]
-				nil, -- [34]
-				nil, -- [35]
-				nil, -- [36]
-				"item|122343||Sleeper Sushi", -- [37]
-				"macro|38||CM Reset|Interface\\Icons\\INV_MISC_QUESTIONMARK|/script ResetChallengeMode()", -- [38]
-				"item|118630||Hyper Augment Rune", -- [39]
-				"item|109153||Greater Draenic Agility Flask", -- [40]
-				"spell|77769||Trap Launcher||", -- [41]
-				"macro|42||Focus|Interface\\Icons\\INV_MISC_QUESTIONMARK|/focus", -- [42]
-				"spell|60192||Freezing Trap|Frost - Trap Launcher|", -- [43]
-				"spell|83242||Call Pet 2||", -- [44]
-				"spell|83243||Call Pet 3||", -- [45]
-				"flyout|9||Call Pet|", -- [46]
-				nil, -- [47]
-				nil, -- [48]
-				"spell|19574||Bestial Wrath||", -- [49]
-				"macro|50||Misdirection|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [target=mouseover] Misdirection", -- [50]
-				nil, -- [51]
-				"macro|52||Deterrence|Interface\\Icons\\Ability_Whirlwind|#showtooltip/n/stopcasting/n/stopcasting/n/cast Deterrence", -- [52]
-				"spell|781||Disengage||", -- [53]
-				"macro|54||Pet Attack|Interface\\Icons\\INV_MISC_QUESTIONMARK|/petattack", -- [54]
-				"spell|2643||Multi-Shot||", -- [55]
-				"item|109223||Healing Tonic", -- [56]
-				"spell|20736||Distracting Shot||", -- [57]
-				"spell|109248||Binding Shot||", -- [58]
-				"macro|59||MC|Interface\\Icons\\inv_ammo_arrow_03|#showtooltip Counter Shot/n/stopcasting/n/cast [mod:shift,@target,exists][@focus,exists][@target] Counter Shot", -- [59]
-				"spell|120679||Dire Beast||", -- [60]
-				"macro|61||Cancelaura|Interface\\Icons\\INV_MISC_QUESTIONMARK|/cancelaura Deterrence/n/cancelaura Hand of Protection", -- [61]
-				"spell|51753||Camouflage||", -- [62]
-				"spell|5384||Feign Death||", -- [63]
-				"macro|64||Racial CDSSS|Interface\\ICONS\\Inv_misc_trinket6oIH_lanternB3.blp|#showtooltip/n/use 13/n/use Blood Fury(Racial)", -- [64]
-				"spell|121818||Stampede||", -- [65]
-				"item|109217||Draenic Agility Potion", -- [66]
-				"spell|2643||Multi-Shot||", -- [67]
-				nil, -- [68]
-				"spell|5384||Feign Death||", -- [69]
-				nil, -- [70]
-				"spell|781||Disengage||", -- [71]
-				"spell|82941||Ice Trap|Frost - Trap Launcher|", -- [72]
-				"item|9172||Invisibility Potion", -- [73]
-				"item|119093||Aviana's Feather", -- [74]
-				"item|110560||Garrison Hearthstone", -- [75]
-				"item|6948||Hearthstone", -- [76]
-				"spell|83968||Mass Resurrection|Guild Perk|", -- [77]
-				"spell|1515||Tame Beast||", -- [78]
-				"item|122674||S.E.L.F.I.E. Camera MkII", -- [79]
-				"item|116115||Blazing Wings", -- [80]
-				"item|68806||Kalytha's Haunted Locket", -- [81]
-			},
-			["survival"] = {
-				"spell|77767||Cobra Shot||", -- [1]
-				nil, -- [2]
-				"spell|3044||Arcane Shot||", -- [3]
-				"spell|53301||Explosive Shot||", -- [4]
-				"spell|3674||Black Arrow||", -- [5]
-				"spell|120360||Barrage||", -- [6]
-				nil, -- [7]
-				"spell|172106||Aspect of the Fox||", -- [8]
-				nil, -- [9]
-				"spell|19801||Tranquilizing Shot||", -- [10]
-				"spell|82939||Explosive Trap|Fire - Trap Launcher|", -- [11]
-				"spell|1543||Flare||", -- [12]
-				[27] = "spell|2641||Dismiss Pet||",
-				[62] = "spell|51753||Camouflage||",
-				[77] = "spell|83968||Mass Resurrection|Guild Perk|",
-				[55] = "spell|2643||Multi-Shot||",
-				[63] = "spell|5384||Feign Death||",
-				[78] = "item|122129||Fire-Eater's Vial",
-				[28] = "spell|5118||Aspect of the Cheetah||",
-				[79] = "item|122674||S.E.L.F.I.E. Camera MkII",
-				[56] = "item|109223||Healing Tonic",
-				[64] = "item|113931||Beating Heart of the Mountain",
-				[80] = "item|68806||Kalytha's Haunted Locket",
-				[65] = "spell|121818||Stampede||",
-				[81] = "item|116115||Blazing Wings",
-				[57] = "spell|20736||Distracting Shot||",
-				[66] = "item|109217||Draenic Agility Potion",
-				[25] = "spell|82941||Ice Trap|Frost - Trap Launcher|",
-				[29] = "flyout|9||Call Pet|",
-				[67] = "spell|2643||Multi-Shot||",
-				[50] = "macro|50||Misdirection|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [target=mouseover] Misdirection",
-				[58] = "spell|109248||Binding Shot||",
-				[68] = "spell|82941||Ice Trap|Frost - Trap Launcher|",
-				[69] = "spell|5384||Feign Death||",
-				[43] = "spell|60192||Freezing Trap|Frost - Trap Launcher|",
-				[59] = "spell|147362||Counter Shot||",
-				[70] = "spell|60192||Freezing Trap|Frost - Trap Launcher|",
-				[26] = "spell|13159||Aspect of the Pack||",
-				[30] = "spell|982||Revive Pet||",
-				[52] = "spell|19263||Deterrence||",
-				[45] = "spell|883||Call Pet 1||",
-				[53] = "spell|781||Disengage||",
-				[61] = "macro|61||Cancelaura|Interface\\Icons\\INV_MISC_QUESTIONMARK|/cancelaura Deterrence/n/cancelaura Hand of Protection",
-				[40] = "item|109153||Greater Draenic Agility Flask",
-				[41] = "spell|77769||Trap Launcher||",
-			},
-		},
-		["DRUID"] = {
-		},
-		["MONK"] = {
 		},
 		["PALADIN"] = {
 			["ret"] = {
@@ -779,21 +637,21 @@ ActionBarSaverDB = {
 				[59] = "macro|59||Rebuke|Interface\\Icons\\spell_holy_rebuke|#showtooltip Rebuke/n/stopcasting/n/cast [mod:shift,@target,exists][@focus,exists][@target] Rebuke",
 				[26] = "macro|26||Trink + Belf Rac|Interface\\ICONS\\INV_Misc_Candle_01.blp|#showtooltip/n/use Everburning Candle/n/cast Arcane Torrent",
 				[30] = "macro|30||Living Mushroom|Interface\\Icons\\INV_MISC_QUESTIONMARK|/target Living Mushroom/n/focus/n/targetlasttarget",
-				[110] = "spell|161691||Garrison Ability||",
+				[77] = "item|119093||Aviana's Feather",
 				[44] = "item|109155||Greater Draenic Intellect Flask",
 				[52] = "spell|642||Divine Shield||",
-				[111] = "item|109221||Draenic Channeled Mana Potion",
+				[79] = "item|110560||Garrison Hearthstone",
 				[75] = "item|68806||Kalytha's Haunted Locket",
 				[81] = "item|116268||Draenic Invisibility Potion",
 				[115] = "item|96533||Rein-Binder's Fists",
-				[37] = "item|122345||Pickled Eel",
 				[73] = "item|102247||Jina-Kang, Kindness of Chi-Ji",
+				[37] = "item|122345||Pickled Eel",
 				[45] = "spell|7328||Redemption||",
 				[53] = "macro|53||Lay on Hands|Interface\\Icons\\Spell_Holy_LayOnHands|#showtooltip Lay on Hands/n/cast [@mouseover,help,exists,nodead][@target,help,nodead][] Lay on Hands",
 				[61] = "macro|61||Maidens Bop|Interface\\Icons\\Spell_Holy_SealOfProtection|/assist Admiral Gar'an/n/cast Hand of Protection",
 				[74] = "macro|74||Nitro Boosts|Interface\\Icons\\Ability_Rogue_Sprint|/cancelaura Body and Soul/n/cancelaura Stampeding Roar/n/cancelaura Spinning Crane Kick/n/use 6",
-				[79] = "item|110560||Garrison Hearthstone",
-				[77] = "item|119093||Aviana's Feather",
+				[111] = "item|109221||Draenic Channeled Mana Potion",
+				[110] = "spell|161691||Garrison Ability||",
 			},
 			["prot"] = {
 				"spell|119072||Holy Wrath||", -- [1]
@@ -893,6 +751,148 @@ ActionBarSaverDB = {
 				[119] = "companion|60119|||MOUNT|",
 				[118] = "companion|59788|||MOUNT|",
 			},
+		},
+		["WARLOCK"] = {
+		},
+		["DEMONHUNTER"] = {
+		},
+		["HUNTER"] = {
+			["bm"] = {
+				"spell|77767||Cobra Shot||", -- [1]
+				"spell|53351||Kill Shot||", -- [2]
+				"spell|3044||Arcane Shot||", -- [3]
+				"macro|4||Kill Command|Interface\\Icons\\Ability_Hunter_KillCommand|#showtooltip/n/petattack/n/cast Kill Command", -- [4]
+				"spell|82692||Focus Fire||", -- [5]
+				"spell|120360||Barrage||", -- [6]
+				"spell|5116||Concussive Shot||", -- [7]
+				"spell|172106||Aspect of the Fox||", -- [8]
+				"spell|161691||Garrison Ability||", -- [9]
+				"spell|19801||Tranquilizing Shot||", -- [10]
+				"spell|82939||Explosive Trap|Fire - Trap Launcher|", -- [11]
+				"spell|1543||Flare||", -- [12]
+				"item|109076||Goblin Glider Kit", -- [13]
+				nil, -- [14]
+				nil, -- [15]
+				nil, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				nil, -- [23]
+				nil, -- [24]
+				"spell|82941||Ice Trap|Frost - Trap Launcher|", -- [25]
+				"spell|13159||Aspect of the Pack||", -- [26]
+				"spell|2641||Dismiss Pet||", -- [27]
+				"spell|5118||Aspect of the Cheetah||", -- [28]
+				"macro|29||Master's Call|Interface\\Icons\\Ability_Hunter_MastersCall|#showtooltip/n/cast [target=mouseover] Master's Call", -- [29]
+				"spell|982||Revive Pet||", -- [30]
+				nil, -- [31]
+				nil, -- [32]
+				nil, -- [33]
+				nil, -- [34]
+				nil, -- [35]
+				nil, -- [36]
+				"item|122343||Sleeper Sushi", -- [37]
+				"macro|38||CM Reset|Interface\\Icons\\INV_MISC_QUESTIONMARK|/script ResetChallengeMode()", -- [38]
+				"item|118630||Hyper Augment Rune", -- [39]
+				"item|109153||Greater Draenic Agility Flask", -- [40]
+				"spell|77769||Trap Launcher||", -- [41]
+				"macro|42||Focus|Interface\\Icons\\INV_MISC_QUESTIONMARK|/focus", -- [42]
+				"spell|60192||Freezing Trap|Frost - Trap Launcher|", -- [43]
+				"spell|83242||Call Pet 2||", -- [44]
+				"spell|83243||Call Pet 3||", -- [45]
+				"flyout|9||Call Pet|", -- [46]
+				nil, -- [47]
+				nil, -- [48]
+				"spell|19574||Bestial Wrath||", -- [49]
+				"macro|50||Misdirection|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [target=mouseover] Misdirection", -- [50]
+				nil, -- [51]
+				"macro|52||Deterrence|Interface\\Icons\\Ability_Whirlwind|#showtooltip/n/stopcasting/n/stopcasting/n/cast Deterrence", -- [52]
+				"spell|781||Disengage||", -- [53]
+				"macro|54||Pet Attack|Interface\\Icons\\INV_MISC_QUESTIONMARK|/petattack", -- [54]
+				"spell|2643||Multi-Shot||", -- [55]
+				"item|109223||Healing Tonic", -- [56]
+				"spell|20736||Distracting Shot||", -- [57]
+				"spell|109248||Binding Shot||", -- [58]
+				"macro|59||MC|Interface\\Icons\\inv_ammo_arrow_03|#showtooltip Counter Shot/n/stopcasting/n/cast [mod:shift,@target,exists][@focus,exists][@target] Counter Shot", -- [59]
+				"spell|120679||Dire Beast||", -- [60]
+				"macro|61||Cancelaura|Interface\\Icons\\INV_MISC_QUESTIONMARK|/cancelaura Deterrence/n/cancelaura Hand of Protection", -- [61]
+				"spell|51753||Camouflage||", -- [62]
+				"spell|5384||Feign Death||", -- [63]
+				"macro|64||Racial CDSSS|Interface\\ICONS\\Inv_misc_trinket6oIH_lanternB3.blp|#showtooltip/n/use 13/n/use Blood Fury(Racial)", -- [64]
+				"spell|121818||Stampede||", -- [65]
+				"item|109217||Draenic Agility Potion", -- [66]
+				"spell|2643||Multi-Shot||", -- [67]
+				nil, -- [68]
+				"spell|5384||Feign Death||", -- [69]
+				nil, -- [70]
+				"spell|781||Disengage||", -- [71]
+				"spell|82941||Ice Trap|Frost - Trap Launcher|", -- [72]
+				"item|9172||Invisibility Potion", -- [73]
+				"item|119093||Aviana's Feather", -- [74]
+				"item|110560||Garrison Hearthstone", -- [75]
+				"item|6948||Hearthstone", -- [76]
+				"spell|83968||Mass Resurrection|Guild Perk|", -- [77]
+				"spell|1515||Tame Beast||", -- [78]
+				"item|122674||S.E.L.F.I.E. Camera MkII", -- [79]
+				"item|116115||Blazing Wings", -- [80]
+				"item|68806||Kalytha's Haunted Locket", -- [81]
+			},
+			["survival"] = {
+				"spell|77767||Cobra Shot||", -- [1]
+				nil, -- [2]
+				"spell|3044||Arcane Shot||", -- [3]
+				"spell|53301||Explosive Shot||", -- [4]
+				"spell|3674||Black Arrow||", -- [5]
+				"spell|120360||Barrage||", -- [6]
+				nil, -- [7]
+				"spell|172106||Aspect of the Fox||", -- [8]
+				nil, -- [9]
+				"spell|19801||Tranquilizing Shot||", -- [10]
+				"spell|82939||Explosive Trap|Fire - Trap Launcher|", -- [11]
+				"spell|1543||Flare||", -- [12]
+				[27] = "spell|2641||Dismiss Pet||",
+				[62] = "spell|51753||Camouflage||",
+				[77] = "spell|83968||Mass Resurrection|Guild Perk|",
+				[55] = "spell|2643||Multi-Shot||",
+				[63] = "spell|5384||Feign Death||",
+				[78] = "item|122129||Fire-Eater's Vial",
+				[28] = "spell|5118||Aspect of the Cheetah||",
+				[79] = "item|122674||S.E.L.F.I.E. Camera MkII",
+				[56] = "item|109223||Healing Tonic",
+				[64] = "item|113931||Beating Heart of the Mountain",
+				[80] = "item|68806||Kalytha's Haunted Locket",
+				[65] = "spell|121818||Stampede||",
+				[81] = "item|116115||Blazing Wings",
+				[57] = "spell|20736||Distracting Shot||",
+				[66] = "item|109217||Draenic Agility Potion",
+				[25] = "spell|82941||Ice Trap|Frost - Trap Launcher|",
+				[29] = "flyout|9||Call Pet|",
+				[67] = "spell|2643||Multi-Shot||",
+				[50] = "macro|50||Misdirection|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [target=mouseover] Misdirection",
+				[58] = "spell|109248||Binding Shot||",
+				[68] = "spell|82941||Ice Trap|Frost - Trap Launcher|",
+				[69] = "spell|5384||Feign Death||",
+				[43] = "spell|60192||Freezing Trap|Frost - Trap Launcher|",
+				[59] = "spell|147362||Counter Shot||",
+				[70] = "spell|60192||Freezing Trap|Frost - Trap Launcher|",
+				[26] = "spell|13159||Aspect of the Pack||",
+				[30] = "spell|982||Revive Pet||",
+				[52] = "spell|19263||Deterrence||",
+				[45] = "spell|883||Call Pet 1||",
+				[53] = "spell|781||Disengage||",
+				[61] = "macro|61||Cancelaura|Interface\\Icons\\INV_MISC_QUESTIONMARK|/cancelaura Deterrence/n/cancelaura Hand of Protection",
+				[41] = "spell|77769||Trap Launcher||",
+				[40] = "item|109153||Greater Draenic Agility Flask",
+			},
+		},
+		["DRUID"] = {
+		},
+		["MONK"] = {
+		},
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

@@ -1,11 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Xerpon - Kazzak"] = "Default",
-		["Glaxopi - Kazzak"] = "Default",
-		["Glaxop - Ragnaros"] = "Default",
-		["Glaxop - Shattered Hand"] = "Default",
-	},
 	["global"] = {
 		["log"] = {
 			"08/01/16", -- [1]
@@ -299,6 +293,31 @@ RCLootCouncilDB = {
 			"19:43:59 - Comm received: (^1^SverTestReply^T^N1^SMörduh-Kazzak^N2^SDRUID^N3^SSocial^N4^S1.7.8^t^^) (from:) (nil) (distri:) (WHISPER)", -- [289]
 			"19:44:38 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.12^t^^) (from:) (Spudx) (distri:) (GUILD)", -- [290]
 			"19:44:38 - Comm received: (^1^Sxrealm^T^N1^SSpudx^N2^SverTestReply^N3^SMörduh-Kazzak^N4^SDRUID^N5^SSocial^N6^S1.7.8^t^^) (from:) (Mörduh) (distri:) (GUILD)", -- [291]
+			"08/02/16", -- [292]
+			"23:37:22 - Logged In", -- [293]
+			"23:37:22 - ML initialized!", -- [294]
+			"23:37:27 - Glaxopi-Kazzak (2.0.0) (nil)", -- [295]
+			"23:37:30 - Event: (PLAYER_ENTERING_WORLD)", -- [296]
+			"23:37:30 - GetML()", -- [297]
+			"23:37:30 - LootMethod =  (personalloot)", -- [298]
+			"23:37:31 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Glaxopi) (distri:) (GUILD)", -- [299]
+			"23:37:31 - GetPlayersGuildRank()", -- [300]
+			"23:37:31 - Found Guild Rank: Officer", -- [301]
+			"23:37:32 - Comm received: (^1^SverTestReply^T^N1^SDeepshadezjr-Kazzak^N2^SDEATHKNIGHT^N3^SSocial^N4^S2.0.0^t^^) (from:) (Deepshadezjr) (distri:) (WHISPER)", -- [302]
+			"23:40:31 - Comm received: (verTest 1.7.8) (from:) (Fev) (distri:) (GUILD)", -- [303]
+			"23:51:12 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Zoyt) (distri:) (GUILD)", -- [304]
+			"23:58:25 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Zoyt) (distri:) (GUILD)", -- [305]
+			"00:02:22 - Comm received: (verTest 1.7.8) (from:) (Fevv) (distri:) (GUILD)", -- [306]
+			"00:10:52 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [307]
+			"00:10:52 - GetML()", -- [308]
+			"00:10:52 - LootMethod =  (personalloot)", -- [309]
+			"00:17:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [310]
+			"00:17:07 - GetML()", -- [311]
+			"00:17:07 - LootMethod =  (personalloot)", -- [312]
+			"00:21:59 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Fjolliz) (distri:) (GUILD)", -- [313]
+			"00:21:59 - Comm received: (^1^Sxrealm^T^N1^SFjolliz^N2^SverTestReply^N3^SFevv-Kazzak^N4^SHUNTER^N5^SAlt^N6^S1.7.8^t^^) (from:) (Fevv) (distri:) (GUILD)", -- [314]
+			"00:28:43 - Comm received: (verTest 1.7.8) (from:) (Fevv) (distri:) (GUILD)", -- [315]
+			"00:55:58 - Comm received: (verTest 1.7.8) (from:) (Fev) (distri:) (GUILD)", -- [316]
 		},
 		["version"] = "2.0.0",
 		["localizedSubTypes"] = {
@@ -311,19 +330,25 @@ RCLootCouncilDB = {
 			["Warglaives"] = "Warglaives",
 			["Shields"] = "Shields",
 			["Polearms"] = "Polearms",
-			["created"] = true,
+			["Bows"] = "Bows",
 			["Daggers"] = "Daggers",
 			["Two-Handed Swords"] = "Two-Handed Swords",
 			["One-Handed Axes"] = "One-Handed Axes",
 			["Leather"] = "Leather",
-			["Mail"] = "Mail",
+			["Cloth"] = "Cloth",
 			["Guns"] = "Guns",
 			["Fist Weapons"] = "Fist Weapons",
-			["Cloth"] = "Cloth",
+			["Mail"] = "Mail",
 			["Wands"] = "Wands",
-			["Bows"] = "Bows",
+			["created"] = true,
 			["Two-Handed Axes"] = "Two-Handed Axes",
 		},
+	},
+	["profileKeys"] = {
+		["Xerpon - Kazzak"] = "Default",
+		["Glaxopi - Kazzak"] = "Default",
+		["Glaxop - Shattered Hand"] = "Default",
+		["Glaxop - Ragnaros"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -334,7 +359,7 @@ RCLootCouncilLootDB = {
 	["profileKeys"] = {
 		["Xerpon - Kazzak"] = "Xerpon - Kazzak",
 		["Glaxopi - Kazzak"] = "Glaxopi - Kazzak",
-		["Glaxop - Ragnaros"] = "Glaxop - Ragnaros",
 		["Glaxop - Shattered Hand"] = "Glaxop - Shattered Hand",
+		["Glaxop - Ragnaros"] = "Glaxop - Ragnaros",
 	},
 }

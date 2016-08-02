@@ -1,61 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Asdagwe - Kazzak"] = "Asdagwe - Kazzak",
-		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
-		["Xerpo - Ravencrest"] = "Xerpo - Ravencrest",
-		["Xesev - Frostmane"] = "Xesev - Frostmane",
-		["Xerpo - Argent Dawn"] = "Xerpo - Argent Dawn",
-		["Xuddon - Silvermoon"] = "Xuddon - Silvermoon",
-		["Koyaz - Argent Dawn"] = "Koyaz - Argent Dawn",
-		["Xesevi - Ragnaros"] = "Xesevi - Ragnaros",
-		["Xesev - Darkmoon Faire"] = "Xesev - Darkmoon Faire",
-		["Xerpon - Frostmane"] = "Xerpon - Frostmane",
-		["Adeasx - Lightning's Blade"] = "Adeasx - Lightning's Blade",
-		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
-		["Insert - Silvermoon"] = "Insert - Silvermoon",
-		["Koyaz - Frostmane"] = "Koyaz - Frostmane",
-		["Glaxqt - Frostmane"] = "Glaxqt - Frostmane",
-		["Babombabam - Ragnaros"] = "Babombabam - Ragnaros",
-		["Xerpo - Silvermoon"] = "Xerpo - Silvermoon",
-		["Koya - Silvermoon"] = "Koya - Silvermoon",
-		["Senavora - Argent Dawn"] = "Senavora - Argent Dawn",
-		["Sèxlock - Argent Dawn"] = "Sèxlock - Argent Dawn",
-		["Xandora - Ravencrest"] = "Xandora - Ravencrest",
-		["Glaxop - Argent Dawn"] = "Glaxop - Argent Dawn",
-		["Glaxop - Ragnaros"] = "Glaxop - Ragnaros",
-		["Xesevi - Kazzak"] = "Xesevi - Kazzak",
-		["Xerpon - Shattered Hand"] = "Xerpon - Shattered Hand",
-		["Bwntus - Frostmane"] = "Bwntus - Frostmane",
-		["Stronkmonk - Silvermoon"] = "Stronkmonk - Silvermoon",
-		["Glaxopi - Kazzak"] = "Glaxopi - Kazzak",
-		["Xerpon - Kazzak"] = "Xerpon - Kazzak",
-		["Glaxop - Silvermoon"] = "Glaxop - Silvermoon",
-		["Glaxgold - Shattered Hand"] = "Glaxgold - Shattered Hand",
-		["Xerpon - Ragnaros"] = "Xerpon - Ragnaros",
-		["Xerpon - Argent Dawn"] = "Xerpon - Argent Dawn",
-		["Glaxop - Shattered Hand"] = "Glaxop - Shattered Hand",
-		["Xesevi - Frostmane"] = "Xesevi - Frostmane",
-		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
-		["Xerpon - Ravencrest"] = "Xerpon - Ravencrest",
-		["Lophgold - Shattered Hand"] = "Lophgold - Shattered Hand",
-		["Xenarion - Silvermoon"] = "Xenarion - Silvermoon",
-		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
-		["Xesevi - Tarren Mill"] = "Xesevi - Tarren Mill",
-		["Glaxhunt - Shattered Halls"] = "Glaxhunt - Shattered Halls",
-		["Glaxop - Ravencrest"] = "Glaxop - Ravencrest",
-		["Xerpo - Kazzak"] = "Xerpo - Kazzak",
-		["Glaxdk - Ragnaros"] = "Glaxdk - Ragnaros",
-		["Ikagara - Silvermoon"] = "Ikagara - Silvermoon",
-		["Boostmoneytw - Shattered Hand"] = "Boostmoneytw - Shattered Hand",
-		["Norvatis - Shattered Hand"] = "Norvatis - Shattered Hand",
-		["Guymshum - Ravencrest"] = "Guymshum - Ravencrest",
-		["Boostmoeny - Shattered Hand"] = "Boostmoeny - Shattered Hand",
-		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
-		["Glaxop - Frostmane"] = "Glaxop - Frostmane",
-		["Xandoraz - Silvermoon"] = "Xandoraz - Silvermoon",
-		["Norvatis - Silvermoon"] = "Norvatis - Silvermoon",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -116,6 +60,62 @@ Postal3DB = {
 				"Xuddon|Silvermoon|Alliance|70|WARRIOR", -- [55]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Asdagwe - Kazzak"] = "Asdagwe - Kazzak",
+		["Xesevi - Argent Dawn"] = "Xesevi - Argent Dawn",
+		["Xerpo - Ravencrest"] = "Xerpo - Ravencrest",
+		["Xesev - Frostmane"] = "Xesev - Frostmane",
+		["Xerpo - Argent Dawn"] = "Xerpo - Argent Dawn",
+		["Xuddon - Silvermoon"] = "Xuddon - Silvermoon",
+		["Koyaz - Argent Dawn"] = "Koyaz - Argent Dawn",
+		["Xesevi - Ragnaros"] = "Xesevi - Ragnaros",
+		["Xesev - Darkmoon Faire"] = "Xesev - Darkmoon Faire",
+		["Xerpon - Frostmane"] = "Xerpon - Frostmane",
+		["Adeasx - Lightning's Blade"] = "Adeasx - Lightning's Blade",
+		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
+		["Insert - Silvermoon"] = "Insert - Silvermoon",
+		["Koyaz - Frostmane"] = "Koyaz - Frostmane",
+		["Glaxqt - Frostmane"] = "Glaxqt - Frostmane",
+		["Babombabam - Ragnaros"] = "Babombabam - Ragnaros",
+		["Xerpo - Silvermoon"] = "Xerpo - Silvermoon",
+		["Koya - Silvermoon"] = "Koya - Silvermoon",
+		["Senavora - Argent Dawn"] = "Senavora - Argent Dawn",
+		["Sèxlock - Argent Dawn"] = "Sèxlock - Argent Dawn",
+		["Xandora - Ravencrest"] = "Xandora - Ravencrest",
+		["Glaxop - Argent Dawn"] = "Glaxop - Argent Dawn",
+		["Glaxop - Ragnaros"] = "Glaxop - Ragnaros",
+		["Xesevi - Kazzak"] = "Xesevi - Kazzak",
+		["Xerpon - Shattered Hand"] = "Xerpon - Shattered Hand",
+		["Glaxopi - Kazzak"] = "Glaxopi - Kazzak",
+		["Stronkmonk - Silvermoon"] = "Stronkmonk - Silvermoon",
+		["Bwntus - Frostmane"] = "Bwntus - Frostmane",
+		["Xerpon - Kazzak"] = "Xerpon - Kazzak",
+		["Glaxop - Silvermoon"] = "Glaxop - Silvermoon",
+		["Glaxop - Frostmane"] = "Glaxop - Frostmane",
+		["Xerpon - Ragnaros"] = "Xerpon - Ragnaros",
+		["Xerpon - Argent Dawn"] = "Xerpon - Argent Dawn",
+		["Glaxop - Shattered Hand"] = "Glaxop - Shattered Hand",
+		["Xesevi - Frostmane"] = "Xesevi - Frostmane",
+		["Boostmoeny - Shattered Hand"] = "Boostmoeny - Shattered Hand",
+		["Xerpon - Ravencrest"] = "Xerpon - Ravencrest",
+		["Lophgold - Shattered Hand"] = "Lophgold - Shattered Hand",
+		["Xenarion - Silvermoon"] = "Xenarion - Silvermoon",
+		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
+		["Xesevi - Tarren Mill"] = "Xesevi - Tarren Mill",
+		["Glaxhunt - Shattered Halls"] = "Glaxhunt - Shattered Halls",
+		["Glaxdk - Ragnaros"] = "Glaxdk - Ragnaros",
+		["Xerpo - Kazzak"] = "Xerpo - Kazzak",
+		["Glaxop - Ravencrest"] = "Glaxop - Ravencrest",
+		["Ikagara - Silvermoon"] = "Ikagara - Silvermoon",
+		["Boostmoneytw - Shattered Hand"] = "Boostmoneytw - Shattered Hand",
+		["Norvatis - Shattered Hand"] = "Norvatis - Shattered Hand",
+		["Guymshum - Ravencrest"] = "Guymshum - Ravencrest",
+		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
+		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
+		["Glaxgold - Shattered Hand"] = "Glaxgold - Shattered Hand",
+		["Xandoraz - Silvermoon"] = "Xandoraz - Silvermoon",
+		["Norvatis - Silvermoon"] = "Norvatis - Silvermoon",
 	},
 	["profiles"] = {
 		["Asdagwe - Kazzak"] = {
@@ -307,7 +307,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Bwntus - Frostmane"] = {
+		["Glaxopi - Kazzak"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Lophism|Kazzak|Horde", -- [1]
+				},
+			},
 		},
 		["Stronkmonk - Silvermoon"] = {
 			["BlackBook"] = {
@@ -316,23 +321,18 @@ Postal3DB = {
 				},
 			},
 		},
-		["Glaxopi - Kazzak"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Lophism|Kazzak|Horde", -- [1]
-				},
-			},
+		["Bwntus - Frostmane"] = {
 		},
 		["Xerpon - Kazzak"] = {
 		},
 		["Glaxop - Silvermoon"] = {
 		},
-		["Glaxgold - Shattered Hand"] = {
+		["Glaxop - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Glaxop|Shattered Hand|Horde", -- [1]
-					"Lophmage|Shattered Hand|Horde", -- [2]
-					"Xesevi|Shattered Hand|Horde", -- [3]
+					"Xesevi|Frostmane|Alliance", -- [1]
+					"Rentaki|Frostmane|Alliance", -- [2]
+					"Myxel|Frostmane|Alliance", -- [3]
 				},
 			},
 		},
@@ -400,10 +400,11 @@ Postal3DB = {
 				},
 			},
 		},
-		["Glaxdk - Shattered Hand"] = {
+		["Boostmoeny - Shattered Hand"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Lophmage|Shattered Hand|Horde", -- [1]
+					"Boostmoneytw|Shattered Hand|Horde", -- [1]
+					"Xesevi|Shattered Hand|Horde", -- [2]
 				},
 			},
 		},
@@ -424,12 +425,7 @@ Postal3DB = {
 		},
 		["Glaxhunt - Shattered Halls"] = {
 		},
-		["Glaxop - Ravencrest"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Xesevi-Ragnaros|Ravencrest|Alliance", -- [1]
-				},
-			},
+		["Glaxdk - Ragnaros"] = {
 		},
 		["Xerpo - Kazzak"] = {
 			["BlackBook"] = {
@@ -438,7 +434,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Glaxdk - Ragnaros"] = {
+		["Glaxop - Ravencrest"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Xesevi-Ragnaros|Ravencrest|Alliance", -- [1]
+				},
+			},
 		},
 		["Ikagara - Silvermoon"] = {
 			["BlackBook"] = {
@@ -455,11 +456,10 @@ Postal3DB = {
 		},
 		["Guymshum - Ravencrest"] = {
 		},
-		["Boostmoeny - Shattered Hand"] = {
+		["Glaxdk - Shattered Hand"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Boostmoneytw|Shattered Hand|Horde", -- [1]
-					"Xesevi|Shattered Hand|Horde", -- [2]
+					"Lophmage|Shattered Hand|Horde", -- [1]
 				},
 			},
 		},
@@ -470,12 +470,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Glaxop - Frostmane"] = {
+		["Glaxgold - Shattered Hand"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Xesevi|Frostmane|Alliance", -- [1]
-					"Rentaki|Frostmane|Alliance", -- [2]
-					"Myxel|Frostmane|Alliance", -- [3]
+					"Glaxop|Shattered Hand|Horde", -- [1]
+					"Lophmage|Shattered Hand|Horde", -- [2]
+					"Xesevi|Shattered Hand|Horde", -- [3]
 				},
 			},
 		},

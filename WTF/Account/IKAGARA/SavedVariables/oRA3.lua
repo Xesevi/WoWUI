@@ -59,14 +59,8 @@ oRA3DB = {
 		["Cooldowns"] = {
 			["global"] = {
 				["spellsOnCooldown"] = {
-					[122470] = {
-						["Player-3682-05D114D1"] = 1139092.205,
-					},
-					[122278] = {
-						["Player-3682-05D114D1"] = 1139084.361,
-					},
 				},
-				["lastTime"] = 1191133.647,
+				["lastTime"] = 1209843.143,
 			},
 			["profiles"] = {
 				["Default"] = {
@@ -83,11 +77,11 @@ oRA3DB = {
 				},
 			},
 		},
-		["GuildRepairs"] = {
+		["Tanks"] = {
 		},
 		["Consumables"] = {
 		},
-		["Tanks"] = {
+		["GuildRepairs"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -101,17 +95,17 @@ oRA3DB = {
 		["Cmgoldpls - Argent Dawn"] = "Default",
 		["Koyaz - Frostmane"] = "Default",
 		["Glaxqt - Frostmane"] = "Default",
-		["Glaxop - Ragnaros"] = "Default",
+		["Glaxgold - Shattered Hand"] = "Default",
 		["Babombabam - Ragnaros"] = "Default",
-		["Xesevi - Shattered Hand"] = "Default",
+		["Boostmoneytw - Shattered Hand"] = "Default",
 		["Boostmoeny - Shattered Hand"] = "Default",
 		["Norvatis - Shattered Hand"] = "Default",
-		["Glaxop - Frostmane"] = "Default",
+		["Glaxdk - Shattered Hand"] = "Default",
 		["Lophgold - Shattered Hand"] = "Default",
 		["Asdhyr - Twisting Nether"] = "Default",
-		["Glaxdk - Shattered Hand"] = "Default",
-		["Boostmoneytw - Shattered Hand"] = "Default",
-		["Glaxgold - Shattered Hand"] = "Default",
+		["Glaxop - Frostmane"] = "Default",
+		["Xesevi - Shattered Hand"] = "Default",
+		["Glaxop - Ragnaros"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -119,15 +113,15 @@ oRA3DB = {
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 147.999984741211,
-					["Width"] = 199.999908447266,
-					["PosY"] = 428.088899254799,
 					["PosX"] = 957.867297499725,
+					["PosY"] = 428.088899254799,
+					["Width"] = 199.999908447266,
 				},
 				["oRA3ReadyCheck"] = {
 					["Height"] = 225.000106811523,
-					["PosX"] = 1072.35627596645,
-					["PosY"] = 422.044498066771,
 					["Width"] = 320,
+					["PosY"] = 422.044498066771,
+					["PosX"] = 1072.35627596645,
 				},
 				["oRA3RingsFrame"] = {
 					["PosY"] = 448.711078573597,
