@@ -59,8 +59,11 @@ oRA3DB = {
 		["Cooldowns"] = {
 			["global"] = {
 				["spellsOnCooldown"] = {
+					[45438] = {
+						["Player-1305-08638ACB"] = 1219919.013,
+					},
 				},
-				["lastTime"] = 1209843.143,
+				["lastTime"] = 1242980.177,
 			},
 			["profiles"] = {
 				["Default"] = {
@@ -77,11 +80,11 @@ oRA3DB = {
 				},
 			},
 		},
-		["Tanks"] = {
+		["GuildRepairs"] = {
 		},
 		["Consumables"] = {
 		},
-		["GuildRepairs"] = {
+		["Tanks"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -95,17 +98,17 @@ oRA3DB = {
 		["Cmgoldpls - Argent Dawn"] = "Default",
 		["Koyaz - Frostmane"] = "Default",
 		["Glaxqt - Frostmane"] = "Default",
-		["Glaxgold - Shattered Hand"] = "Default",
+		["Glaxop - Ragnaros"] = "Default",
 		["Babombabam - Ragnaros"] = "Default",
-		["Boostmoneytw - Shattered Hand"] = "Default",
+		["Xesevi - Shattered Hand"] = "Default",
 		["Boostmoeny - Shattered Hand"] = "Default",
 		["Norvatis - Shattered Hand"] = "Default",
-		["Glaxdk - Shattered Hand"] = "Default",
+		["Glaxop - Frostmane"] = "Default",
 		["Lophgold - Shattered Hand"] = "Default",
 		["Asdhyr - Twisting Nether"] = "Default",
-		["Glaxop - Frostmane"] = "Default",
-		["Xesevi - Shattered Hand"] = "Default",
-		["Glaxop - Ragnaros"] = "Default",
+		["Glaxdk - Shattered Hand"] = "Default",
+		["Boostmoneytw - Shattered Hand"] = "Default",
+		["Glaxgold - Shattered Hand"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -113,15 +116,15 @@ oRA3DB = {
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 147.999984741211,
-					["PosX"] = 957.867297499725,
-					["PosY"] = 428.088899254799,
 					["Width"] = 199.999908447266,
+					["PosY"] = 428.088899254799,
+					["PosX"] = 957.867297499725,
 				},
 				["oRA3ReadyCheck"] = {
 					["Height"] = 225.000106811523,
-					["Width"] = 320,
-					["PosY"] = 422.044498066771,
 					["PosX"] = 1072.35627596645,
+					["PosY"] = 422.044498066771,
+					["Width"] = 320,
 				},
 				["oRA3RingsFrame"] = {
 					["PosY"] = 448.711078573597,

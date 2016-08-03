@@ -28,11 +28,11 @@ HandyNotesDB = {
 		["Ikagara - Silvermoon"] = "Ikagara - Silvermoon",
 		["Boostmoneytw - Shattered Hand"] = "Boostmoneytw - Shattered Hand",
 		["Norvatis - Shattered Hand"] = "Norvatis - Shattered Hand",
-		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
-		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
-		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
-		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
 		["Glaxop - Frostmane"] = "Glaxop - Frostmane",
+		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
+		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
+		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
+		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
 		["Norvatis - Silvermoon"] = "Norvatis - Silvermoon",
 	},
 	["profiles"] = {
@@ -93,17 +93,17 @@ HandyNotesDB = {
 		},
 		["Norvatis - Shattered Hand"] = {
 		},
-		["Glaxdk - Shattered Hand"] = {
+		["Glaxop - Frostmane"] = {
+			["enabled"] = false,
+		},
+		["Cmgoldpls - Argent Dawn"] = {
+		},
+		["Xerpo - Ragnaros"] = {
 		},
 		["Xesevi - Shattered Hand"] = {
 			["enabled"] = false,
 		},
-		["Xerpo - Ragnaros"] = {
-		},
-		["Cmgoldpls - Argent Dawn"] = {
-		},
-		["Glaxop - Frostmane"] = {
-			["enabled"] = false,
+		["Glaxdk - Shattered Hand"] = {
 		},
 		["Norvatis - Silvermoon"] = {
 		},
@@ -138,11 +138,11 @@ HandyNotes_HandyNotesDB = {
 		["Ikagara - Silvermoon"] = "Ikagara - Silvermoon",
 		["Boostmoneytw - Shattered Hand"] = "Boostmoneytw - Shattered Hand",
 		["Norvatis - Shattered Hand"] = "Norvatis - Shattered Hand",
-		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
-		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
-		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
-		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
 		["Glaxop - Frostmane"] = "Glaxop - Frostmane",
+		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
+		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
+		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
+		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
 		["Norvatis - Silvermoon"] = "Norvatis - Silvermoon",
 	},
 	["profiles"] = {
@@ -200,15 +200,15 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Norvatis - Shattered Hand"] = {
 		},
-		["Glaxdk - Shattered Hand"] = {
-		},
-		["Xesevi - Shattered Hand"] = {
-		},
-		["Xerpo - Ragnaros"] = {
+		["Glaxop - Frostmane"] = {
 		},
 		["Cmgoldpls - Argent Dawn"] = {
 		},
-		["Glaxop - Frostmane"] = {
+		["Xerpo - Ragnaros"] = {
+		},
+		["Xesevi - Shattered Hand"] = {
+		},
+		["Glaxdk - Shattered Hand"] = {
 		},
 		["Norvatis - Silvermoon"] = {
 		},

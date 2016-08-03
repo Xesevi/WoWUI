@@ -31,10 +31,10 @@ DeathNoteDB = {
 		["Glaxopi - Kazzak"] = "Glaxopi - Kazzak",
 		["Glaxop - Frostmane"] = "Glaxop - Frostmane",
 		["Glaxdk - Ragnaros"] = "Glaxdk - Ragnaros",
-		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
+		["Senavora - Argent Dawn"] = "Senavora - Argent Dawn",
 		["Glaxgold - Shattered Hand"] = "Glaxgold - Shattered Hand",
 		["Cmgoldpls - Argent Dawn"] = "Cmgoldpls - Argent Dawn",
-		["Glaxhunt - Shattered Halls"] = "Glaxhunt - Shattered Halls",
+		["Lophgold - Shattered Hand"] = "Lophgold - Shattered Hand",
 		["Xenarion - Silvermoon"] = "Xenarion - Silvermoon",
 		["Bwntus - Frostmane"] = "Bwntus - Frostmane",
 		["Xerpo - Kazzak"] = "Xerpo - Kazzak",
@@ -43,9 +43,9 @@ DeathNoteDB = {
 		["Boostmoneytw - Shattered Hand"] = "Boostmoneytw - Shattered Hand",
 		["Norvatis - Shattered Hand"] = "Norvatis - Shattered Hand",
 		["Guymshum - Ravencrest"] = "Guymshum - Ravencrest",
-		["Lophgold - Shattered Hand"] = "Lophgold - Shattered Hand",
+		["Glaxhunt - Shattered Halls"] = "Glaxhunt - Shattered Halls",
 		["Xerpo - Ragnaros"] = "Xerpo - Ragnaros",
-		["Senavora - Argent Dawn"] = "Senavora - Argent Dawn",
+		["Glaxdk - Shattered Hand"] = "Glaxdk - Shattered Hand",
 		["Xandoraz - Silvermoon"] = "Xandoraz - Silvermoon",
 		["Norvatis - Silvermoon"] = "Norvatis - Silvermoon",
 	},
@@ -58,6 +58,7 @@ DeathNoteDB = {
 					["vicious assault"] = "Vicious Assault",
 				},
 			},
+			["death_time"] = 71,
 			["display"] = {
 				["y"] = 20.9995422363281,
 				["x"] = 297.999664306641,
@@ -67,11 +68,10 @@ DeathNoteDB = {
 					60.0000534057617, -- [3]
 					144.999893188477, -- [4]
 				},
-				["h"] = 500.000061035156,
-				["w"] = 700.000061035156,
 				["health"] = 2,
+				["w"] = 700.000061035156,
+				["h"] = 500.000061035156,
 			},
-			["death_time"] = 71,
 		},
 		["Xerpo - Argent Dawn"] = {
 			["display"] = {
@@ -163,9 +163,9 @@ DeathNoteDB = {
 				["y"] = -81.4997863769531,
 				["x"] = 152.500427246094,
 				["health"] = 2,
-				["h"] = 917.000549316406,
-				["w"] = 1137.00036621094,
 				["namelist"] = 2,
+				["w"] = 1137.00036621094,
+				["h"] = 917.000549316406,
 			},
 		},
 		["Xesevi - Kazzak"] = {
@@ -228,10 +228,10 @@ DeathNoteDB = {
 			["unit_menu"] = true,
 			["display"] = {
 				["y"] = -105.000228881836,
-				["h"] = 500.000061035156,
+				["x"] = -455.000839233399,
 				["health"] = 2,
 				["w"] = 700.000061035156,
-				["x"] = -455.000839233399,
+				["h"] = 500.000061035156,
 			},
 		},
 		["Glaxopi - Kazzak"] = {
@@ -240,13 +240,13 @@ DeathNoteDB = {
 		},
 		["Glaxdk - Ragnaros"] = {
 		},
-		["Glaxdk - Shattered Hand"] = {
+		["Senavora - Argent Dawn"] = {
 		},
 		["Glaxgold - Shattered Hand"] = {
 		},
 		["Cmgoldpls - Argent Dawn"] = {
 		},
-		["Glaxhunt - Shattered Halls"] = {
+		["Lophgold - Shattered Hand"] = {
 		},
 		["Xenarion - Silvermoon"] = {
 		},
@@ -264,14 +264,14 @@ DeathNoteDB = {
 		},
 		["Guymshum - Ravencrest"] = {
 		},
-		["Lophgold - Shattered Hand"] = {
+		["Glaxhunt - Shattered Halls"] = {
 		},
 		["Xerpo - Ragnaros"] = {
 			["display"] = {
 				["health"] = 2,
 			},
 		},
-		["Senavora - Argent Dawn"] = {
+		["Glaxdk - Shattered Hand"] = {
 		},
 		["Xandoraz - Silvermoon"] = {
 		},

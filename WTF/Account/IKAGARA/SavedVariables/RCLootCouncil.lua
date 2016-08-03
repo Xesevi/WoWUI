@@ -1,5 +1,11 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Xerpon - Kazzak"] = "Default",
+		["Glaxopi - Kazzak"] = "Default",
+		["Glaxop - Ragnaros"] = "Default",
+		["Glaxop - Shattered Hand"] = "Default",
+	},
 	["global"] = {
 		["log"] = {
 			"08/01/16", -- [1]
@@ -318,6 +324,47 @@ RCLootCouncilDB = {
 			"00:21:59 - Comm received: (^1^Sxrealm^T^N1^SFjolliz^N2^SverTestReply^N3^SFevv-Kazzak^N4^SHUNTER^N5^SAlt^N6^S1.7.8^t^^) (from:) (Fevv) (distri:) (GUILD)", -- [314]
 			"00:28:43 - Comm received: (verTest 1.7.8) (from:) (Fevv) (distri:) (GUILD)", -- [315]
 			"00:55:58 - Comm received: (verTest 1.7.8) (from:) (Fev) (distri:) (GUILD)", -- [316]
+			"08/03/16", -- [317]
+			"03:03:53 - Logged In", -- [318]
+			"03:03:53 - ML initialized!", -- [319]
+			"03:04:01 - Glaxopi-Kazzak (2.0.0) (nil)", -- [320]
+			"03:04:03 - Event: (PLAYER_ENTERING_WORLD)", -- [321]
+			"03:04:03 - GetML()", -- [322]
+			"03:04:03 - LootMethod =  (personalloot)", -- [323]
+			"03:04:04 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [324]
+			"03:04:04 - GetML()", -- [325]
+			"03:04:04 - LootMethod =  (personalloot)", -- [326]
+			"03:04:04 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Glaxopi) (distri:) (GUILD)", -- [327]
+			"03:04:04 - GetPlayersGuildRank()", -- [328]
+			"03:04:04 - Found Guild Rank: Officer", -- [329]
+			"03:04:05 - Comm received: (^1^SverTestReply^T^N1^SRazecog-Kazzak^N2^SSHAMAN^N3^SRaider.^N4^S2.0.0^t^^) (from:) (Razecog) (distri:) (WHISPER)", -- [330]
+			"03:26:09 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Lophism) (distri:) (GUILD)", -- [331]
+			"03:26:35 - Comm received: (verTest 1.7.8) (from:) (Denýs) (distri:) (GUILD)", -- [332]
+			"03:33:31 - Comm received: (verTest 1.7.8) (from:) (Lázel) (distri:) (GUILD)", -- [333]
+			"03:36:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [334]
+			"03:36:48 - GetML()", -- [335]
+			"03:36:48 - LootMethod =  (personalloot)", -- [336]
+			"03:43:30 - Comm received: (verTest 1.7.8) (from:) (Lázel) (distri:) (GUILD)", -- [337]
+			"08/03/16", -- [338]
+			"03:44:22 - Logged In", -- [339]
+			"03:44:22 - ML initialized!", -- [340]
+			"03:44:34 - Glaxop-ShatteredHand (2.0.0) (nil)", -- [341]
+			"03:44:35 - Event: (PLAYER_ENTERING_WORLD)", -- [342]
+			"03:44:35 - GetML()", -- [343]
+			"03:44:35 - LootMethod =  (personalloot)", -- [344]
+			"03:44:36 - GetPlayersGuildRank()", -- [345]
+			"03:44:36 - Found Guild Rank: Shabbos Goy", -- [346]
+			"08/03/16", -- [347]
+			"09:43:38 - Logged In", -- [348]
+			"09:43:38 - ML initialized!", -- [349]
+			"09:43:50 - Xerpon-Kazzak (2.0.0) (nil)", -- [350]
+			"09:43:52 - Event: (PLAYER_ENTERING_WORLD)", -- [351]
+			"09:43:52 - GetML()", -- [352]
+			"09:43:52 - LootMethod =  (personalloot)", -- [353]
+			"09:43:52 - GetPlayersGuildRank()", -- [354]
+			"09:43:52 - Comm received: (^1^SverTest^T^N1^S2.0.0^t^^) (from:) (Xerpon) (distri:) (GUILD)", -- [355]
+			"09:43:52 - GetPlayersGuildRank()", -- [356]
+			"09:43:52 - Found Guild Rank: Officer", -- [357]
 		},
 		["version"] = "2.0.0",
 		["localizedSubTypes"] = {
@@ -330,25 +377,19 @@ RCLootCouncilDB = {
 			["Warglaives"] = "Warglaives",
 			["Shields"] = "Shields",
 			["Polearms"] = "Polearms",
-			["Bows"] = "Bows",
+			["created"] = true,
 			["Daggers"] = "Daggers",
 			["Two-Handed Swords"] = "Two-Handed Swords",
 			["One-Handed Axes"] = "One-Handed Axes",
 			["Leather"] = "Leather",
-			["Cloth"] = "Cloth",
+			["Mail"] = "Mail",
 			["Guns"] = "Guns",
 			["Fist Weapons"] = "Fist Weapons",
-			["Mail"] = "Mail",
+			["Cloth"] = "Cloth",
 			["Wands"] = "Wands",
-			["created"] = true,
+			["Bows"] = "Bows",
 			["Two-Handed Axes"] = "Two-Handed Axes",
 		},
-	},
-	["profileKeys"] = {
-		["Xerpon - Kazzak"] = "Default",
-		["Glaxopi - Kazzak"] = "Default",
-		["Glaxop - Shattered Hand"] = "Default",
-		["Glaxop - Ragnaros"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -359,7 +400,7 @@ RCLootCouncilLootDB = {
 	["profileKeys"] = {
 		["Xerpon - Kazzak"] = "Xerpon - Kazzak",
 		["Glaxopi - Kazzak"] = "Glaxopi - Kazzak",
-		["Glaxop - Shattered Hand"] = "Glaxop - Shattered Hand",
 		["Glaxop - Ragnaros"] = "Glaxop - Ragnaros",
+		["Glaxop - Shattered Hand"] = "Glaxop - Shattered Hand",
 	},
 }

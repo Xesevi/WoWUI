@@ -1,32 +1,31 @@
 
 MasterPlanAG = {
-	["IgnoreRewards"] = {
-	},
-	["Silvermoon"] = {
-		["Ikagara"] = {
+	["Argent Dawn"] = {
+		["Xerpo"] = {
 		},
-		["Koya"] = {
-			["faction"] = "Alliance",
-			["class"] = "MAGE",
-		},
-		["Xuddon"] = {
-		},
-		["Xenarion"] = {
-		},
-		["Glaxop"] = {
+		["Cmgoldpls"] = {
 		},
 	},
-	["Ragnaros"] = {
-		["Glaxop"] = {
-			["lastCacheTime"] = 1430325378,
-			["class"] = "MONK",
-			["curRes"] = 1232,
+	["Kazzak"] = {
+		["Xerpon"] = {
+			["curOil"] = 1450,
+			["summary"] = {
+				["ti2"] = 122486,
+				["ti3"] = 127855,
+				["tt1"] = 1465487212,
+				["ti1"] = 118531,
+				["tt3"] = true,
+				["tt2"] = 1468520497,
+			},
 			["faction"] = "Horde",
+			["class"] = "PALADIN",
+			["curRes"] = 8960,
+			["lastCacheTime"] = 1470059783,
 		},
-		["Babombabam"] = {
-			["lastCacheTime"] = 1469725033,
-			["class"] = "DRUID",
-			["curRes"] = 859,
+		["Glaxopi"] = {
+			["class"] = "MAGE",
+			["lastCacheTime"] = 1469928978,
+			["curRes"] = 1991,
 			["faction"] = "Horde",
 		},
 	},
@@ -35,6 +34,20 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1441827437,
 		},
 		["Koyaz"] = {
+		},
+	},
+	["Ragnaros"] = {
+		["Glaxop"] = {
+			["class"] = "MONK",
+			["lastCacheTime"] = 1430325378,
+			["curRes"] = 1232,
+			["faction"] = "Horde",
+		},
+		["Babombabam"] = {
+			["class"] = "DRUID",
+			["lastCacheTime"] = 1469725033,
+			["curRes"] = 859,
+			["faction"] = "Horde",
 		},
 	},
 	["Shattered Hand"] = {
@@ -49,22 +62,22 @@ MasterPlanAG = {
 			["cacheSize"] = 750,
 			["lastCacheTime"] = 1465570350,
 		},
-		["Boostmoneytw"] = {
+		["Lophgold"] = {
 		},
 		["Xesevi"] = {
 			["summary"] = {
-				["tt2"] = true,
-				["tt3"] = true,
+				["ti2"] = 122486,
+				["ti3"] = 127855,
 				["tt1"] = true,
 				["ti1"] = 118531,
-				["ti3"] = 127855,
-				["ti2"] = 122486,
+				["tt3"] = true,
+				["tt2"] = true,
 			},
 			["faction"] = "Horde",
-			["class"] = "PRIEST",
+			["curOil"] = 855,
 			["lastCacheTime"] = 1453778360,
 			["curRes"] = 10000,
-			["curOil"] = 855,
+			["class"] = "PRIEST",
 		},
 		["Norvatis"] = {
 		},
@@ -78,41 +91,28 @@ MasterPlanAG = {
 				["ti2"] = 122486,
 			},
 			["faction"] = "Horde",
-			["class"] = "HUNTER",
+			["curOil"] = 560,
 			["lastCacheTime"] = 1470099715,
 			["curRes"] = 5813,
-			["curOil"] = 560,
+			["class"] = "HUNTER",
 		},
-		["Lophgold"] = {
+		["Boostmoneytw"] = {
 		},
 	},
-	["Kazzak"] = {
-		["Xerpon"] = {
-			["summary"] = {
-				["tt2"] = 1468520497,
-				["tt3"] = true,
-				["tt1"] = 1465487212,
-				["ti1"] = 118531,
-				["ti3"] = 127855,
-				["ti2"] = 122486,
-			},
-			["faction"] = "Horde",
-			["lastCacheTime"] = 1470059783,
-			["class"] = "PALADIN",
-			["curRes"] = 8960,
-			["curOil"] = 1450,
+	["Silvermoon"] = {
+		["Ikagara"] = {
 		},
-		["Glaxopi"] = {
-			["faction"] = "Horde",
+		["Koya"] = {
 			["class"] = "MAGE",
-			["curRes"] = 1991,
-			["lastCacheTime"] = 1469928978,
+			["faction"] = "Alliance",
+		},
+		["Xuddon"] = {
+		},
+		["Xenarion"] = {
+		},
+		["Glaxop"] = {
 		},
 	},
-	["Argent Dawn"] = {
-		["Xerpo"] = {
-		},
-		["Cmgoldpls"] = {
-		},
+	["IgnoreRewards"] = {
 	},
 }
