@@ -14,6 +14,7 @@ DeathNoteDB = {
 		["Koyaz - Frostmane"] = "Koyaz - Frostmane",
 		["Glaxqt - Frostmane"] = "Glaxqt - Frostmane",
 		["Babombabam - Ragnaros"] = "Babombabam - Ragnaros",
+		["Kserpon - Kazzak"] = "Kserpon - Kazzak",
 		["Boostmoeny - Shattered Hand"] = "Boostmoeny - Shattered Hand",
 		["Koya - Silvermoon"] = "Koya - Silvermoon",
 		["Xesevi - Tarren Mill"] = "Xesevi - Tarren Mill",
@@ -104,15 +105,19 @@ DeathNoteDB = {
 		["Xerpon - Frostmane"] = {
 		},
 		["Xerpon - Kazzak"] = {
+			["unit_menu"] = true,
+			["display"] = {
+				["health"] = 2,
+			},
 		},
 		["Xesevi - Shattered Hand"] = {
 			["unit_menu"] = true,
 			["display"] = {
 				["y"] = 107.998504638672,
-				["h"] = 685.999938964844,
+				["x"] = 211.999450683594,
 				["health"] = 2,
 				["w"] = 976.000244140625,
-				["x"] = 211.999450683594,
+				["h"] = 685.999938964844,
 			},
 		},
 		["Insert - Silvermoon"] = {
@@ -131,6 +136,8 @@ DeathNoteDB = {
 			["display"] = {
 				["health"] = 2,
 			},
+		},
+		["Kserpon - Kazzak"] = {
 		},
 		["Boostmoeny - Shattered Hand"] = {
 		},
@@ -161,11 +168,11 @@ DeathNoteDB = {
 			["unit_menu"] = true,
 			["display"] = {
 				["y"] = -81.4997863769531,
-				["x"] = 152.500427246094,
-				["health"] = 2,
-				["namelist"] = 2,
-				["w"] = 1137.00036621094,
 				["h"] = 917.000549316406,
+				["health"] = 2,
+				["x"] = 152.500427246094,
+				["w"] = 1137.00036621094,
+				["namelist"] = 2,
 			},
 		},
 		["Xesevi - Kazzak"] = {

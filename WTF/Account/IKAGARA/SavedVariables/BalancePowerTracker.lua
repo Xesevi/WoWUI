@@ -28,17 +28,7 @@ BalancePowerTracker_Options = {
 			["left"] = 2,
 			["bottom"] = 2,
 		},
-		["custom"] = {
-			false, -- [1]
-			nil, -- [2]
-			false, -- [3]
-			false, -- [4]
-			false, -- [5]
-			[0] = true,
-			[31] = true,
-			[29] = false,
-			[27] = false,
-		},
+		["sy"] = 0,
 		["iconSpellReady"] = false,
 		["arrowTextureFile"] = "Interface\\PlayerFrame\\UI-DruidEclipse",
 		["x"] = 0,
@@ -107,7 +97,7 @@ BalancePowerTracker_Options = {
 		},
 		["iconBigScale"] = 1.2,
 		["arrowScale"] = 1,
-		["sy"] = 0,
+		["iconGlow"] = true,
 		["lx"] = -5,
 		["moveTextOutOfTheWay"] = true,
 		["SolarIconHighlightTextureFile"] = "Interface\\GLUES\\CHARACTERCREATE\\UI-CharacterCreate-IconGlow",
@@ -138,7 +128,7 @@ BalancePowerTracker_Options = {
 			["r"] = 0,
 		},
 		["sparkYOffset"] = -1,
-		["strata"] = "HIGH",
+		["fontSize"] = 14,
 		["point"] = "CENTER",
 		["gainSpark"] = true,
 		["scale"] = 1,
@@ -166,21 +156,31 @@ BalancePowerTracker_Options = {
 		},
 		["alpha"] = 1,
 		["width"] = 140,
-		["fontSize"] = 14,
-		["predictedLunarColor"] = {
-			["a"] = 1,
-			["b"] = 1,
-			["g"] = 0.56,
-			["r"] = 0.12,
-		},
-		["iconGlow"] = true,
-		["moving"] = false,
 		["predictedSolarColor"] = {
 			["a"] = 1,
 			["b"] = 0.16,
 			["g"] = 0.66,
 			["r"] = 1,
 		},
+		["predictedLunarColor"] = {
+			["a"] = 1,
+			["b"] = 1,
+			["g"] = 0.56,
+			["r"] = 0.12,
+		},
+		["custom"] = {
+			false, -- [1]
+			nil, -- [2]
+			false, -- [3]
+			false, -- [4]
+			false, -- [5]
+			[0] = true,
+			[31] = true,
+			[29] = false,
+			[27] = false,
+		},
+		["moving"] = false,
+		["strata"] = "HIGH",
 		["growBar"] = false,
 		["LunarIconHighlightTextureFile"] = "Interface\\GLUES\\CHARACTERCREATE\\UI-CharacterCreate-IconGlow",
 		["textColor"] = {

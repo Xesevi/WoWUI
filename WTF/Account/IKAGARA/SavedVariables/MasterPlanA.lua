@@ -1,31 +1,31 @@
 
 MasterPlanAG = {
-	["Argent Dawn"] = {
-		["Xerpo"] = {
-		},
-		["Cmgoldpls"] = {
-		},
+	["IgnoreRewards"] = {
 	},
 	["Kazzak"] = {
 		["Xerpon"] = {
-			["curOil"] = 1450,
 			["summary"] = {
-				["ti2"] = 122486,
-				["ti3"] = 127855,
-				["tt1"] = 1465487212,
-				["ti1"] = 118531,
+				["tt2"] = true,
 				["tt3"] = true,
-				["tt2"] = 1468520497,
+				["tt1"] = true,
+				["ti1"] = 118531,
+				["ti3"] = 127855,
+				["ti2"] = 122486,
 			},
+			["curOil"] = 1450,
 			["faction"] = "Horde",
 			["class"] = "PALADIN",
-			["curRes"] = 8960,
-			["lastCacheTime"] = 1470059783,
+			["curRes"] = 10000,
+			["lastCacheTime"] = 1471524916,
 		},
 		["Glaxopi"] = {
+			["lastCacheTime"] = 1470825361,
 			["class"] = "MAGE",
-			["lastCacheTime"] = 1469928978,
-			["curRes"] = 1991,
+			["curRes"] = 2491,
+			["faction"] = "Horde",
+		},
+		["Kserpon"] = {
+			["class"] = "DEMONHUNTER",
 			["faction"] = "Horde",
 		},
 	},
@@ -38,16 +38,21 @@ MasterPlanAG = {
 	},
 	["Ragnaros"] = {
 		["Glaxop"] = {
-			["class"] = "MONK",
 			["lastCacheTime"] = 1430325378,
+			["class"] = "MONK",
 			["curRes"] = 1232,
 			["faction"] = "Horde",
 		},
 		["Babombabam"] = {
-			["class"] = "DRUID",
-			["lastCacheTime"] = 1469725033,
-			["curRes"] = 859,
+			["summary"] = {
+				["inProgress"] = {
+					[2] = 1468606259,
+				},
+			},
 			["faction"] = "Horde",
+			["lastCacheTime"] = 1471690200,
+			["curRes"] = 1582,
+			["class"] = "DRUID",
 		},
 	},
 	["Shattered Hand"] = {
@@ -55,6 +60,9 @@ MasterPlanAG = {
 		},
 		["Glaxdk"] = {
 			["lastCacheTime"] = 1451585760,
+			["class"] = "DEATHKNIGHT",
+			["curRes"] = 7457,
+			["faction"] = "Horde",
 		},
 		["Boostmoeny"] = {
 		},
@@ -73,8 +81,8 @@ MasterPlanAG = {
 				["tt3"] = true,
 				["tt2"] = true,
 			},
-			["faction"] = "Horde",
 			["curOil"] = 855,
+			["faction"] = "Horde",
 			["lastCacheTime"] = 1453778360,
 			["curRes"] = 10000,
 			["class"] = "PRIEST",
@@ -83,17 +91,17 @@ MasterPlanAG = {
 		},
 		["Glaxop"] = {
 			["summary"] = {
-				["tt2"] = true,
-				["tt3"] = true,
+				["ti2"] = 122486,
+				["ti3"] = 127855,
 				["tt1"] = true,
 				["ti1"] = 118529,
-				["ti3"] = 127855,
-				["ti2"] = 122486,
+				["tt3"] = true,
+				["tt2"] = true,
 			},
 			["faction"] = "Horde",
 			["curOil"] = 560,
-			["lastCacheTime"] = 1470099715,
-			["curRes"] = 5813,
+			["lastCacheTime"] = 1470330414,
+			["curRes"] = 6197,
 			["class"] = "HUNTER",
 		},
 		["Boostmoneytw"] = {
@@ -106,13 +114,21 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 			["faction"] = "Alliance",
 		},
+		["Glaxop"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
 		["Xuddon"] = {
 		},
 		["Xenarion"] = {
 		},
-		["Glaxop"] = {
-		},
 	},
-	["IgnoreRewards"] = {
+	["Argent Dawn"] = {
+		["Xerpo"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
+		},
+		["Cmgoldpls"] = {
+		},
 	},
 }

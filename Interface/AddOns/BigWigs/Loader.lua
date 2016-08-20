@@ -1,5 +1,5 @@
 
-local L = LibStub("AceLocale-3.0"):GetLocale("Big Wigs")
+local L = LibStub("AceLocale-3.0"):GetLocale("BigWigs")
 local mod, public = {}, {}
 local bwFrame = CreateFrame("Frame")
 
@@ -10,9 +10,8 @@ public.isLegion = isLegion
 -- Generate our version variables
 --
 
+local BIGWIGS_VERSION = 7
 local BIGWIGS_RELEASE_STRING = ""
--- Grab the release string from the TOC file.
-local BIGWIGS_VERSION = tonumber(GetAddOnMetadata("BigWigs", "Version")) or 0
 local versionQueryString, versionResponseString = "Q:%d-%s", "V:%d-%s"
 
 do
@@ -22,12 +21,12 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "13807" -- The ZIP packager will replace this with the Git hash. -- XXX @project-abbreviated-hash@
+	local myGitHash = "910ede1" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
-	--@alpha@
+	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
 	releaseType = ALPHA
-	--@end-alpha@
+	--@end-alpha@]===]
 
 	-- If we find "@" then we're running from Git directly.
 	if myGitHash:find("@", nil, true) then
@@ -107,14 +106,15 @@ do
 		[604]=wotlk, [543]=wotlk, [535]=wotlk, [529]=wotlk, [527]=wotlk, [532]=wotlk, [531]=wotlk, [609]=wotlk, [718]=wotlk,
 		[752]=cata, [758]=cata, [754]=cata, [824]=cata, [800]=cata, [773]=cata,
 		[896]=mop, [897]=mop, [886]=mop, [930]=mop, [953]=mop, [862]=mop,
-		[994]=wod, [988]=wod, [1026]=wod, [948]=wod, [949]=wod, [945]=wod, [962]=wod,
+		[994]=wod, [988]=wod, [1026]=wod, [962]=wod,
 
 		[756]=lw, -- Classic
 		[710]=lw, [722]=lw, [723]=lw, [724]=lw, [725]=lw, [726]=lw, [727]=lw, [728]=lw, [729]=lw, [730]=lw, [731]=lw, [732]=lw, [733]=lw, [734]=lw, [797]=lw, [798]=lw, -- TBC
 		[520]=lw, [521]=lw, [522]=lw, [523]=lw, [524]=lw, [525]=lw, [526]=lw, [528]=lw, [530]=lw, [533]=lw, [534]=lw, [536]=lw, [542]=lw, [601]=lw, [602]=lw, [603]=lw, -- WotLK
 		[747]=lw, [757]=lw, [767]=lw, [768]=lw, [769]=lw, [820]=lw, -- Cataclysm
 		[877]=lw, [871]=lw, [874]=lw, [885]=lw, [867]=lw, [919]=lw, -- MoP
-		[964]=lw, [969]=lw, [984]=lw, [987]=lw, [989]=lw, [993]=lw, [995]=lw, [1008]=lw -- WoD
+		[964]=lw, [969]=lw, [984]=lw, [987]=lw, [989]=lw, [993]=lw, [995]=lw, [1008]=lw, -- WoD
+		[1041]=lw, [1042]=lw, [1045]=lw, [1046]=lw, [1065]=lw, [1066]=lw, [1067]=lw, [1079]=lw, [1081]=lw, [1087]=lw -- Legion
 	}
 
 	public.fakeWorldZones = fakeWorldZones
@@ -145,7 +145,7 @@ local function IsAddOnEnabled(addon)
 end
 
 local function sysprint(msg)
-	print("|cFF33FF99Big Wigs|r: "..msg)
+	print("|cFF33FF99BigWigs|r: "..msg)
 end
 
 local function load(obj, index)
@@ -520,13 +520,13 @@ do
 			for j = 1, select("#", GetAddOnOptionalDependencies(i)) do
 				local meta = select(j, GetAddOnOptionalDependencies(i))
 				if meta and (meta == "BigWigs_Core" or meta == "BigWigs_Plugins" or meta == "BigWigs_Options") then
-					delayedMessages[#delayedMessages+1] = "The addon '|cffffff00"..name.."|r' is forcing Big Wigs to load prematurely, notify the Big Wigs authors!"
+					delayedMessages[#delayedMessages+1] = "The addon '|cffffff00"..name.."|r' is forcing BigWigs to load prematurely, notify the BigWigs authors!"
 				end
 			end
 			for j = 1, select("#", GetAddOnDependencies(i)) do
 				local meta = select(j, GetAddOnDependencies(i))
 				if meta and (meta == "BigWigs_Core" or meta == "BigWigs_Plugins" or meta == "BigWigs_Options") then
-					delayedMessages[#delayedMessages+1] = "The addon '|cffffff00"..name.."|r' is forcing Big Wigs to load prematurely, notify the Big Wigs authors!"
+					delayedMessages[#delayedMessages+1] = "The addon '|cffffff00"..name.."|r' is forcing BigWigs to load prematurely, notify the BigWigs authors!"
 				end
 			end
 		end
@@ -539,20 +539,20 @@ do
 
 	local L = GetLocale()
 	if L == "ptBR" then
-		--delayedMessages[#delayedMessages+1] = "We *really* need help translating Big Wigs! Think you can help us? Please check out our translator website: goo.gl/nwR5cy"
+		--delayedMessages[#delayedMessages+1] = "We *really* need help translating BigWigs! Think you can help us? Please check out our translator website: goo.gl/nwR5cy"
 	elseif L == "zhTW" then
-		--delayedMessages[#delayedMessages+1] = "Think you can translate Big Wigs into Traditional Chinese (zhTW)? Check out our easy translator tool: goo.gl/nwR5cy"
+		--delayedMessages[#delayedMessages+1] = "Think you can translate BigWigs into Traditional Chinese (zhTW)? Check out our easy translator tool: goo.gl/nwR5cy"
 	elseif L == "itIT" then
-		--delayedMessages[#delayedMessages+1] = "Think you can translate Big Wigs into Italian (itIT)? Check out our easy translator tool: goo.gl/nwR5cy"
+		--delayedMessages[#delayedMessages+1] = "Think you can translate BigWigs into Italian (itIT)? Check out our easy translator tool: goo.gl/nwR5cy"
 	elseif L == "koKR" then
-		--delayedMessages[#delayedMessages+1] = "Think you can translate Big Wigs into Korean (koKR)? Check out our easy translator tool: goo.gl/nwR5cy"
+		--delayedMessages[#delayedMessages+1] = "Think you can translate BigWigs into Korean (koKR)? Check out our easy translator tool: goo.gl/nwR5cy"
 	end
 
 	CTimerAfter(11, function()
-		--local _, _, _, _, _, _, year = GetAchievementInfo(8482) -- Mythic Garrosh
-		--if year == 13 and (L == "enUS" or L == "enGB") then
-		--	sysprint("We're looking for a new end-game raider to join our developer team! See [goo.gl/aajTfo] for more info.")
-		--end
+		local _, _, _, _, month, _, year = GetAchievementInfo(10043) -- Mythic Archimonde
+		if year == 15 and month < 10 then
+			sysprint("We're looking for an end-game raider to join our GitHub developer team: goo.gl/aajTfo")
+		end
 		for _, msg in next, delayedMessages do
 			sysprint(msg)
 		end
@@ -566,8 +566,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "15061" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "7.0.0" -- Same as above but is changed between alpha and release cycles e.g. "N.N.N" for a release and "N.N.N alpha" for the alpha duration
+	local DBMdotRevision = "15117" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "7.0.2" -- Same as above but is changed between alpha and release cycles e.g. "N.N.N" for a release and "N.N.N alpha" for the alpha duration
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
@@ -745,7 +745,7 @@ do
 				local timeLeft = prev - GetTime()
 				if timeLeft > 0 then
 					f:SetValue(timeLeft)
-					f.text:SetFormattedText("Big Wigs: %.1f", timeLeft)
+					f.text:SetFormattedText("BigWigs: %.1f", timeLeft)
 				end
 			end)
 
@@ -831,7 +831,7 @@ do
 		if prefix == "V" or prefix == "Q" then -- V = version response, Q = version query
 			local verString, hash = msg:match("^(%d+)%-(.+)$")
 			local version = tonumber(verString)
-			if version and version > 0 then -- Allow addons to query Big Wigs versions by using a version of 0, but don't add them to the user list.
+			if version and version > 0 then -- Allow addons to query BigWigs versions by using a version of 0, but don't add them to the user list.
 				usersVersion[sender] = version
 				usersHash[sender] = hash
 				if version > highestFoundVersion then highestFoundVersion = version end
@@ -900,10 +900,15 @@ do
 		local id
 		local inside = IsInInstance()
 		if not inside then
-			id = GetPlayerMapAreaID("player")
+			id = -(GetPlayerMapAreaID("player") or 0)
 		else
 			local _, _, _, _, _, _, _, instanceId = GetInstanceInfo()
 			id = instanceId
+			-- XXX temp LEGION
+			if IsTestBuild() and not self.tmp and (id == 1520 or id == 1530) then
+				self.tmp = true
+				sysprint("We're looking for a new end-game raider to join our developer team! See [goo.gl/aajTfo] for more info.")
+			end
 		end
 
 		-- Module loading
@@ -1043,7 +1048,7 @@ do
 	if ldb11 then
 		ldb = ldb11:NewDataObject("BigWigs", {
 			type = "launcher",
-			label = "Big Wigs",
+			label = "BigWigs",
 			icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-disabled",
 		})
 
@@ -1071,7 +1076,7 @@ do
 		end
 
 		function ldb.OnTooltipShow(tt)
-			tt:AddLine("Big Wigs")
+			tt:AddLine("BigWigs")
 			if BigWigs and BigWigs:IsEnabled() then
 				local added = nil
 				for name, module in BigWigs:IterateBossModules() do

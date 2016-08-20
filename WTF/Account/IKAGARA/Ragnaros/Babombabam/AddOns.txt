@@ -34,3 +34,4 @@ SharedMedia: enabled
 DSM: enabled
 VuhDoOptions: disabled
 ArkInventory: disabled
+MaxCam: disabled

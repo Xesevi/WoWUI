@@ -122,3 +122,4 @@ SimpleComboPoints: disabled
 TurnIn: disabled
 DSM: enabled
 ArkInventory: disabled
+MaxCam: disabled

@@ -1728,6 +1728,7 @@ function PawnUIOptionsTabPage_OnShow()
 	PawnUIFrame_ShowQuestUpgradeAdvisorCheck:SetChecked(PawnCommon.ShowQuestUpgradeAdvisor)
 	PawnUIFrame_ShowSocketingAdvisorCheck:SetChecked(PawnCommon.ShowSocketingAdvisor)
 	PawnUIFrame_IgnoreGemsWhileLevelingCheck:SetChecked(PawnCommon.IgnoreGemsWhileLeveling)
+	PawnUIFrame_IgnoreItemUpgradesCheck:SetChecked(PawnCommon.IgnoreItemUpgrades)
 
 	-- Other options
 	PawnUIFrame_DebugCheck:SetChecked(PawnCommon.Debug)
@@ -1808,6 +1809,13 @@ end
 
 function PawnUIFrame_IgnoreGemsWhileLevelingCheck_OnClick()
 	PawnCommon.IgnoreGemsWhileLeveling = PawnUIFrame_IgnoreGemsWhileLevelingCheck:GetChecked()
+	PawnClearCache()
+	PawnInvalidateBestItems()
+	PawnResetTooltips()
+end
+
+function PawnUIFrame_IgnoreItemUpgradesCheck_OnClick()
+	PawnCommon.IgnoreItemUpgrades = PawnUIFrame_IgnoreItemUpgradesCheck:GetChecked()
 	PawnClearCache()
 	PawnInvalidateBestItems()
 	PawnResetTooltips()

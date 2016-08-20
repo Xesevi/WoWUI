@@ -116,3 +116,4 @@ DBM-StatusBarTimers: disabled
 ExtraCD: disabled
 DSM: enabled
 ArkInventory: disabled
+MaxCam: disabled

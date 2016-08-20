@@ -69,12 +69,12 @@ AngryAssign_Pages = {
 		["Backup"] = "p3: kill boss",
 	},
 	[1262189833] = {
-		["Updated"] = 1469729549,
+		["Updated"] = 1471540461,
 		["Name"] = "Archimonde",
 		["Id"] = 1262189833,
-		["UpdateId"] = 1595198099,
-		["Contents"] = "Chaos:\n{triangle}            {circle}    \n      \n    YOLO\n    \n{Square}            {diamond}             \n     \n\n----------------------------\n||cyellowInfernals:\n1.{skull} 2.{star}\n3.{diamond} 4.{moon}\n\n{skull}(Melee Left) = Nia+Zoyte+Fjoll+Lazel+Spud\n{star}(Melee Right) = Boostburn+Lophis+Fev+Denys+FNX\n{diamond}(Ranged Left) = Deyron+Kelius+xern+Roosta+Astreem\n{moon}(Ranged Right) = Benzi+Sonururs+Bearmaster+Tusn+\n\nStars:\nKILL ALL OF EM",
-		["Backup"] = "Chaos:\n{triangle}            {circle}    \n      \n    YOLO\n    \n{Square}            {diamond}             \n     \n\n----------------------------\n||cyellowInfernals:\n1.{skull} 2.{star}\n3.{diamond} 4.{moon}\n\n{skull}(Melee Left) = Bearmaster+Zoyte+razecog+Lazel+FNX\n{star}(Melee Right) = Boost+Spudx+Jotwe+Denys+Zworg\n{diamond}(Ranged Left) = Deyron+Kelius+xern+Lophis+Astreem\n{moon}(Ranged Right) = Tommy+Buyer+Xerpon+Gingi+lanah\n\nStars:\nKILL ALL OF EM",
+		["UpdateId"] = 2861577042,
+		["Contents"] = "Chaos:\n{triangle}            {circle}    \n      \n    YOLO\n    \n{Square}            {diamond}             \n     \n\n----------------------------\n||cyellowInfernals:\n1.{skull} 2.{star}\n3.{diamond} 4.{moon}\n\n{skull}(Melee Left) = Razecog+Zoyte+Fjoll+Lazel+Spud\n{star}(Melee Right) = burnboost+Zworg+Fev+Denys+Lophis\n{diamond}(Ranged Left) = Gingi+Kelius+xern+Roosta+Astreem\n{moon}(Ranged Right) = Benzi+Sonururs+Bearmaster+Tusn+Xerpon\n\nStars:\nKILL ALL OF EM",
+		["Backup"] = "Chaos:\n{triangle}            {circle}    \n      \n    YOLO\n    \n{Square}            {diamond}             \n     \n\n----------------------------\n||cyellowInfernals:\n1.{skull} 2.{star}\n3.{diamond} 4.{moon}\n\n{skull}(Melee Left) = Razecog+Zoyte+Fjoll+Lazel+Spud\n{star}(Melee Right) = Lame+Zworg+Fev+Denys+FNX\n{diamond}(Ranged Left) = Gingi+Kelius+xern+Roosta+Astreem\n{moon}(Ranged Right) = Benzi+Sonururs+Bearmaster+Tusn+Xerpon\n\nStars:\nKILL ALL OF EM",
 	},
 	[1589428739] = {
 		["Updated"] = 1445367842,
@@ -260,6 +260,8 @@ AngryAssign_Pages = {
 		["Contents"] = "P4 Gaze soakers:\n{star} = Razecog, Hobby, Deyron\n{circle} = Zworg, Spud, Jotwe\n{diamond} = Xesevi ,Fjolliz  , Lophis",
 	},
 }
+AngryAssign_Categories = {
+}
 AngryAssign_State = {
 	["display"] = {
 		["y"] = -10.4998779296875,
@@ -275,6 +277,7 @@ AngryAssign_State = {
 		["left"] = 1083.00061035156,
 		["width"] = 700.000061035156,
 	},
+	["directionUp"] = false,
 	["tree"] = {
 		["groups"] = {
 			["947246475"] = true,
@@ -285,7 +288,6 @@ AngryAssign_State = {
 		["treewidth"] = 175,
 		["treesizable"] = true,
 	},
-	["directionUp"] = false,
 }
 AngryAssign_Config = {
 	["glowColor"] = "96a78c",

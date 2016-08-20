@@ -16,7 +16,7 @@ PawnLocal =
 	CopyScaleEnterName = "Введите имя для новой шкалы копии %s:",
 	DebugOffCommand = "отладка выкл",
 	DebugOnCommand = "отладка вкл",
-	DecimalSeparator = ".", -- Needs review
+	DecimalSeparator = ",",
 	DeleteScaleConfirmation = "Вы уверены что хотите удалить %s? Отменить удаление будет невозможно. Наберите \"%s\" для подтверждения:",
 	DidntUnderstandMessage = "   (?) не распознано \"%s\".",
 	EnchantedStatsHeader = "(текущее значение)",
@@ -50,7 +50,7 @@ PawnLocal =
 	RenameScaleEnterName = "Введите новое имя шкалы %s:",
 	SocketBonusValueCalculationMessage = "   -- Гнездо оценивается как: %g",
 	StatNameText = "1 |cffffffff%s|r цениться:",
-	ThousandsSeparator = ",", -- Needs review
+	ThousandsSeparator = ",",
 	TooltipBestAnnotation = "%s  |cff8ec3e6(лучшая)|r",
 	TooltipBestAnnotationSimple = "%s  ваша лучшая",
 	TooltipBigUpgradeAnnotation = "%s  |TInterface\\AddOns\\Pawn\\Textures\\UpgradeArrow:0|t|cff00ff00 улучшение%s|r",
@@ -199,8 +199,8 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		WeaponTypeStaffInfo = "Очки присваиваются только если вещь - посох.",
 		WeaponTypeWand = "Жезл",
 		WeaponTypeWandInfo = "Очки присваиваются только если вещь - жезл.",
-		WeaponTypeWarglaive = "??Боевой клинок??",
-		WeaponTypeWarglaiveInfo = "Очки будут начислятся, если вещь ??Боевой клинок??",
+		WeaponTypeWarglaive = "Боевые клинки",
+		WeaponTypeWarglaiveInfo = "Очки будут начислятся, если вещь Боевые клинки",
 	},
 	TooltipParsing = {
 		Agility = "^%+?([-%d%.,]+) к ловкости$",
@@ -243,7 +243,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		Gun = "^Огнестрельное$",
 		Haste = "^%+?([%d%.,]+) к скорости$",
 		Haste2 = "^%+?([%d%.,]+) к показателю скорости$",
-		HaventCollectedAppearance = "^You haven't collected this appearance$", -- Requires localization
+		HaventCollectedAppearance = "^У вас еще нет такой модели.$",
 		HeirloomLevelRange = "^Требуется уровень %d+ - (%d+)",
 		HeirloomXpBoost = "^Если на персонаже: Увеличивает количество получаемого опыта на",
 		HeirloomXpBoost2 = "^Если на персонаже: Количество опыта, получаемого за убийства монстров и выполнение заданий, увеличено на",
@@ -265,7 +265,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		Mastery2 = "^%+?([%d%.,]+) к показателю искусности$",
 		MetaGemRequirements = "|cff%x%x%x%x%x%xТребуется",
 		MovementSpeed = "^%+([%d%.,]+) к скорости передвижения$",
-		MultiStatHeading = "^Multiple Stats$", -- Requires localization
+		MultiStatHeading = "^Различные характеристики$",
 		MultiStatSeparator1 = "и",
 		Multistrike = "^%+([%d%.,]+) к многократной атаке$",
 		NormalizationEnchant = "^Чары: (.*)$",
@@ -299,13 +299,13 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		TemporaryBuffSeconds = "^.+%(%d+ сек%)$",
 		Thunderforged = "^Создано в Кузне Грома$",
 		Timeless = "^Вневременной предмет$",
-		Titanforged = "^Titanforged$", -- Requires localization
+		Titanforged = "^Кованый титанами$",
 		UpgradeLevel = "^Уровень улучшения:",
 		Use = "Используется:",
 		Versatility = "^%+([%d%.,]+) к [показателю ]-универсальности$",
 		Wand = "^Жезл$",
 		Warforged = "^Предмет закален в бою$",
-		Warglaives = "^Парный клинок$", -- Needs review
+		Warglaives = "^Боевые клинки$",
 		WeaponDamage = "^Урон: ([%d%.,]+) %- ([%d%.,]+)$",
 		WeaponDamageArcane = "^%+?([%d%.,]+) %- ([%d%.,]+) ед%. урона от тайной магии$",
 		WeaponDamageArcaneExact = "^%+?([%d%.,]+) ед%. урона от тайной магии$",
@@ -327,7 +327,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		AboutHeader = "О Pawn",
 		AboutReadme = "Новичёк в Pawn? Для ознакомления загляните на страницу \"Помощь\"",
 		AboutTab = "О Аддоне",
-		AboutTranslation = "Официальная русская версия от Танковича (Магнанимус)",
+		AboutTranslation = "Официальная русская версия от Warr.",
 		AboutVersion = "Версия %s",
 		AboutWebsite = [=[Для других модов Vger, посетите vgermods.com.
 

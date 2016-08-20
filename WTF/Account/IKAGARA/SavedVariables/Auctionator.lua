@@ -17,10 +17,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4081411"] = "649990000:1",
 		["4082157"] = "649990000:1",
 	},
-	["Cursed Demonchain Belt"] = {
-		["is"] = "124311:567:0:0",
-		["3971676"] = "349990000:1",
-	},
 	["Elixir of the Rapid Mind"] = {
 		["is"] = "128312:0:0:0",
 		["4183285"] = "34990000:1",
@@ -55,56 +51,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"enchant cloak", -- [1]
-			"enchant weapon", -- [2]
-			"enchant ring", -- [3]
-			"Sandman", -- [4]
-			"rapid mind", -- [5]
-			"hyper augment rune", -- [6]
-			"Greater draenic agility flask", -- [7]
-			"Draenic agility potion", -- [8]
-			"healing tonic", -- [9]
-			"Greater draenic strength", -- [10]
-			"Greater draenic strength po", -- [11]
-			"Sleeper sushi", -- [12]
-			"Draenic strength potion", -- [13]
-			"pickled eel", -- [14]
-			"Greater draenic intellect flask", -- [15]
-			"Draenic intellect potion", -- [16]
-			"focus augment rune", -- [17]
-			"Stout augment", -- [18]
-			"\"Red Blossom Leek\"", -- [19]
-			"\"Giant Mantis Shrimp\"", -- [20]
-			"\"Raw Crocolisk Belly\"", -- [21]
-			"Spectral", -- [22]
-			"Ice cold milk", -- [23]
-			"Gingerbread cookie", -- [24]
-			"Gingerbreak cookie", -- [25]
-			"temporal crystal", -- [26]
-			"medallion", -- [27]
-			"critical strike taladite", -- [28]
-			"\"Surefooted Chain Treads\"", -- [29]
-			"Sea scorpion segment", -- [30]
-			"Gift of mastery", -- [31]
-			"mark of bleeding hollow", -- [32]
-			"Goblin glider", -- [33]
-			"Gift of critical strike", -- [34]
-			"buttered", -- [35]
-			"\"Sea Scorpion Segment\"", -- [36]
-			"mudback", -- [37]
-			"Augment rune", -- [38]
-			"Greater draenic strength flask", -- [39]
-			"Gift of haste", -- [40]
-			"coin", -- [41]
-			"Draenic armor potion", -- [42]
-			"Greater dranic", -- [43]
-			"paj", -- [44]
-			"\"Serrated Demontooth Ring\"", -- [45]
-			"\"Shifting Taladite Ring of the Peerless\"", -- [46]
-			"ring of the peerless", -- [47]
-			"coalfist", -- [48]
-			"ogle", -- [49]
-			"megawatt", -- [50]
+			"vulajin's vicious", -- [1]
+			"tsanga's helm", -- [2]
+			"Greater draenic intellect flask", -- [3]
+			"clefthoof", -- [4]
+			"Augment rune", -- [5]
+			"Draenic intellect flask", -- [6]
+			"Draenic mana potion", -- [7]
+			"hozen", -- [8]
+			"Draenic intellect potion", -- [9]
+			"buttered", -- [10]
+			"enchant cloak", -- [11]
+			"enchant weapon", -- [12]
+			"enchant ring", -- [13]
+			"Sandman", -- [14]
+			"rapid mind", -- [15]
+			"hyper augment rune", -- [16]
+			"Greater draenic agility flask", -- [17]
+			"Draenic agility potion", -- [18]
+			"healing tonic", -- [19]
+			"Greater draenic strength", -- [20]
+			"Greater draenic strength po", -- [21]
+			"Sleeper sushi", -- [22]
+			"Draenic strength potion", -- [23]
+			"pickled eel", -- [24]
+			"focus augment rune", -- [25]
+			"Stout augment", -- [26]
+			"\"Red Blossom Leek\"", -- [27]
+			"\"Giant Mantis Shrimp\"", -- [28]
+			"\"Raw Crocolisk Belly\"", -- [29]
+			"Spectral", -- [30]
+			"Ice cold milk", -- [31]
+			"Gingerbread cookie", -- [32]
+			"Gingerbreak cookie", -- [33]
+			"temporal crystal", -- [34]
+			"medallion", -- [35]
+			"critical strike taladite", -- [36]
+			"\"Surefooted Chain Treads\"", -- [37]
+			"Sea scorpion segment", -- [38]
+			"Gift of mastery", -- [39]
+			"mark of bleeding hollow", -- [40]
+			"Goblin glider", -- [41]
+			"Gift of critical strike", -- [42]
+			"\"Sea Scorpion Segment\"", -- [43]
+			"mudback", -- [44]
+			"Greater draenic strength flask", -- [45]
+			"Gift of haste", -- [46]
+			"coin", -- [47]
+			"Draenic armor potion", -- [48]
+			"Greater dranic", -- [49]
+			"paj", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -138,7 +134,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 5,
 		},
 	},
-	["Lightning's Blade_Horde"] = {
+	["Argent Dawn_Alliance"] = {
 	},
 	["Silvermoon_Alliance"] = {
 	},
@@ -242,37 +238,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H1567"] = 3990000,
 		},
 	},
-	["Kazzak_Horde"] = {
-		["Sandman's Pouch"] = {
-			["mr"] = 475009998,
-			["cc"] = 4,
-			["L2075"] = 36000000,
-			["id"] = "112320:0:6:0",
-			["sc"] = 0,
-			["H2075"] = 475009998,
-		},
-		["Draenic Intellect Potion"] = {
-			["mr"] = 77499,
-			["sc"] = 2,
-			["id"] = "109218:0:0:0",
-			["cc"] = 4,
-			["H2047"] = 77499,
-		},
-		["Pickled Eel"] = {
-			["mr"] = 99500,
-			["sc"] = 1,
-			["id"] = "122345:0:0:0",
-			["cc"] = 4,
-			["H2047"] = 99500,
-		},
-		["Girdle of Demonic Wrath"] = {
-			["mr"] = 400000000,
-			["cc"] = 2,
-			["id"] = "124350:567:0:0",
-			["H2035"] = 400000000,
-			["L2035"] = 130290000,
-			["sc"] = 5,
-		},
+	["Lightning's Blade_Horde"] = {
 	},
 	["Ravencrest_Alliance"] = {
 	},
@@ -283,14 +249,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "74723:0:0:0",
 			["sc"] = 11,
 			["H2082"] = 509998,
-		},
-		["Cursed Demonchain Belt"] = {
-			["H1922"] = 350000000,
-			["cc"] = 2,
-			["id"] = "124311:566:0:0",
-			["L1922"] = 99999999,
-			["sc"] = 4,
-			["mr"] = 118990100,
 		},
 		["Enchant Ring - Gift of Haste"] = {
 			["mr"] = 1749999,
@@ -307,11 +265,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2082"] = 2895651,
 		},
 		["Sandman's Pouch"] = {
-			["mr"] = 329939999,
+			["mr"] = 199990000,
+			["L2089"] = 14470000,
+			["id"] = "112320:0:4:0",
 			["cc"] = 4,
-			["id"] = "112320:0:6:0",
+			["H2089"] = 549999999,
 			["sc"] = 0,
-			["H2082"] = 329939999,
 		},
 		["Greater Draenic Intellect Flask"] = {
 			["mr"] = 193700,
@@ -532,11 +491,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2082"] = 37202972,
 		},
 		["Draenic Intellect Potion"] = {
-			["mr"] = 87000,
-			["cc"] = 4,
+			["mr"] = 91982,
+			["sc"] = 1,
 			["id"] = "109218:0:0:0",
-			["H2025"] = 87000,
-			["sc"] = 2,
+			["H2089"] = 91982,
+			["cc"] = 0,
 		},
 		["Stout Augment Rune"] = {
 			["mr"] = 50000,
@@ -650,6 +609,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "112115:0:0:0",
 			["sc"] = 11,
 			["H2082"] = 2390000,
+		},
+		["Buttered Sturgeon"] = {
+			["mr"] = 243999,
+			["cc"] = 0,
+			["id"] = "122348:0:0:0",
+			["H2089"] = 243999,
+			["sc"] = 5,
 		},
 		["Enchant Weapon - Icy Chill"] = {
 			["mr"] = 9979998,
@@ -1008,8 +974,535 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 	},
 	["Ragnaros_Horde"] = {
+		["Draenic Mana Potion"] = {
+			["mr"] = 6500,
+			["cc"] = 0,
+			["H2096"] = 6500,
+			["id"] = "109222:0:0:0",
+			["sc"] = 1,
+		},
+		["Tsanga's Helm"] = {
+			["mr"] = 397994,
+			["cc"] = 4,
+			["id"] = "60202:0:0:0",
+			["sc"] = 2,
+			["H2105"] = 397994,
+		},
+		["Stout Augment Rune"] = {
+			["mr"] = 111000,
+			["cc"] = 0,
+			["H2096"] = 111000,
+			["id"] = "118631:0:0:0",
+			["sc"] = 8,
+		},
+		["Vulajin's Vicious Breastplate"] = {
+			["mr"] = 13489998,
+			["cc"] = 4,
+			["id"] = "90585:0:0:0",
+			["sc"] = 2,
+			["H2105"] = 13489998,
+		},
+		["Focus Augment Rune"] = {
+			["mr"] = 98000,
+			["cc"] = 0,
+			["H2096"] = 98000,
+			["id"] = "118632:0:0:0",
+			["sc"] = 8,
+		},
+		["Draenic Intellect Flask"] = {
+			["mr"] = 143500,
+			["cc"] = 0,
+			["H2096"] = 143500,
+			["id"] = "109147:0:0:0",
+			["sc"] = 3,
+		},
+		["Hyper Augment Rune"] = {
+			["mr"] = 70000,
+			["cc"] = 0,
+			["H2096"] = 70000,
+			["id"] = "118630:0:0:0",
+			["sc"] = 8,
+		},
+		["Draenic Intellect Potion"] = {
+			["mr"] = 37000,
+			["cc"] = 0,
+			["H2096"] = 37000,
+			["id"] = "109218:0:0:0",
+			["sc"] = 1,
+		},
+		["Buttered Sturgeon"] = {
+			["mr"] = 87700,
+			["cc"] = 0,
+			["H2096"] = 87700,
+			["id"] = "122348:0:0:0",
+			["sc"] = 5,
+		},
+		["Greater Draenic Intellect Flask"] = {
+			["mr"] = 117500,
+			["cc"] = 0,
+			["id"] = "109155:0:0:0",
+			["H2103"] = 117500,
+			["sc"] = 3,
+		},
 	},
-	["Argent Dawn_Alliance"] = {
+	["Kazzak_Horde"] = {
+		["Clefthoof Cover of Stamina"] = {
+			["mr"] = 4943289,
+			["cc"] = 4,
+			["id"] = "24769:0:0:-16",
+			["H2099"] = 4943289,
+			["sc"] = 2,
+		},
+		["Clefthoof Britches of Frost Protection"] = {
+			["mr"] = 3500000,
+			["cc"] = 4,
+			["id"] = "24770:0:0:-33",
+			["H2099"] = 3500000,
+			["sc"] = 2,
+		},
+		["Sandman's Pouch"] = {
+			["mr"] = 475009998,
+			["cc"] = 4,
+			["L2075"] = 36000000,
+			["id"] = "112320:0:6:0",
+			["sc"] = 0,
+			["H2075"] = 475009998,
+		},
+		["Clefthoof Britches of the Gorilla"] = {
+			["mr"] = 6395078,
+			["cc"] = 4,
+			["id"] = "24770:0:0:-10",
+			["H2099"] = 6395078,
+			["sc"] = 2,
+		},
+		["Greater Draenic Intellect Flask"] = {
+			["mr"] = 186899,
+			["cc"] = 0,
+			["id"] = "109155:0:0:0",
+			["H2103"] = 186899,
+			["sc"] = 3,
+		},
+		["Clefthoof Hidemantle of the Bear"] = {
+			["mr"] = 5315378,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-7",
+			["H2099"] = 5315378,
+			["sc"] = 2,
+		},
+		["Heavy Clefthoof Leggings"] = {
+			["mr"] = 249000000,
+			["cc"] = 4,
+			["id"] = "25690:0:0:0",
+			["H2099"] = 249000000,
+			["sc"] = 2,
+		},
+		["Mad Hozen Elixir"] = {
+			["mr"] = 54500,
+			["cc"] = 0,
+			["id"] = "76076:0:0:0",
+			["H2092"] = 54500,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of the Bear"] = {
+			["mr"] = 3767499,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-7",
+			["H2099"] = 3767499,
+			["sc"] = 2,
+		},
+		["Clefthoof Cover of Nimbleness"] = {
+			["mr"] = 6384686,
+			["cc"] = 4,
+			["id"] = "24769:0:0:-27",
+			["H2099"] = 6384686,
+			["sc"] = 2,
+		},
+		["Enchanted Clefthoof Leggings"] = {
+			["mr"] = 457031116,
+			["cc"] = 4,
+			["id"] = "29495:0:0:0",
+			["H2099"] = 457031116,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of the Boar"] = {
+			["mr"] = 3777500,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-12",
+			["H2099"] = 3777500,
+			["sc"] = 2,
+		},
+		["Girdle of Demonic Wrath"] = {
+			["mr"] = 400000000,
+			["cc"] = 2,
+			["id"] = "124350:567:0:0",
+			["H2035"] = 400000000,
+			["L2035"] = 130290000,
+			["sc"] = 5,
+		},
+		["Clefthoof Hide Satchel"] = {
+			["mr"] = 6417614,
+			["cc"] = 1,
+			["id"] = "117445:0:0:0",
+			["H2099"] = 6417614,
+			["sc"] = 0,
+		},
+		["Clefthoof Hidemantle of Intellect"] = {
+			["mr"] = 2361481,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-19",
+			["H2099"] = 2361481,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of Arcane Protection"] = {
+			["mr"] = 10340000,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-31",
+			["H2099"] = 10340000,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of Strength"] = {
+			["mr"] = 3767498,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-17",
+			["H2099"] = 3767498,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of Power"] = {
+			["mr"] = 3777499,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-20",
+			["H2099"] = 3777499,
+			["sc"] = 2,
+		},
+		["Clefthoof Belt of the Bandit"] = {
+			["mr"] = 1787617,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-40",
+			["H2099"] = 1787617,
+			["sc"] = 2,
+		},
+		["Clefthoof Bracers of Intellect"] = {
+			["mr"] = 2630860,
+			["cc"] = 4,
+			["id"] = "24772:0:0:-26",
+			["H2099"] = 2630860,
+			["sc"] = 2,
+		},
+		["Clefthoof Mace of the Whale"] = {
+			["mr"] = 1487298,
+			["cc"] = 2,
+			["id"] = "25135:0:0:-8",
+			["H2099"] = 1487298,
+			["sc"] = 5,
+		},
+		["Clefthoof Hidemantle of the Beast"] = {
+			["mr"] = 1457497,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-41",
+			["H2099"] = 1457497,
+			["sc"] = 2,
+		},
+		["Pickled Eel"] = {
+			["mr"] = 99500,
+			["H2047"] = 99500,
+			["id"] = "122345:0:0:0",
+			["sc"] = 1,
+			["cc"] = 4,
+		},
+		["Clefthoof Shoulderguards of Shadow Protection"] = {
+			["mr"] = 5335548,
+			["cc"] = 4,
+			["id"] = "24771:0:0:-35",
+			["H2099"] = 5335548,
+			["sc"] = 2,
+		},
+		["Heavy Clefthoof Boots"] = {
+			["mr"] = 220999994,
+			["cc"] = 4,
+			["id"] = "25691:0:0:0",
+			["H2099"] = 220999994,
+			["sc"] = 2,
+		},
+		["Clefthoof Sausages"] = {
+			["mr"] = 3500,
+			["cc"] = 0,
+			["id"] = "111438:0:0:0",
+			["H2099"] = 3500,
+			["sc"] = 5,
+		},
+		["Draenic Intellect Potion"] = {
+			["mr"] = 77499,
+			["H2047"] = 77499,
+			["id"] = "109218:0:0:0",
+			["sc"] = 2,
+			["cc"] = 4,
+		},
+		["Stout Augment Rune"] = {
+			["mr"] = 59500,
+			["cc"] = 0,
+			["id"] = "118631:0:0:0",
+			["H2103"] = 59500,
+			["sc"] = 8,
+		},
+		["Clefthoof Belt of Stamina"] = {
+			["mr"] = 1787616,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-16",
+			["H2099"] = 1787616,
+			["sc"] = 2,
+		},
+		["Clefthoof Meat"] = {
+			["mr"] = 2200,
+			["cc"] = 7,
+			["id"] = "27678:0:0:0",
+			["H2099"] = 2200,
+			["sc"] = 8,
+		},
+		["Clefthoof Hidemantle of Arcane Protection"] = {
+			["mr"] = 1474997,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-31",
+			["H2099"] = 1474997,
+			["sc"] = 2,
+		},
+		["Hozen Cuervo"] = {
+			["mr"] = 2785920,
+			["cc"] = 0,
+			["id"] = "89683:0:0:0",
+			["H2092"] = 2785920,
+			["sc"] = 5,
+		},
+		["Clefthoof Cover of Intellect"] = {
+			["mr"] = 6122113,
+			["cc"] = 4,
+			["id"] = "24769:0:0:-21",
+			["H2099"] = 6122113,
+			["sc"] = 2,
+		},
+		["Clefthoof Belt of the Bear"] = {
+			["mr"] = 1787615,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-7",
+			["H2099"] = 1787615,
+			["sc"] = 2,
+		},
+		["Clefthoof Britches of Stamina"] = {
+			["mr"] = 3000000,
+			["cc"] = 4,
+			["id"] = "24770:0:0:-16",
+			["H2099"] = 3000000,
+			["sc"] = 2,
+		},
+		["Heavy Clefthoof Vest"] = {
+			["mr"] = 249000000,
+			["cc"] = 4,
+			["id"] = "25689:0:0:0",
+			["H2099"] = 249000000,
+			["sc"] = 2,
+		},
+		["Clefthoof Hidemantle of the Monkey"] = {
+			["mr"] = 1474998,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-5",
+			["H2099"] = 1474998,
+			["sc"] = 2,
+		},
+		["Clefthoof Mace of the Beast"] = {
+			["mr"] = 1487298,
+			["cc"] = 2,
+			["id"] = "25135:0:0:-41",
+			["H2099"] = 1487298,
+			["sc"] = 5,
+		},
+		["Clefthoof Shoulderguards of the Bandit"] = {
+			["mr"] = 3142600,
+			["cc"] = 4,
+			["id"] = "24771:0:0:-40",
+			["H2099"] = 3142600,
+			["sc"] = 2,
+		},
+		["Clefthoof Wanderboots of Frost Protection"] = {
+			["mr"] = 3777499,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-33",
+			["H2099"] = 3777499,
+			["sc"] = 2,
+		},
+		["Clefthoof Gloves of Spirit"] = {
+			["mr"] = 3000000,
+			["cc"] = 4,
+			["id"] = "24768:0:0:-15",
+			["H2099"] = 3000000,
+			["sc"] = 2,
+		},
+		["Clefthoof Hidemantle of Nimbleness"] = {
+			["mr"] = 1457496,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-27",
+			["H2099"] = 1457496,
+			["sc"] = 2,
+		},
+		["Clefthoof Belt of the Beast"] = {
+			["mr"] = 5403836,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-41",
+			["H2099"] = 5403836,
+			["sc"] = 2,
+		},
+		["Focus Augment Rune"] = {
+			["mr"] = 145000,
+			["cc"] = 0,
+			["id"] = "118632:0:0:0",
+			["H2103"] = 145000,
+			["sc"] = 8,
+		},
+		["Clefthoof Mace of the Gorilla"] = {
+			["mr"] = 1477298,
+			["cc"] = 2,
+			["id"] = "25135:0:0:-10",
+			["H2099"] = 1477298,
+			["sc"] = 5,
+		},
+		["Clefthoof Belt of the Invoker"] = {
+			["mr"] = 1791935,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-39",
+			["H2099"] = 1791935,
+			["sc"] = 2,
+		},
+		["Clefthoof Mace of Spirit"] = {
+			["mr"] = 4486564,
+			["cc"] = 2,
+			["id"] = "25135:0:0:-15",
+			["H2099"] = 4486564,
+			["sc"] = 5,
+		},
+		["Clefthoof Cover of the Invoker"] = {
+			["mr"] = 6049352,
+			["cc"] = 4,
+			["id"] = "24769:0:0:-39",
+			["H2099"] = 6049352,
+			["sc"] = 2,
+		},
+		["Clefthoof Gloves of the Gorilla"] = {
+			["mr"] = 3499998,
+			["cc"] = 4,
+			["id"] = "24768:0:0:-10",
+			["H2099"] = 3499998,
+			["sc"] = 2,
+		},
+		["Clefthoof Hidemantle of the Whale"] = {
+			["mr"] = 1457499,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-8",
+			["H2099"] = 1457499,
+			["sc"] = 2,
+		},
+		["Clefthoof Gloves of Stamina"] = {
+			["mr"] = 7516472,
+			["cc"] = 4,
+			["id"] = "24768:0:0:-16",
+			["H2099"] = 7516472,
+			["sc"] = 2,
+		},
+		["Hozen Peace Pipe"] = {
+			["mr"] = 99990000,
+			["cc"] = 0,
+			["id"] = "86592:0:0:0",
+			["H2092"] = 99990000,
+			["sc"] = 8,
+		},
+		["Shiny Hozen Rock Holder"] = {
+			["mr"] = 1144991,
+			["cc"] = 4,
+			["id"] = "87468:0:0:0",
+			["H2092"] = 1144991,
+			["sc"] = 0,
+		},
+		["Clefthoof Gloves of the Owl"] = {
+			["mr"] = 3499999,
+			["cc"] = 4,
+			["id"] = "24768:0:0:-9",
+			["H2099"] = 3499999,
+			["sc"] = 2,
+		},
+		["Clefthoof Belt of the Monkey"] = {
+			["mr"] = 5933011,
+			["cc"] = 4,
+			["id"] = "24765:0:0:-5",
+			["H2099"] = 5933011,
+			["sc"] = 2,
+		},
+		["Clefthoof Hidemantle of the Bandit"] = {
+			["mr"] = 1477499,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-40",
+			["H2099"] = 1477499,
+			["sc"] = 2,
+		},
+		["Clefthoof Britches of the Bandit"] = {
+			["mr"] = 6496606,
+			["cc"] = 4,
+			["id"] = "24770:0:0:-40",
+			["H2099"] = 6496606,
+			["sc"] = 2,
+		},
+		["Enchanted Clefthoof Boots"] = {
+			["mr"] = 124509996,
+			["cc"] = 4,
+			["id"] = "29497:0:0:0",
+			["H2099"] = 124509996,
+			["sc"] = 2,
+		},
+		["Clefthoof Mace of the Elder"] = {
+			["mr"] = 1507299,
+			["cc"] = 2,
+			["id"] = "25135:0:0:-44",
+			["H2099"] = 1507299,
+			["sc"] = 5,
+		},
+		["Clefthoof Shoulderguards of the Monkey"] = {
+			["mr"] = 951222,
+			["cc"] = 4,
+			["id"] = "24771:0:0:-5",
+			["H2099"] = 951222,
+			["sc"] = 2,
+		},
+		["Clefthoof Hidemantle of Spirit"] = {
+			["mr"] = 1457500,
+			["cc"] = 4,
+			["id"] = "24767:0:0:-15",
+			["H2099"] = 1457500,
+			["sc"] = 2,
+		},
+		["Hyper Augment Rune"] = {
+			["mr"] = 179400,
+			["cc"] = 0,
+			["id"] = "118630:0:0:0",
+			["H2103"] = 179400,
+			["sc"] = 8,
+		},
+		["Clefthoof Wanderboots of the Elder"] = {
+			["mr"] = 10348166,
+			["cc"] = 4,
+			["id"] = "24766:0:0:-42",
+			["H2099"] = 10348166,
+			["sc"] = 2,
+		},
+		["Thick Clefthoof Leather"] = {
+			["mr"] = 1992500,
+			["cc"] = 7,
+			["id"] = "25708:0:0:0",
+			["H2099"] = 1992500,
+			["sc"] = 6,
+		},
+		["Raw Clefthoof Meat"] = {
+			["mr"] = 1225,
+			["cc"] = 7,
+			["id"] = "109131:0:0:0",
+			["H2099"] = 1225,
+			["sc"] = 8,
+		},
 	},
 	["Argent Dawn_Neutral"] = {
 	},
@@ -1018,6 +1511,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
+	["Lophgold"] = {
+		["firstSeen"] = 1451707116,
+		["firstVersion"] = "3.2.6",
+	},
 	["Glaxgold"] = {
 		["firstSeen"] = 1451707246,
 		["firstVersion"] = "3.2.6",
@@ -1030,17 +1527,17 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1364928359,
 		["firstVersion"] = "3.1.3",
 	},
-	["Lophgold"] = {
-		["firstSeen"] = 1451707116,
-		["firstVersion"] = "3.2.6",
+	["Glaxqt"] = {
+		["firstSeen"] = 1412717093,
+		["firstVersion"] = "3.1.5",
 	},
 	["Glaxopi"] = {
 		["firstSeen"] = 1468886181,
 		["firstVersion"] = "3.2.6",
 	},
-	["Glaxqt"] = {
-		["firstSeen"] = 1412717093,
-		["firstVersion"] = "3.1.5",
+	["Xandora"] = {
+		["firstSeen"] = 1354977519,
+		["firstVersion"] = "3.0.5",
 	},
 	["Boostmoeny"] = {
 		["firstSeen"] = 1451844934,
@@ -1051,13 +1548,14 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "3.0.5",
 		["guid"] = "0x0380000004558316",
 	},
-	["Xandora"] = {
-		["firstSeen"] = 1354977519,
-		["firstVersion"] = "3.0.5",
-	},
 	["Xerpon"] = {
 		["firstSeen"] = 1353191853,
 		["firstVersion"] = "3.0.5",
+		["guid"] = "Player-1305-083CD97C",
+	},
+	["Cmgoldpls"] = {
+		["firstSeen"] = 1403532869,
+		["firstVersion"] = "3.1.5",
 	},
 	["Guymshum"] = {
 		["firstSeen"] = 1374435589,
@@ -1067,17 +1565,17 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1358768628,
 		["firstVersion"] = "3.1.2",
 	},
-	["Cmgoldpls"] = {
-		["firstSeen"] = 1403532869,
-		["firstVersion"] = "3.1.5",
+	["Koyaz"] = {
+		["firstSeen"] = 1367752362,
+		["firstVersion"] = "3.1.3",
 	},
 	["Glaxop"] = {
 		["firstSeen"] = 1355015166,
 		["firstVersion"] = "3.0.5",
 	},
-	["Koyaz"] = {
-		["firstSeen"] = 1367752362,
-		["firstVersion"] = "3.1.3",
+	["Kserpon"] = {
+		["firstSeen"] = 1470796155,
+		["firstVersion"] = "4.0.8",
 	},
 	["Xuddon"] = {
 		["firstSeen"] = 1424860887,
@@ -1138,7 +1636,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Babombabam"] = {
 		["firstSeen"] = 1395591156,
-		["guid"] = "Player-3682-05CB47FF",
 		["firstVersion"] = "3.1.5",
 	},
 	["Boostmoneytw"] = {

@@ -73,3 +73,4 @@ HandyNotes_DraenorTreasures: enabled
 DSM: enabled
 VuhDoOptions: disabled
 ArkInventory: disabled
+MaxCam: disabled

@@ -29,10 +29,10 @@ local GuildRankSort, ResponseSort -- Initialize now to avoid errors
 function RCVotingFrame:OnInitialize()
 	self.scrollCols = {
 		{ name = "",															sortnext = 2,		width = 20, },	-- 1 Class
-		{ name = L["Name"],																			width = 130,},	-- 2 Candidate Name
-		{ name = L["Rank"],		comparesort = GuildRankSort,		sortnext = 5,		width = 100,},	-- 3 Guild rank
-		{ name = L["Role"],													sortnext = 5,		width = 60, },	-- 4 Role
-		{ name = L["Response"],	comparesort = ResponseSort,		sortnext = 13,		width = 250,},	-- 5 Response
+		{ name = L["Name"],																			width = 120,},	-- 2 Candidate Name
+		{ name = L["Rank"],		comparesort = GuildRankSort,		sortnext = 5,		width = 95,},	-- 3 Guild rank
+		{ name = L["Role"],													sortnext = 5,		width = 55, },	-- 4 Role
+		{ name = L["Response"],	comparesort = ResponseSort,		sortnext = 13,		width = 240,},	-- 5 Response
 		{ name = L["ilvl"],													sortnext = 7,		width = 40, },	-- 6 Total ilvl
 		{ name = L["Diff"],																			width = 40, },	-- 7 ilvl difference
 		{ name = L["g1"],			align = "CENTER",						sortnext = 5,		width = 20, },	-- 8 Current gear 1
@@ -98,7 +98,7 @@ function RCVotingFrame:OnCommReceived(prefix, serializedMsg, distri, sender)
 
 		if test then
 			if command == "vote" then
-				if tContains(addon.council, addon:UnitName(sender)) or addon:UnitIsUnit(sender, addon.masterLooter) then
+				if addon:IsCouncil(sender) or addon:UnitIsUnit(sender, addon.masterLooter) then
 					local s, name, vote = unpack(data)
 					self:HandleVote(s, name, vote, sender)
 				else
@@ -119,7 +119,11 @@ function RCVotingFrame:OnCommReceived(prefix, serializedMsg, distri, sender)
 
 			elseif command == "awarded" and addon:UnitIsUnit(sender, addon.masterLooter) then
 				lootTable[unpack(data)].awarded = true
-				self:SwitchSession(session) -- Use switch session to update awardstring
+				if addon.isMasterLooter and session ~= #lootTable then -- ML should move to the next item on award
+					self:SwitchSession(session + 1)
+				else
+					self:SwitchSession(session) -- Use switch session to update awardstring
+				end
 
 			elseif command == "candidates" and addon:UnitIsUnit(sender, addon.masterLooter) then
 				candidates = unpack(data)
@@ -142,7 +146,7 @@ function RCVotingFrame:OnCommReceived(prefix, serializedMsg, distri, sender)
 				if db.autoOpen then
 					self:Show()
 				else
-					addon:Print(L['A new session has begun, type "/rc open" to open the voting frame.'])
+					addon:Print(L["A new session has begun, type '/rc open' to open the voting frame."])
 				end
 				guildRanks = addon:GetGuildRanks() -- Just update it on every session
 
@@ -152,6 +156,17 @@ function RCVotingFrame:OnCommReceived(prefix, serializedMsg, distri, sender)
 					self:SetCandidateData(session, name, k, v)
 				end
 				self:Update()
+
+			elseif command == "rolls" then
+				if addon:UnitIsUnit(sender, addon.masterLooter) then
+					local session, table = unpack(data)
+					for name, roll in pairs(table) do
+						self:SetCandidateData(session, name, "roll", roll)
+					end
+					self:Update()
+				else
+					addon:Debug("Non-ML", sender, "sent rolls!")
+				end
 			end
 		end
 	end
@@ -235,10 +250,11 @@ function RCVotingFrame:HandleVote(session, name, vote, voter)
 end
 
 function RCVotingFrame:DoRandomRolls(ses)
-	for _, v in pairs (lootTable[ses].candidates) do
-		v.roll = math.random(100)
+	local table = {}
+	for name, v in pairs (lootTable[ses].candidates) do
+		table[name] = math.random(100)
 	end
-	self:Update()
+	addon:SendCommand("group", "rolls", ses, table)
 end
 
 ------------------------------------------------------------------

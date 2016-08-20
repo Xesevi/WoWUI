@@ -902,16 +902,6 @@ f:RegisterEvent("GROUP_ROSTER_UPDATE")
 f:RegisterEvent("CHAT_MSG_ADDON")
 f:SetScript('OnEvent', SendRecieve)
 
---Adds a 2nd delayed update to unitframes.
---We need this for when profiles are changed automatically when zoning into dungeon or battleground.
---Fixes http://git.tukui.org/Elv/elvui/issues/1223
-function E:UpdateAllDelayed()
-	E:UpdateAll()
-
-	local UF = self:GetModule('UnitFrames')
-	C_Timer_After(1, function() UF:Update_AllFrames() end)
-end
-
 function E:UpdateAll(ignoreInstall)
 	if not self.initialized then
 		C_Timer_After(1, function() E:UpdateAll(ignoreInstall) end)
@@ -1423,45 +1413,71 @@ function E:DBConversions()
 end
 
 local CPU_USAGE = {}
-local function CompareCPUDiff(module, minCalls)
-	local greatestUsage, greatestCalls, greatestName
-	local greatestDiff = 0;
-	local mod = E:GetModule(module, true) or E
+local function CompareCPUDiff(showall, module, minCalls)
+	local greatestUsage, greatestCalls, greatestName, newName, newFunc
+	local greatestDiff, lastModule, mod, newUsage, calls, differance = 0;
 
 	for name, oldUsage in pairs(CPU_USAGE) do
-		local newUsage, calls = GetFunctionCPUUsage(mod[name], true)
-		local differance = newUsage - oldUsage
-
-		if differance > greatestDiff and calls > (minCalls or 15) then
-			greatestName = name
-			greatestUsage = newUsage
-			greatestCalls = calls
-			greatestDiff = differance
+		newName, newFunc = name:match("^([^:]+):(.+)$")
+		if not newFunc then
+			E:Print('CPU_USAGE:', name, newFunc)
+		else
+			if newName ~= lastModule then
+				mod = E:GetModule(newName, true) or E
+				lastModule = newName
+			end
+			newUsage, calls = GetFunctionCPUUsage(mod[newFunc], true)
+			differance = newUsage - oldUsage
+			if showall and calls > minCalls then
+				E:Print(calls, name, differance)
+			end
+			if (differance > greatestDiff) and calls > minCalls then
+				greatestName, greatestUsage, greatestCalls, greatestDiff = name, newUsage, calls, differance
+			end
 		end
 	end
 
-	if(greatestName) then
-		E:Print(greatestName.. " had the CPU usage of: "..greatestUsage.."ms. And has been called ".. greatestCalls.." times.")
+	if greatestName then
+		E:Print(greatestName.. " had the CPU usage difference of: "..greatestUsage.."ms. And has been called ".. greatestCalls.." times.")
+	else
+		E:Print('CPU Usage: No CPU Usage differences found.')
 	end
 end
 
 function E:GetTopCPUFunc(msg)
-	local module, delay, minCalls = msg:match("^([^%s]+)%s+(.*)$")
+	local module, showall, delay, minCalls = msg:match("^([^%s]+)%s*([^%s]*)%s*([^%s]*)%s*(.*)$")
+	local mod
 
-	module = module == "nil" and nil or module
-	delay = delay == "nil" and nil or tonumber(delay)
-	minCalls = minCalls == "nil" and nil or tonumber(minCalls)
+	module = (module == "nil" and nil) or module
+	if not module then
+		E:Print('cpuusage: module (arg1) is required! This can be set as "all" too.')
+		return
+	end
+	showall = (showall == "true" and true) or false
+	delay = (delay == "nil" and nil) or tonumber(delay) or 5
+	minCalls = (minCalls == "nil" and nil) or tonumber(minCalls) or 15
 
 	twipe(CPU_USAGE)
-	local mod = self:GetModule(module, true) or self
-	for name, func in pairs(mod) do
-		if type(mod[name]) == "function" and name ~= "GetModule" then
-			CPU_USAGE[name] = GetFunctionCPUUsage(mod[name], true)
+	if module == "all" then
+		for _, registeredModule in pairs(self['RegisteredModules']) do
+			mod = self:GetModule(registeredModule, true) or self
+			for name, func in pairs(mod) do
+				if type(mod[name]) == "function" and name ~= "GetModule" then
+					CPU_USAGE[registeredModule..":"..name] = GetFunctionCPUUsage(mod[name], true)
+				end
+			end
+		end
+	else
+		mod = self:GetModule(module, true) or self
+		for name, func in pairs(mod) do
+			if type(mod[name]) == "function" and name ~= "GetModule" then
+				CPU_USAGE[module..":"..name] = GetFunctionCPUUsage(mod[name], true)
+			end
 		end
 	end
 
-	self:Delay(delay or 5, CompareCPUDiff, module, minCalls)
-	self:Print("Calculating CPU Usage..")
+	self:Delay(delay, CompareCPUDiff, showall, module, minCalls)
+	self:Print("Calculating CPU Usage differences (module: "..(module or "?")..", showall: "..tostring(showall)..", minCalls: "..tostring(minCalls)..", delay: "..tostring(delay)..")")
 end
 
 function E:Initialize()
@@ -1470,7 +1486,7 @@ function E:Initialize()
 	twipe(self.private)
 
 	self.data = LibStub("AceDB-3.0"):New("ElvDB", self.DF);
-	self.data.RegisterCallback(self, "OnProfileChanged", "UpdateAllDelayed")
+	self.data.RegisterCallback(self, "OnProfileChanged", "UpdateAll")
 	self.data.RegisterCallback(self, "OnProfileCopied", "UpdateAll")
 	self.data.RegisterCallback(self, "OnProfileReset", "OnProfileReset")
 	self.charSettings = LibStub("AceDB-3.0"):New("ElvPrivateDB", self.privateVars);
@@ -1556,4 +1572,9 @@ function E:Initialize()
 			end
 		end)
 	end
+
+	-- We must run the CVar for cameraDistanceMaxFactor on login, otherwise it won't get saved.
+	hooksecurefunc("BlizzardOptionsPanel_SetupControl", function(control)
+		if control == InterfaceOptionsCameraPanelMaxDistanceSlider then SetCVar("cameraDistanceMaxFactor", 2.6) end
+	end)
 end

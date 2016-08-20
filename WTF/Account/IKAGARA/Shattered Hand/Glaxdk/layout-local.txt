@@ -13,10 +13,3 @@ X: 387
 Y: 0
 W: 136
 H: 18
-Frame: FollowerLocationInfoFrame
-FrameLevel: 10
-Anchor: LEFT
-X: 300
-Y: 0
-W: 538
-H: 538

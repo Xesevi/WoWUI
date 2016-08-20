@@ -27,10 +27,10 @@ X: 0
 Y: 80
 W: 260
 H: 150
-Frame: FollowerLocationInfoFrame
-FrameLevel: 10
-Anchor: LEFT
-X: 300
-Y: 0
-W: 538
-H: 538
+Frame: ScriptErrorsFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: -45
+Y: 90
+W: 500
+H: 300

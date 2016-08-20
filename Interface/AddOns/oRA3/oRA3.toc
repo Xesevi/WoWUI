@@ -1,9 +1,9 @@
 ## Interface: 70000
 ## Title: oRA3
 ## Notes: Raid and Party Assist
-## Version: 1001
+## Version: 1013
 ## Author: Funkydude, Nebula169
-## X-Curse-Packaged-Version: r1002-release
+## X-Curse-Packaged-Version: r1014-release
 ## X-Curse-Project-Name: oRA3
 ## X-Curse-Project-ID: ora3
 ## X-Curse-Repository-ID: wow/ora3/mainline

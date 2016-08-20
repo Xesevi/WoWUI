@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0002,
+	["LastVersion"] = 2.0007,
 	["LastPlayerFullName"] = "Glaxopi-Kazzak",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

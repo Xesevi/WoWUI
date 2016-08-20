@@ -51,3 +51,5 @@ ElvUI_Config: enabled
 AddOnSkins: enabled
 GuildRecr: enabled
 ElvUI_SLE: disabled
+MaxCam: disabled
+AdvancedInterfaceOptions: enabled

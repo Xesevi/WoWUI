@@ -72,3 +72,5 @@ ElvUI_ExtraActionBars: disabled
 DSM: disabled
 CrossGambling: disabled
 ElvUI_SLE: disabled
+MaxCam: disabled
+AdvancedInterfaceOptions: enabled

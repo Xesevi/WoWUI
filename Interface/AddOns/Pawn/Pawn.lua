@@ -7,7 +7,7 @@
 -- Main non-UI code
 ------------------------------------------------------------
 
-PawnVersion = 2.0002
+PawnVersion = 2.0007
 
 -- Pawn requires this version of VgerCore:
 local PawnVgerCoreVersionRequired = 1.09
@@ -515,7 +515,6 @@ function PawnInitializeOptions()
 	PawnCommon.ShowAsterisks = nil
 	PawnCommon.ShowBoth1HAnd2HUpgrades = nil
 	PawnCommon.ShowSpace = nil
-	PawnCommon.IgnoreItemUpgrades = nil
 
 	-- The current version of Pawn doesn't use placeholder scales anymore, so remove any stale data that
 	-- the user might have accumulated.
@@ -546,10 +545,14 @@ function PawnInitializeOptions()
 		-- When upgrading each character to 2.0, turn on the auto-scale option, but just once.
 		PawnOptions.AutoSelectScales = true
 	end
+	if (not PawnCommon.LastVersion) or (PawnCommon.LastVersion < 2.0004) then
+		-- The baleful/valor upgrade option returned temporarily in 2.0.4, and it's on by default. 
+		PawnCommon.IgnoreItemUpgrades = true
+	end
 	PawnCommon.LastVersion = PawnVersion
 	PawnOptions.LastVersion = PawnVersion
 
-	-- Just to fix up people who used the beta...
+	-- Just to fix up people who used the beta...  (Can remove this when the Legion beta realms close down)
 	if PawnOptions.UpgradeTracking == nil then PawnOptions.UpgradeTracking = false end
 
 	-- Finally, this stuff needs to get done after options are changed.
@@ -1839,7 +1842,9 @@ function PawnLookForSingleStat(RegexTable, Stats, ThisString, DebugMessages)
 					MatchIndex = 1
 				end
 				local ExtractedValue = Matches[MatchIndex]
-				if Stat ~= "Speed" and PawnLocal.ThousandsSeparator ~= "" then -- Skip this for Speed because Spanish uses the wrong character for speed, and speed would never be >=1,000
+				if Stat ~= "Speed" and (PawnLocal.ThousandsSeparator ~= "" or (PawnLocal.ThousandsSeparator == PawnLocal.DecimalSeparator)) then
+					-- Skip this for Speed because Spanish uses the wrong character for speed, and speed would never be >=1,000
+					-- In 7.0, Russian also used the comma for both thousands and decimal separators, so use the same logic then.
 					-- Remove commas in numbers.  We need to use % in case it's a dot, and we need to 
 					-- skip this entirely in case there's no large number separator at all (Spanish).
 					ExtractedValue = gsub(ExtractedValue, "%" .. PawnLocal.ThousandsSeparator, "")
@@ -2202,7 +2207,7 @@ end
 -- (But if EvenIfNotEnchanted is true, the item link will be processed even if the item wasn't enchanted.)
 function PawnUnenchantItemLink(ItemLink, EvenIfNotEnchanted)
 	local TrimmedItemLink = PawnStripLeftOfItemLink(ItemLink)
-	local Pos, _, ItemID, EnchantID, GemID1, GemID2, GemID3, GemID4, SuffixID, MoreInfo, ViewAtLevel, SpecializationID, UpgradeLevel1, Difficulty, NumBonusIDs, BonusID1, BonusID2, BonusID3, BonusID4, BonusID5 = strfind(TrimmedItemLink, "^item:(%-?%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*)")
+	local Pos, _, ItemID, EnchantID, GemID1, GemID2, GemID3, GemID4, SuffixID, MoreInfo, ViewAtLevel, SpecializationID, UpgradeLevel1, Difficulty, NumBonusIDs, BonusID1, BonusID2, BonusID3, BonusID4, BonusID5, BonusID6 = strfind(TrimmedItemLink, "^item:(%-?%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*)")
 	-- Note: After the specified number of bonus IDs would be UpgradeLevel2, which could be the level at which the item was acquired for timewarped items, or
 	-- the Valor upgrade level.
 
@@ -2213,70 +2218,75 @@ function PawnUnenchantItemLink(ItemLink, EvenIfNotEnchanted)
 		NumBonusIDs = tonumber(NumBonusIDs) or 0
 		local WasUpgraded
 		
---		if not PawnCommon.IgnoreItemUpgrades then
---			if NumBonusIDs == 0 then
---				if BonusID1 == "529" or BonusID1 == "530" then
---					BonusID1 = "531"
---					WasUpgraded = true
---				end
---			elseif NumBonusIDs == 1 then
---				if BonusID2 == "529" or BonusID2 == "530" then
---					BonusID2 = "531"
---					WasUpgraded = true
---				end
---			elseif NumBonusIDs == 2 then
---				if BonusID3 == "529" or BonusID3 == "530" then
---					BonusID3 = "531"
---					WasUpgraded = true
---				end
---			elseif NumBonusIDs == 3 then
---				if BonusID4 == "529" or BonusID4 == "530" then
---					BonusID4 = "531"
---					WasUpgraded = true
---				end
---			elseif NumBonusIDs == 4 then
---				if BonusID5 == "529" or BonusID5 == "530" then
---					BonusID5 = "531"
---					WasUpgraded = true
---				end
---			else
---				VgerCore.Fail("Pawn didn't expect to find an item with " .. tostring(NumBonusIDs) .. " bonus IDs.  Some of them were ignored.")
---			end
---			-- FUTURE: This function is currently the only place that could correctly calculate the number to add to the GetItemInfo function's returned
---			-- item level to make it correct—when the bonus ID is 529/530/531, this function could return 0/5/10 and then PawnGetItemData could add that
---			-- when setting Item.Level.
---			
---			-- If this is a Baleful item that isn't fully empowered, empower it too.
---			if NumBonusIDs >= 3 then
---				local BalefulID1 = tonumber(BonusID2)
---				local BalefulID2 = tonumber(BonusID3)
---				if BalefulID2 < BalefulID1 then
---					-- Sometimes the bonus IDs are specified in reverse order.  To simplify the comparisons, sort them here.
---					local BalefulIDTemp = BalefulID1
---					BalefulID1 = BalefulID2
---					BalefulID2 = BalefulIDTemp
---				end
---				-- If 653 is the lower ID, it's equivalent to if it's 652.  (The only known exceptions are if it's a lower number and 653.)
---				if BalefulID1 == 653 then BalefulID1 = 652 end
---			
---				if
---					(BalefulID1 == 647 and BalefulID2 == 652) or -- ilvl 650
---					(BalefulID1 == 647 and BalefulID2 == 653) or -- ilvl 650
---					(BalefulID1 == 652 and BalefulID2 == 761) or -- ilvl 660
---					(BalefulID1 == 652 and BalefulID2 == 762) or -- ilvl 665
---					(BalefulID1 == 652 and BalefulID2 == 763) or -- ilvl 670
---					(BalefulID1 == 651 and BalefulID2 == 652) or -- ilvl 675
---					(BalefulID1 == 652 and BalefulID2 == 764) or -- ilvl 680
---					(BalefulID1 == 651 and BalefulID2 == 653) or -- ilvl 685
---					(BalefulID1 == 652 and BalefulID2 == 765) or -- ilvl 685
---					(BalefulID1 == 652 and BalefulID2 == 766) -- ilvl 690
---				then
---					BonusID2 = "652"
---					BonusID3 = "648"
---					WasUpgraded = true 
---				end
---			end -- NumBonusIDs >= 3
---		end -- not PawnCommon.IgnoreItemUpgrades
+		if not PawnCommon.IgnoreItemUpgrades then
+			if NumBonusIDs == 0 then
+				if BonusID1 == "529" or BonusID1 == "530" then
+					BonusID1 = "531"
+					WasUpgraded = true
+				end
+			elseif NumBonusIDs == 1 then
+				if BonusID2 == "529" or BonusID2 == "530" then
+					BonusID2 = "531"
+					WasUpgraded = true
+				end
+			elseif NumBonusIDs == 2 then
+				if BonusID3 == "529" or BonusID3 == "530" then
+					BonusID3 = "531"
+					WasUpgraded = true
+				end
+			elseif NumBonusIDs == 3 then
+				if BonusID4 == "529" or BonusID4 == "530" then
+					BonusID4 = "531"
+					WasUpgraded = true
+				end
+			elseif NumBonusIDs == 4 then
+				if BonusID5 == "529" or BonusID5 == "530" then
+					BonusID5 = "531"
+					WasUpgraded = true
+				end
+			elseif NumBonusIDs == 5 then
+				if BonusID6 == "529" or BonusID6 == "530" then
+					BonusID6 = "531"
+					WasUpgraded = true
+				end
+			else
+				VgerCore.Fail("Pawn didn't expect to find an item with " .. tostring(NumBonusIDs) .. " bonus IDs.  Some of them were ignored.")
+			end
+			-- FUTURE: This function is currently the only place that could correctly calculate the number to add to the GetItemInfo function's returned
+			-- item level to make it correct—when the bonus ID is 529/530/531, this function could return 0/5/10 and then PawnGetItemData could add that
+			-- when setting Item.Level.
+			
+			-- If this is a Baleful item that isn't fully empowered, empower it too.
+			if NumBonusIDs >= 3 then
+				local BalefulID1 = tonumber(BonusID2)
+				local BalefulID2 = tonumber(BonusID3)
+				if BalefulID2 < BalefulID1 then
+					-- Sometimes the bonus IDs are specified in reverse order.  To simplify the comparisons, sort them here.
+					local BalefulIDTemp = BalefulID1
+					BalefulID1 = BalefulID2
+					BalefulID2 = BalefulIDTemp
+				end
+				-- If 653 is the lower ID, it's equivalent to if it's 652.  (The only known exceptions are if it's a lower number and 653.)
+				if BalefulID1 == 653 then BalefulID1 = 652 end
+			
+				if
+					(BalefulID1 == 647 and BalefulID2 == 652) or -- ilvl 650
+					(BalefulID1 == 647 and BalefulID2 == 653) or -- ilvl 650
+					(BalefulID1 == 652 and BalefulID2 == 761) or -- ilvl 660
+					(BalefulID1 == 652 and BalefulID2 == 762) or -- ilvl 665
+					(BalefulID1 == 652 and BalefulID2 == 763) or -- ilvl 670
+					(BalefulID1 == 651 and BalefulID2 == 652) or -- ilvl 675
+					(BalefulID1 == 652 and BalefulID2 == 764) or -- ilvl 680
+					(BalefulID1 == 651 and BalefulID2 == 653) or -- ilvl 685
+					(BalefulID1 == 652 and BalefulID2 == 765) or -- ilvl 685
+					(BalefulID1 == 652 and BalefulID2 == 766) -- ilvl 690
+				then
+					BonusID2 = "652"
+					BonusID3 = "648"
+					WasUpgraded = true 
+				end
+			end -- NumBonusIDs >= 3
+		end -- not PawnCommon.IgnoreItemUpgrades
 		
 		if
 			EvenIfNotEnchanted or
@@ -2299,7 +2309,7 @@ function PawnUnenchantItemLink(ItemLink, EvenIfNotEnchanted)
 			if BonusID3 == nil or BonusID3 == "" then BonusID3 = "0" end
 			if BonusID4 == nil or BonusID4 == "" then BonusID4 = "0" end
 			if BonusID5 == nil or BonusID5 == "" then BonusID5 = "0" end
-			return "item:" .. ItemID .. ":0:0:0:0:0:" .. SuffixID .. ":" .. MoreInfo .. ":" .. 0 .. ":" .. SpecializationID .. ":" .. UpgradeLevel1 .. ":" .. Difficulty .. ":" .. NumBonusIDs .. ":" .. BonusID1 .. ":" .. BonusID2 .. ":" .. BonusID3 .. ":" .. BonusID4 .. ":" .. BonusID5, WasUpgraded
+			return "item:" .. ItemID .. ":0:0:0:0:0:" .. SuffixID .. ":" .. MoreInfo .. ":" .. 0 .. ":" .. SpecializationID .. ":" .. UpgradeLevel1 .. ":" .. Difficulty .. ":" .. NumBonusIDs .. ":" .. BonusID1 .. ":" .. BonusID2 .. ":" .. BonusID3 .. ":" .. BonusID4 .. ":" .. BonusID5 .. ":" .. BonusID6, WasUpgraded
 		else
 			-- This item is not enchanted.  Return nil.
 			return nil
@@ -2818,39 +2828,36 @@ function PawnIsItemAnUpgrade(Item, DoNotRescan)
 			local ThisValue = nil
 			local NewTableEntry = nil
 
-			--VgerCore.Message("*** InvType = " .. tostring(InvType) .. ", InvType2 = " .. tostring(InvType2))
-			
 			while InvType do
 				local BestData = nil
 				if PawnOptions.UpgradeTracking then
 					BestData = CharacterOptions.BestItems[InvType]
 				else
 					-- If upgrade tracking is disabled, manually create a BestData table based on the currently-equipped items for this slot.
-					local Slot1, Slot2, Item1, Item2
+					local Slot1, Slot2, Item1, Item2, ItemLink1, ItemLink2, Value1, Value2
 					Slot1 = PawnItemEquipLocToSlot1[InvType]
 					if Slot1 then Item1 = PawnGetItemDataForInventorySlot(Slot1, true) end
-					if Item1 and UnenchantedItemLink == PawnUnenchantItemLink(Item1.Link, true) then return end -- If this item is already equipped, it can't be an upgrade for any scale. 
-					Slot2 = PawnItemEquipLocToSlot2[InvType]
+					if Item1 then ItemLink1 = PawnUnenchantItemLink(Item1.Link, true) end
+					if not TwoSlotsForThisItemType and ItemLink1 and UnenchantedItemLink == ItemLink1 then return end -- If this item is already equipped, it can't be an upgrade for any scale. 
+					if TwoSlotsForThisItemType then Slot2 = PawnItemEquipLocToSlot2[InvType] end -- Don't check the off-hand slot for weapon upgrades if they can't dual-wield
 					if Slot2 then Item2 = PawnGetItemDataForInventorySlot(Slot2, true) end
-					if Item2 and UnenchantedItemLink == PawnUnenchantItemLink(Item2.Link, true) then return end
-					local Value1, Value2
+					if Item2 then ItemLink2 = PawnUnenchantItemLink(Item2.Link, true) end
+					if not TwoSlotsForThisItemType and ItemLink2 and UnenchantedItemLink == PawnUnenchantItemLink(Item2.Link, true) then return end
 					if Item1 then _, Value1 = PawnGetSingleValueFromItem(Item1, ScaleName) end
 					if Item2 then _, Value2 = PawnGetSingleValueFromItem(Item2, ScaleName) end
 
-					--VgerCore.Message("*** Equipped: " .. tostring(Value1) .. " and " .. tostring(Value2))
-
 					if Value1 and Value2 then
 						if Value1 >= Value2 then
-							BestData = { Value1, Item1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1), Value2, Item2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2) }
+							BestData = { Value1, ItemLink1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1), Value2, ItemLink2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2) }
 						else
-							BestData = { Value2, Item2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2), Value1, Item1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1) }
+							BestData = { Value2, ItemLink2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2), Value1, ItemLink1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1) }
 						end
 					elseif TwoSlotsForThisItemType then
 						-- If it's possible to equip two of these and the player only has one, then any new item is an upgrade.
 					elseif Value1 and not Value2 then
-						BestData = { Value1, Item1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1) }
+						BestData = { Value1, ItemLink1, PawnGetMaxLevelItemIsUsefulHeirloom(Item1) }
 					elseif Value2 and not Value1 then
-						BestData = { Value2, Item2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2) }
+						BestData = { Value2, ItemLink2, PawnGetMaxLevelItemIsUsefulHeirloom(Item2) }
 					end
 				end
 				if BestData then

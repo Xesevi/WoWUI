@@ -1006,7 +1006,7 @@
 						<Texture name="PawnUICompareItemScoreArrow1" file="Interface\AddOns\Pawn\Textures\UpgradeArrowBig">
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="205" y="-380" /></Offset></Anchor></Anchors>
 							<Size><AbsDimension x="40" y="40" /></Size>
-							<TexCoords left=".5" top="0" right="1" bottom=".5" />
+							<TexCoords left="0" top="0" right=".5" bottom=".5" />
 						</Texture>
 						<Texture name="PawnUICompareItemScoreArrow2" file="Interface\AddOns\Pawn\Textures\UpgradeArrowBig">
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="355" y="-380" /></Offset></Anchor></Anchors>
@@ -1447,6 +1447,14 @@
 							<FontString name="$parent_Label" inherits="PawnUICheckboxLabelTemplate" text="PawnUIFrame_IgnoreGemsWhileLevelingCheck_Text" />
 						</Layer></Layers>
 						<Scripts><OnClick function="PawnUIFrame_IgnoreGemsWhileLevelingCheck_OnClick" /></Scripts>
+					</CheckButton>
+
+					<CheckButton name="PawnUIFrame_IgnoreItemUpgradesCheck" inherits="PawnUICheckboxTemplate">
+						<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="300" y="-185" /></Offset></Anchor></Anchors>
+						<Layers><Layer level="ARTWORK">
+							<FontString name="$parent_Label" inherits="PawnUICheckboxLabelTemplate" text="PawnUIFrame_IgnoreItemUpgradesCheck_Text" />
+						</Layer></Layers>
+						<Scripts><OnClick function="PawnUIFrame_IgnoreItemUpgradesCheck_OnClick" /></Scripts>
 					</CheckButton>
 
 					<!-- Other options -->

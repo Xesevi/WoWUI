@@ -20,7 +20,7 @@ local CreateFrame, error, setmetatable, UIParent = CreateFrame, error, setmetata
 if not LibStub then error("LibCandyBar-3.0 requires LibStub.") end
 local cbh = LibStub:GetLibrary("CallbackHandler-1.0")
 if not cbh then error("LibCandyBar-3.0 requires CallbackHandler-1.0") end
-local lib, old = LibStub:NewLibrary("LibCandyBar-3.0", 90) -- Bump minor on changes
+local lib, old = LibStub:NewLibrary("LibCandyBar-3.0", 91) -- Bump minor on changes
 if not lib then return end
 lib.callbacks = lib.callbacks or cbh:New(lib)
 local cb = lib.callbacks
@@ -336,7 +336,8 @@ function lib:New(texture, width, height)
 		bar.candyBarIconFrameBackdrop = iconBackdrop
 
 		local duration = statusbar:CreateFontString(nil, "OVERLAY", GameFontHighlightSmallOutline)
-		duration:SetPoint("RIGHT", statusbar, "RIGHT", -2, 0)
+		duration:SetPoint("TOPLEFT", statusbar, "TOPLEFT", 2, 0)
+		duration:SetPoint("BOTTOMRIGHT", statusbar, "BOTTOMRIGHT", -2, 0)
 		bar.candyBarDuration = duration
 
 		local label = statusbar:CreateFontString(nil, "OVERLAY", GameFontHighlightSmallOutline)
@@ -379,14 +380,14 @@ function lib:New(texture, width, height)
 	bar:EnableMouse(false)
 
 	bar.candyBarLabel:SetTextColor(1,1,1,1)
-	bar.candyBarLabel:SetJustifyH("CENTER")
+	bar.candyBarLabel:SetJustifyH("LEFT")
 	bar.candyBarLabel:SetJustifyV("MIDDLE")
 	bar.candyBarLabel:SetFont(_fontName, _fontSize)
 	bar.candyBarLabel:SetShadowOffset(_fontShadowX, _fontShadowY)
 	bar.candyBarLabel:SetShadowColor(_fontShadowR, _fontShadowG, _fontShadowB, _fontShadowA)
 
 	bar.candyBarDuration:SetTextColor(1,1,1,1)
-	bar.candyBarDuration:SetJustifyH("CENTER")
+	bar.candyBarDuration:SetJustifyH("RIGHT")
 	bar.candyBarDuration:SetJustifyV("MIDDLE")
 	bar.candyBarDuration:SetFont(_fontName, _fontSize)
 	bar.candyBarDuration:SetShadowOffset(_fontShadowX, _fontShadowY)

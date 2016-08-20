@@ -211,15 +211,15 @@ Omen3DB = {
 			["PositionH"] = 82.0000152587891,
 		},
 		["Babombabam - Ragnaros"] = {
-			["PositionY"] = 285.999877929688,
 			["PositionW"] = 199.999908447266,
 			["PositionH"] = 82.0000152587891,
-			["Shown"] = false,
+			["PositionY"] = 285.999877929688,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 2,
 			},
 			["PositionX"] = 1711.50048828125,
+			["Shown"] = false,
 			["Bar"] = {
 				["Spacing"] = 1,
 			},
@@ -322,18 +322,18 @@ Omen3DB = {
 			},
 		},
 		["Glaxop - Ragnaros"] = {
-			["PositionW"] = 200.000061035156,
-			["PositionH"] = 82.0000152587891,
 			["PositionY"] = 297.000457763672,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 2,
-			},
-			["PositionX"] = 1705.5009765625,
-			["Shown"] = false,
+			["PositionW"] = 200.000061035156,
 			["Bar"] = {
 				["Spacing"] = 1,
 			},
+			["Shown"] = false,
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
+			},
+			["PositionX"] = 1705.5009765625,
+			["PositionH"] = 82.0000152587891,
 		},
 		["Xesevi - Kazzak"] = {
 			["PositionY"] = 264.999725341797,

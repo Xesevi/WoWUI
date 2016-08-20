@@ -93,3 +93,5 @@ LibMapData-1.0: disabled
 GuildRecr: enabled
 ArkInventory: disabled
 ElvUI_SLE: disabled
+MaxCam: disabled
+AdvancedInterfaceOptions: enabled

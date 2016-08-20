@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0002,
+	["LastVersion"] = 2.0007,
 	["LastPlayerFullName"] = "Glaxop-Ragnaros",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

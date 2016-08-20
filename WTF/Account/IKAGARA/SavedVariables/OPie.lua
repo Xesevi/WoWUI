@@ -15,10 +15,10 @@ OneRing_Config = {
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
 			["Mounts"] = {
-				["name"] = "Mounts",
+				["limit"] = "Xesevi-ShatteredHand",
 				["save"] = true,
 				["hotkey"] = "ALT-F",
-				["limit"] = "Xesevi-ShatteredHand",
+				["name"] = "Mounts",
 			},
 			["MountRing"] = {
 				{
@@ -42,8 +42,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuwNCcW5Ji",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABuerM8XGi1",
-					["id"] = 171848,
+					["sliceToken"] = "ABueiMgcozw",
+					["id"] = 118089,
 				}, -- [6]
 				{
 					["sliceToken"] = "ABueqeg98lt",

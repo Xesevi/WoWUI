@@ -219,6 +219,8 @@ do
 		f:SetSize(64, 64)
 		f.name = name
 		f.role = role
+		f.Start = Start
+		f.UpdateClicks = UpdateClicks
 
 		f:EnableMouse(false)
 		f:RegisterForClicks("LeftButtonDown")
@@ -253,9 +255,6 @@ do
 		text:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT")
 		text:SetText(name)
 		f.text = text
-
-		f.Start = Start
-		f.UpdateClicks = UpdateClicks
 
 		-- Masque skinning
 		if module.group then
@@ -303,7 +302,7 @@ function display:Lock()
 	frame:SetMovable(false)
 	frame:SetResizable(false)
 	frame:RegisterForDrag()
-	frame.bg:SetTexture(0, 0, 0, 0)
+	frame.bg:SetColorTexture(0, 0, 0, 0)
 	frame.header:Hide()
 end
 
@@ -315,7 +314,7 @@ function display:Unlock()
 	frame:SetMovable(true)
 	frame:SetResizable(true)
 	frame:RegisterForDrag("LeftButton")
-	frame.bg:SetTexture(0, 0, 0, 0.3)
+	frame.bg:SetColorTexture(0, 0, 0, 0.3)
 	frame.header:Show()
 end
 
@@ -363,14 +362,14 @@ do
 		frame:SetClampedToScreen(true)
 		frame:SetSize(64, 64)
 
-		tinsert(self.icons, CreateIcon("TANK", frame, "Interface\\Icons\\inv_60legendary_ring1b"))
-		tinsert(self.icons, CreateIcon("HEALER", frame, "Interface\\Icons\\inv_60legendary_ring1a"))
-		tinsert(self.icons, CreateIcon("DAMAGER", frame, "Interface\\Icons\\inv_60legendary_ring1c"))
+		tinsert(self.icons, CreateIcon("TANK", frame, 1097302)) --"Interface\\Icons\\inv_60legendary_ring1b"
+		tinsert(self.icons, CreateIcon("HEALER", frame, 1097301)) --"Interface\\Icons\\inv_60legendary_ring1a"
+		tinsert(self.icons, CreateIcon("DAMAGER", frame, 1097303)) --"Interface\\Icons\\inv_60legendary_ring1c"
 
 		local bg = frame:CreateTexture(nil, "BACKGROUND")
 		bg:SetPoint("TOPLEFT", frame, -padding, padding)
 		bg:SetPoint("BOTTOMRIGHT", frame, padding, -padding)
-		bg:SetTexture(0, 0, 0, 0.3)
+		bg:SetColorTexture(0, 0, 0, 0.3)
 		frame.bg = bg
 
 		-- wish this didn't scale, but font strings don't have their own scale property to compensate D; oh well

@@ -2,3 +2,5 @@ GuildRecr: enabled
 ArkInventory: disabled
 ElvUI_DTBars: disabled
 ElvUI_SLE: disabled
+MaxCam: disabled
+AdvancedInterfaceOptions: enabled

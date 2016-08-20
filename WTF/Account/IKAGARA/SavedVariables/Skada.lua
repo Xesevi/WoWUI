@@ -12,22 +12,23 @@ SkadaDB = {
 		["Xerpo - Argent Dawn"] = "Default",
 		["Xuddon - Silvermoon"] = "Default",
 		["Glaxgold - Shattered Hand"] = "Default",
-		["Glaxop - Shattered Hand"] = "Actual Default",
 		["Glaxop - Ragnaros"] = "PRIEST",
+		["Glaxop - Shattered Hand"] = "Actual Default",
+		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
 		["Cmgoldpls - Argent Dawn"] = "Default",
 		["Glaxdk - Ragnaros"] = "PRIEST",
-		["Boostmoneytw - Shattered Hand"] = "Default",
+		["Kserpon - Kazzak"] = "Default",
 		["Xerpon - Kazzak"] = "Default",
-		["Xesevi - Shattered Hand"] = "Xesevi - Shattered Hand",
+		["Glaxdk - Shattered Hand"] = "PRIEST",
 		["Insert - Silvermoon"] = "Default",
 		["Koyaz - Frostmane"] = "Default",
 		["Glaxqt - Frostmane"] = "Default",
 		["Koya - Silvermoon"] = "Default",
 		["Babombabam - Ragnaros"] = "PRIEST",
 		["Ikagara - Silvermoon"] = "Default",
-		["Boostmoeny - Shattered Hand"] = "Default",
+		["Boostmoneytw - Shattered Hand"] = "Default",
 		["Norvatis - Shattered Hand"] = "Default",
-		["Glaxdk - Shattered Hand"] = "PRIEST",
+		["Boostmoeny - Shattered Hand"] = "Default",
 		["Lophgold - Shattered Hand"] = "Default",
 		["Xerpo - Ragnaros"] = "Default",
 		["Xenarion - Silvermoon"] = "Default",
@@ -56,22 +57,22 @@ SkadaDB = {
 					["barheight"] = 19,
 					["bartexture"] = "Skullflower",
 					["barwidth"] = 196.000061035156,
+					["x"] = 1505.00006103516,
 					["name"] = "DPS",
-					["barslocked"] = true,
 					["background"] = {
 						["height"] = 131,
 					},
 					["y"] = 13.0000152587891,
 					["barfont"] = "Expressway",
-					["title"] = {
-						["font"] = "Expressway",
-						["texture"] = "Skullflower2",
-					},
-					["spark"] = false,
+					["barslocked"] = true,
 					["point"] = "TOPRIGHT",
+					["spark"] = false,
 					["mode"] = "Damage",
 					["barfontflags"] = "OUTLINE",
-					["x"] = 1505.00006103516,
+					["title"] = {
+						["texture"] = "Skullflower2",
+						["font"] = "Expressway",
+					},
 				}, -- [1]
 				{
 					["titleset"] = true,
@@ -156,18 +157,18 @@ SkadaDB = {
 					["point"] = "TOPRIGHT",
 				}, -- [2]
 			},
-			["modules"] = {
-				["ccannounce"] = false,
-				["ccignoremaintanks"] = false,
+			["report"] = {
+				["number"] = 14,
+				["chantype"] = "self",
+				["target"] = "Shylar-Kazzak",
+				["channel"] = "self",
 			},
 			["icon"] = {
 				["minimapPos"] = 197.8189159231,
 			},
-			["report"] = {
-				["number"] = 14,
-				["mode"] = "Dispels",
-				["target"] = "Shylar-Kazzak",
-				["channel"] = "raid",
+			["modules"] = {
+				["ccannounce"] = false,
+				["ccignoremaintanks"] = false,
 			},
 		},
 		["Priest working"] = {
@@ -254,24 +255,24 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["barheight"] = 19,
+					["barslocked"] = true,
+					["y"] = 13.0000152587891,
+					["barfont"] = "Expressway",
+					["name"] = "DPS",
+					["barfontflags"] = "OUTLINE",
+					["mode"] = "Damage",
+					["spark"] = false,
 					["bartexture"] = "Skullflower",
 					["barwidth"] = 196.000061035156,
-					["barslocked"] = true,
-					["name"] = "DPS",
-					["mode"] = "Damage",
-					["y"] = 1.192092895507810e-005,
+					["point"] = "TOPRIGHT",
+					["background"] = {
+						["height"] = 131,
+					},
 					["x"] = 1505.00006103516,
 					["title"] = {
 						["font"] = "Expressway",
 						["texture"] = "Skullflower2",
 					},
-					["spark"] = false,
-					["point"] = "RIGHT",
-					["background"] = {
-						["height"] = 153.999984741211,
-					},
-					["barfontflags"] = "OUTLINE",
-					["barfont"] = "Expressway",
 				}, -- [1]
 				{
 					["titleset"] = true,
@@ -282,7 +283,7 @@ SkadaDB = {
 					["wipemode"] = "",
 					["set"] = "current",
 					["hidden"] = false,
-					["y"] = 1.192092895507810e-005,
+					["y"] = 13.0000152587891,
 					["barfont"] = "Expressway",
 					["title"] = {
 						["color"] = {
@@ -316,7 +317,7 @@ SkadaDB = {
 					["version"] = 1,
 					["background"] = {
 						["borderthickness"] = 0,
-						["height"] = 153.999984741211,
+						["height"] = 131,
 						["color"] = {
 							["a"] = 0.2,
 							["b"] = 0.5,
@@ -352,7 +353,7 @@ SkadaDB = {
 					["classcolorbars"] = true,
 					["bartexture"] = "Skullflower",
 					["x"] = 1705.99990844727,
-					["point"] = "RIGHT",
+					["point"] = "TOPRIGHT",
 					["mode"] = "Healing",
 				}, -- [2]
 			},
@@ -360,22 +361,30 @@ SkadaDB = {
 				["minimapPos"] = 192.893779281247,
 			},
 			["report"] = {
-				["target"] = "Shylar-Kazzak",
 				["chantype"] = "channel",
-				["mode"] = "Dispels",
 				["channel"] = "fsyhealers",
+				["target"] = "Shylar-Kazzak",
+				["mode"] = "Enemy damage taken",
 			},
 		},
 		["Default"] = {
 			["windows"] = {
 				{
 					["barheight"] = 19,
-					["barslocked"] = true,
+					["bartexture"] = "Skullflower",
+					["barwidth"] = 196.000061035156,
+					["name"] = "DPS",
+					["x"] = 1505.00006103516,
 					["background"] = {
 						["height"] = 131,
 					},
 					["y"] = 13.0000152587891,
-					["x"] = 1505.00006103516,
+					["barfont"] = "Expressway",
+					["barslocked"] = true,
+					["point"] = "TOPRIGHT",
+					["spark"] = false,
+					["mode"] = "Damage",
+					["barfontflags"] = "OUTLINE",
 					["title"] = {
 						["color"] = {
 							["a"] = 0.800000011920929,
@@ -386,14 +395,6 @@ SkadaDB = {
 						["font"] = "Expressway",
 						["texture"] = "Skullflower2",
 					},
-					["barfontflags"] = "OUTLINE",
-					["spark"] = false,
-					["bartexture"] = "Skullflower",
-					["barwidth"] = 196.000061035156,
-					["point"] = "TOPRIGHT",
-					["mode"] = "Damage",
-					["name"] = "DPS",
-					["barfont"] = "Expressway",
 				}, -- [1]
 				{
 					["titleset"] = true,
@@ -483,8 +484,8 @@ SkadaDB = {
 			},
 			["report"] = {
 				["number"] = 17,
-				["channel"] = "party",
 				["target"] = "Shylar-Kazzak",
+				["channel"] = "party",
 			},
 		},
 		["Shattered Hand"] = {
@@ -533,14 +534,15 @@ SkadaDB = {
 					["spark"] = false,
 					["bartexture"] = "Skullflower",
 					["barwidth"] = 196.000061035156,
-					["name"] = "DPS",
+					["point"] = "TOPRIGHT",
 					["y"] = 28,
-					["x"] = 1505.00006103516,
-					["title"] = {
-						["texture"] = "Skullflower2",
-						["font"] = "Expressway",
-					},
 					["barfont"] = "Expressway",
+					["title"] = {
+						["font"] = "Expressway",
+						["texture"] = "Skullflower2",
+					},
+					["x"] = 1505.00006103516,
+					["mode"] = "Damage",
 					["background"] = {
 						["color"] = {
 							["a"] = 0.200000047683716,
@@ -550,9 +552,8 @@ SkadaDB = {
 						},
 						["height"] = 146,
 					},
-					["mode"] = "Damage",
 					["barfontflags"] = "OUTLINE",
-					["point"] = "TOPRIGHT",
+					["name"] = "DPS",
 				}, -- [1]
 				{
 					["titleset"] = true,

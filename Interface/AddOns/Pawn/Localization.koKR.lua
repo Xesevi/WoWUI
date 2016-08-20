@@ -62,7 +62,7 @@ PawnLocal =
 	TooltipUpgradeFor2H = " 양손",
 	TooltipUpgradeNeedsEnhancementsAnnotation = "%s  |TInterface\\AddOns\\Pawn\\Textures\\UpgradeArrow:0|t|cff00ff00+%.0f%% 강화 가능%s|r",
 	TooltipVersusLine = "%s|n  vs. |c%s%s|r",
-	TotalValueMessage = "   ---- Total: %g",
+	TotalValueMessage = "   ---- 총: %g",
 	UnenchantedStatsHeader = "(기본값)",
 	Unusable = "(사용불가)",
 	UnusableStatMessage = "   -- %s|1은;는; 사용할 수 없습니다, 중지합니다.",
@@ -79,7 +79,7 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 	VisibleScalesHeader = "%s의 능력치 비율",
 	Stats = {
 		AgilityInfo = "민첩성. 몇몇 직업의 전투력을 증가시킵니다.",
-		ArmorInfo = "기본 방어도. 탱커용 방어구의 추가 방어도는 포함되지 않습니다.",
+		ArmorInfo = "방어도. 받는 물리 피해를 감소시킵니다.",
 		ArmorTypes = "방어구 유형",
 		AvoidanceInfo = "광역회피. 광역 공격으로부터 받는 피해를 줄입니다.",
 		Cloth = "천",
@@ -210,7 +210,7 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 		Armor2 = "^UNUSED$",
 		Avoidance = "^광역회피 %+([%d%.,]+)$",
 		Axe = "^도끼$",
-		BagSlots = "^%d+칸.+$", -- Needs review
+		BagSlots = "^%d+칸.+$",
 		Bow = "^활$",
 		ChanceOnHit = "발동 효과:",
 		Charges = "^.+회 사용 가능$",
@@ -243,7 +243,7 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 		Gun = "^총$",
 		Haste = "^가속 %+?([%d%.,]+)$",
 		Haste2 = "^UNUSED$",
-		HaventCollectedAppearance = "^이 형상을 아직 수집하지 않았습니다%.$",
+		HaventCollectedAppearance = "^아직 수집하지 않은 형상입니다%.$",
 		HeirloomLevelRange = "^요구 레벨: %d+ %~ (%d+)",
 		HeirloomXpBoost = "^착용 효과: 경험치 획득량이", -- Needs review
 		HeirloomXpBoost2 = "^착용 효과: 몬스터 처치와 퀘스트 완료로 얻는 경험치가",
@@ -251,7 +251,7 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 		HeroicElite = "^정예 상급$",
 		HeroicThunderforged = "^천둥벼림 상급$",
 		HeroicWarforged = "^상급 전쟁벼림$",
-		Hp5 = "^착용 효과: 5초마다 ([%d%.,]+)의 생명력이 회복됩니다%.$", -- Needs review
+		Hp5 = "^착용 효과: 5초마다 ([%d%.,]+) 생명력이 회복됩니다%.$", -- Needs review
 		Hp52 = "^착용 효과: 5초 마다 ([%d%.,]+) 생명력을 회복합니다%.$", -- Needs review
 		Hp53 = "^5초당 생명력 %+?([%d%.,]+)$", -- Needs review
 		Hp54 = "^UNUSED$",
@@ -334,7 +334,7 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 허가받은 Wowhead 능력치 점수 사용—기본 능력치 비율 값의 피드백을 와우헤드에 직접해주세요.]=],
 		CompareClearItems = "비우기",
 		CompareClearItemsTooltip = "양쪽 비교 아이템을 제거합니다.",
-		CompareColoredSockets = "보석 홈 색상",
+		CompareColoredSockets = "보석 홈",
 		CompareEquipped = "착용 중",
 		CompareGemTotalValue = "보석의 값",
 		CompareHeader = "%s|1을;를; 사용하여 아이템 비교",
@@ -347,9 +347,9 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 		CompareSwapTooltip = "왼쪽 아이템과 오른쪽 아이템을 교체합니다.",
 		CompareTab = "비교",
 		CompareVersus = "—vs.—",
-		CompareWelcomeRight = [=[다음엔, 이 박스에 아이템을 끌어다 주세요.
+		CompareWelcomeRight = [=[이 박스에 아이템을 끌어다 주세요.
 
-왼쪽 아래 모서리에 있는 아이콘을 사용해 보유 중인 아이템과 비교할 수 있습니다.]=],
+왼쪽 아래 모서리에 있는 아이콘을 사용해 이미 사용 중인 것과 비교하거나, 또는 다른 아이템을 왼쪽 박스에 끌어다 놓을 수 있습니다.]=],
 		CompareYourBest = "최상급",
 		GemsColorHeader = "%s 보석",
 		GemsHeader = "%s|1을;를; 위한 보석",
@@ -366,23 +366,20 @@ Pawn 사용자 설정의 더 자세한 정보는, 애드온에 포함된 help �
 		GemsWelcome = "Pawn이 추천하는 보석을 보려면 왼쪽에서 능력치 비율을 선택하세요.",
 		HelpHeader = "Pawn 환영합니다!",
 		HelpTab = "시작하기",
-		HelpText = [=[Pawn은 아이템의 능력치에 기반하여 점수를 계산합니다.  이 점수는 어떤 아이템이 최상급인지, 현재 장비보다 향상되는 아이템인지 결정하는 데 사용됩니다.
+		HelpText = [=[Pawn은 당신이 최상의 장비와 향상시켜주는 아이템을 판별하는데 도움을 줍니다.
+
+현재 장비보다 좋은 퀘스트 보상이나 던전 전리품을 획득하면, Pawn은 녹색 화살표 아이콘으로 알려줍니다.  아이템 툴팁 하단에서 기타 도움이 되는 정보를 확인할 수 있습니다.
+
+    |cff8ec3e6화염:|r  |TInterface\AddOns\Pawn\Textures\UpgradeArrow:0|t |cff00ff00+10% 향상|r
 
 
-각 아이템은 캐릭터에 활성화 된 "능력치 비율" 별로 점수를 가집니다. 능력치 비율은 당신에게 중요한 능력치와 능력치 별로 얼마나 가치가 있는지 나열합니다. 보통 직업의 특성 또는 역할 별로 하나의 능력치 비율을 가집니다. 점수는 보통 숨겨져 있지만, 비교 탭에서 아이템 점수가 어떻게 계산되는지 볼 수 있습니다.
 
- • 능력치 크기 탭에 있는 목록에서 Shift-클릭하여 능력치 비율을 켜거나 끌 수 있습니다.
+|cff8ec3e6기본 사용법에 익숙해지면 다음 기능들을 사용해보세요:|r
 
-
-Pawn은 각 직업과 특성 별로 미리 만들어진 능력치 비율을 가지고 있습니다. 또한 각 능력치 별로 값을 할당하여 자신만의 설정을 만들 수 있고, 인터넷이나 시뮬레이션 도구, 또는 길드원과의 공유를 통해 능력치 비율을 가져올 수 있습니다.
-
-
-|cff8ec3e6기본 사용법을 배우기 위해 이 기능들을 사용해보세요:|r
-  • Pawn의 비교 탭을 사용해 두 아이템의 능력치를 비교해보세요.
-  • 아이템 링크 창을 오른쪽 클릭하여 현재 장비와 어떻게 비교되는지 확인하세요.
-  • 능력치 비율 탭에서 하나를 복사하여 당신의 능력치 비율을 만들고, 수치 탭에서 능력치 수치를 개인설정 해보세요.
-  • 인터넷에서 당신의 직업에 맞는 능력치 비율을 찾아보세요.
-  • readme 파일을 확인해서 Pawn의 고급 기능들에 대해 배워보세요.]=],
+ • Pawn의 비교 탭을 사용해 두 아이템의 능력치를 비교해보세요.
+ • 아이템 링크 창을 오른쪽 클릭하여 현재 장비와 어떻게 비교되는지 확인하세요.
+ • 능력치 비율 탭에서, 수동 모드로 변경하면 동시에 둘 이상의 전문화에 대한 제안을 표시할 수 있습니다.
+ • Pawn의 능력치 비율을 개별 설정하거나 인터넷에서 발견한 능력치 비율을 가져오기 해보세요.]=],
 		InterfaceOptionsBody = "Pawn 버튼을 클릭하여 이동합니다. 또한 인벤토리 페이지에서 Pawn을 열수 있으며, 단축키를 지정할수도 있습니다.",
 		InterfaceOptionsWelcome = "Pawn 옵션은 Pawn UI에 있습니다.",
 		InventoryButtonTooltip = "Pawn을 열려면 클릭하세요.",
@@ -398,9 +395,9 @@ Pawn은 각 직업과 특성 별로 미리 만들어진 능력치 비율을 가�
 		OptionsButtonHidden = "숨기기",
 		OptionsButtonHiddenTooltip = "캐릭터 정보 창에 Pawn 버튼을 표시하지 않습니다.",
 		OptionsButtonPosition = "Pawn 버튼 표시하기:",
-		OptionsButtonPositionLeft = "왼쪽에",
+		OptionsButtonPositionLeft = "왼쪽",
 		OptionsButtonPositionLeftTooltip = "Pawn 버튼을 캐릭터 정보 창의 왼쪽 아래 모서리에 표시합니다.",
-		OptionsButtonPositionRight = "오른쪽에",
+		OptionsButtonPositionRight = "오른쪽",
 		OptionsButtonPositionRightTooltip = "Pawn 버튼을 캐릭터 정보 창의 오른쪽 아래 모서리에 표시합니다.",
 		OptionsColorBorder = "향상 툴팁 테두리에 색깔 넣기",
 		OptionsColorBorderTooltip = "이 옵션을 켜면 향상 아이템의 툴팁 테두리의 색상을 녹색으로 바꿉니다. 툴팁 테두리를 변경하는 다른 애드온과 문제가 생기면 이 옵션을 끄세요.",
@@ -494,7 +491,7 @@ Pawn이 상점에 판매했거나, 파괴했거나, 다른 방법으로 더이�
 		ScaleChangeColorTooltip = "아이템 툴팁에 나타나는 이 능력치 비율의 이름과 값의 색상을 변경합니다.",
 		ScaleCopy = "복사",
 		ScaleCopyTooltip = "이것을 복사하여 새로운 능력치 비율을 만듭니다.",
-		ScaleDefaults = "기본값",
+		ScaleDefaults = "견본",
 		ScaleDefaultsTooltip = "기본값을 복사하여 새로운 능력치 비율을 만듭니다.",
 		ScaleDeleteTooltip = [=[이 능력치 비율을 삭제합니다.
 
